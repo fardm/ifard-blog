@@ -1,3 +1,315 @@
 @use "./base.scss";
+@use "./_external-links.scss";
+@use "./_card-view.scss";
 
-// put your custom CSS here!
+  
+// فهرست مطالب
+    .toc {
+        border-radius: 5px;
+        border: 1px solid var(--lightgray);
+        padding: 12px; 
+        font-size: 0.9rem;
+    }
+    
+    .depth-1 {
+        border-right: solid 1px var(--lightgray);
+        padding-right: 1rem;
+    }
+
+    @media (max-width: 1510px) {
+        .mobile-only.toc {
+            display: block;
+        }
+    }
+    
+
+ 
+// بک لینک
+    .backlinks{
+        margin: 4rem 0 2rem 0
+    }
+
+    .backlinks>h3 {
+        color: var(--darkgray);
+        font-size: 1.4rem;
+        border-bottom: 1px solid var(--lightgray);      
+    }
+
+    ul.overflow:after,ol.overflow:after {
+        display: none;
+    }
+
+
+// تگ ها - حذف تگ از صفحه تگ‌ها
+
+    .page-listing .tag-link {
+        display: none;
+    }
+
+
+// کامنت
+.giscus {
+    border-top: 1px solid var(--lightgray);
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+
+// تایپو گرافی
+   body {
+        font-size: 1.1em;
+    }
+
+   p {
+        line-height: 1.8rem;
+   } 
+
+   li {
+        line-height: 2rem; // برای اصلاح فاصله بین خطوط لیست ها مثل بولت پوینت
+    }
+
+   sup {
+    vertical-align: middle; //اگه توی متن از پانوشت استفاده شده باشه باعث میشه فاصله بین خطوط به هم نریزه
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        margin-bottom: -0.2rem;
+        border-bottom: 1px solid var(--lightgray);
+        padding-bottom: 0.2em;
+    }
+
+    h3 {
+        font-size: 1.30rem;
+        margin-top: 1rem;
+        margin-bottom: -0.2rem;
+    }
+
+    h4,
+    h5,
+    h6 {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      margin-bottom: -0.2rem;
+    }
+
+
+
+// بلوک کد
+    pre {
+        background: #afafaf1a;
+    }
+
+    pre>code {
+        overflow-x: auto;
+    }
+
+    code {
+        direction: ltr !important;
+        font-family: var(--bodyFont);
+    }
+
+    figure[data-rehype-pretty-code-figure] {
+        direction: ltr;
+    }
+
+
+// دیاگرام
+    .mermaid {
+        direction: rtl !important;
+    }
+
+    pre:has(>code.mermaid) {
+        background-color: transparent;
+        .clipboard-button {
+            display: none;
+        }
+        svg {
+            margin: auto;
+        }
+    }
+
+    .nodeLabel {
+        font-family: var(--bodyFont);
+    }
+
+
+// پانوشت
+
+    .footnotes {
+        border-top: none;
+        margin: 3rem 0;
+    }
+
+    h2#footnote-label{
+        visibility: hidden;
+    }
+    
+    h2#footnote-label::after{
+        content: "پانوشت‌ها";
+        visibility: visible;
+        display: block;
+        direction: rtl !important;
+        font-size: 1.4rem;
+        border-bottom: 1px solid var(--lightgray);     
+        color: var(--darkgray);             
+    }
+
+
+
+// دکمه
+    //دیفالت - توپر
+    .my-button {
+    background-color: var(--tertiary);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: var(--bodyFont);
+    font-size: 1em;
+    }  
+
+    .my-button:hover {
+        background-color: var(--secondary);
+    }
+
+    // تو خالی
+    .button2 {
+        background-color: transparent;
+        color: var(--darkgray);
+        padding: 8px 15px;
+        border: 1px solid var(--darkgray);
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: var(--bodyFont);
+        font-size: 0.9em;
+        } 
+    
+    .button2:hover {
+        background-color: var(--tertiary);
+        color: white;
+        border: 1px solid var(--secondary);
+        }
+
+
+//فوتر
+    footer {
+        border-top: 1px solid var(--lightgray);
+        opacity: 0.9;
+        text-align: center;
+
+        p {
+            font-size: 1rem;
+        }
+
+        ul {
+            justify-content: center;
+            gap: 0.5em;
+        }
+    }
+
+
+    
+// مخفی خط افتر بادی
+.center > hr {
+    display: none;
+}
+
+
+
+// آواتار
+.page-title {
+    position: relative;
+    border-bottom: none;
+  
+    a:first-child {
+      &::before {
+        content: "";
+        display: block;
+        width: 2.5em;
+        height: 2.5em;
+        margin-bottom: 0.2em;
+        vertical-align: middle;
+        background-image: url("/static/avatar.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        background-color: var(--secondary);
+        border-radius: 100%;
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+  }
+
+@media (max-width: 1510px) {
+    .page-title {      
+        a:first-child {
+          &::before {
+            display: inline-block;
+            width: 1.1em;
+            height: 1.1em;
+            margin-left: 0.2em;
+          }
+        }
+      }
+}
+
+
+// لیست استایل برای صفحات نقشه محتوا
+.map-list {
+    ul {
+        list-style: none;
+        margin-inline-start: -2em;
+    }
+    
+    li {
+        line-height: 2.5rem;
+    }
+}
+
+
+// تصاویر
+
+    // اینورت رنگ تصاویر 
+    [saved-theme="dark"] img.invert {
+        filter: invert(1);
+    }
+
+    // بک گراند برای حالت دارک تصاویر کاور
+    [saved-theme="dark"] .cover-bg {
+        background-color: #a5a5a526;
+    }
+
+    // وسطچین کردن تصاویر
+    p img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    // گالری
+    .img-grid img {
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    
+    .img-grid p:has(img) {
+    display: grid;
+    margin-block: 0.5rem;
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    align-items: stretch;
+    }
+    
+
+// دارک مود
+    .darkmode {
+        vertical-align: middle;
+        }
+        

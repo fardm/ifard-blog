@@ -5,11 +5,24 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Backlinks(),
+    Component.TagList(),
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'fardm/quartz',
+        repoId: 'R_kgDOL-drYg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOL-drYs4ChaaZ',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "telegram": "https://t.me/ifard_ir/",
+      "x": "https://twitter.com/ifard_ir/",
+      "github": "https://github.com/fardm",
     },
   }),
 }
@@ -18,12 +31,18 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
+      component: Component.ArticleTitle(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    // Component.ConditionalRender({
+    //   component: Component.ContentMeta({ showReadingTime: false, showComma: false }),
+    //   condition: (page) => page.fileData.slug !== "index",
+    // }),
+    Component.ConditionalRender({
+      component: Component.Properties({ showReadingTime: false, showComma: false }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.MobileOnly(Component.TableOfContents()),
   ],
   left: [
     Component.PageTitle(),
@@ -35,15 +54,13 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.FloatingButtons(),
   ],
 }
 
@@ -62,7 +79,9 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
   ],
-  right: [],
+  right: [
+    Component.Graph(),
+    Component.FloatingButtons(),
+  ],
 }

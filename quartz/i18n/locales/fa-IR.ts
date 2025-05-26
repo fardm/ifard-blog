@@ -36,7 +36,7 @@ export default {
       title: "مطالب",
     },
     footer: {
-      createdWith: "ساخته شده با",
+      createdWith: "Created with",
     },
     graph: {
       title: "نمای گراف",
@@ -67,7 +67,7 @@ export default {
     },
     error: {
       title: "یافت نشد",
-      notFound: "این صفحه یا خصوصی است یا وجود ندارد",
+      notFound: "صفحه مورد نظر پیدا نشد!",
       home: "بازگشت به صفحه اصلی",
     },
     folderContent: {
