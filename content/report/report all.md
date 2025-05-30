@@ -46,7 +46,7 @@ emoji: 🌱
 
 | icon | count     | sum          |
 | ---- | --------- | ------------ |
-| 🎙   | 64 پادکست | `195.3 ساعت` |
+| 🎙   | 63 پادکست | `194.5 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -62,9 +62,9 @@ emoji: 🌱
 <!-- QueryToSerialize: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE rating !=null GROUP BY "" -->
 <!-- SerializedQuery: TABLE WITHOUT ID "🍿" as icon, length(rows) + " فیلم و سریال" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE rating !=null GROUP BY "" -->
 
-| icon | count            | sum          |
-| ---- | ---------------- | ------------ |
-| 🍿   | 200 فیلم و سریال | `965.8 ساعت` |
+| icon | count            | sum           |
+| ---- | ---------------- | ------------- |
+| 🍿   | 224 فیلم و سریال | `1046.1 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -265,7 +265,6 @@ emoji: 🌱
 | ![](https://s32.picofile.com/file/8478577784/%D8%B3%D8%AE%D9%86%D9%88%D8%B1%D8%A7%D9%86.jpg)                                                               | بی حسی                                                  | `15 دقیقه`                      |
 | ![](https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog14019751/IMG_20220730_153351_-_Copy_h6r4sa.jpg)                                                       | گفت و گو با امیر موسوی جهانگرد                          | `160 دقیقه`                     |
 | ![](https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e6/9c/9a/e69c9aaf-8854-c2aa-95fc-258b71c32a75/mza_12938323960868958472.jpg/500x500bb.webp)     | تکامل فردی و مسیر دستیابی به آن                         | `124 دقیقه`                     |
-| ![](\-)                                                                                                                                                    | هنر استعفاء                                             | `43 دقیقه`                      |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -314,7 +313,7 @@ emoji: 🌱
 
 | icon | count    | sum          |
 | ---- | -------- | ------------ |
-| 🎬   | 113 فیلم | `250.3 ساعت` |
+| 🎬   | 123 فیلم | `271.5 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -323,7 +322,7 @@ emoji: 🌱
 
 | icon | count    | sum          |
 | ---- | -------- | ------------ |
-| 📺   | 27 سریال | `695.8 ساعت` |
+| 📺   | 29 سریال | `735.8 ساعت` |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎈" as icon, length(rows) + " انیمیشن" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE type = "animation" AND length != null GROUP BY "" -->
@@ -331,7 +330,7 @@ emoji: 🌱
 
 | icon | count      | sum         |
 | ---- | ---------- | ----------- |
-| 🎈   | 10 انیمیشن | `16.8 ساعت` |
+| 🎈   | 22 انیمیشن | `35.8 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -350,121 +349,131 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "movie" SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "movie" SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                                          | file.name                             | "`" + length.minute + " دقیقه`" |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------- |
-| ![](https://m.media-amazon.com/images/M/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_SX300.jpg)                         | Atonement                             | `123 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNmE0OWJlM2MtNzhmMi00YmQyLTlmY2EtZmUzNzBiNGRlN2JkXkEyXkFqcGc@._V1_SX300.jpg)                         | Marriage Story                        | `137 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_SX300.jpg)                         | American Hustle                       | `138 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTQ0YTQyYzItNGEzMi00NmI4LWJkOTMtOWMyMjAwMWEzYTZhXkEyXkFqcGc@._V1_SX300.jpg)                         | Three Colors Red                      | `99 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMDYwNGVlY2ItMWYxMS00YjZiLWE5MTAtYWM5NWQ2ZWJjY2Q3XkEyXkFqcGc@._V1_SX300.jpg)                         | Dead Poets Society                    | `128 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjQyMjEwOTIwNV5BMl5BanBnXkFtZTgwOTkzNTMxNDM@._V1_SX300.jpg)                                         | The Post                              | `116 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMDFhMDg2NTEtMTgxMi00YmRjLWEyNGEtYmVmYjQ0ZmQxOGNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)                 | Where Is the Friend's House           | `83 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMTI1NTYyYmUtN2JmYS00YjkyLWFiZmEtNDg4ZWFkMmU4NzQxXkEyXkFqcGc@._V1_SX300.jpg)                         | Silk Road                             | `112 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg)                         | Goodfellas                            | `145 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SX300.jpg)                                         | Boyhood                               | `165 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SX300.jpg)                                         | Her                                   | `126 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYzU2NDY0YzItOTVhNS00Yzk4LTg0ZTktNjFiZDJmZTgwMDYyXkEyXkFqcGc@._V1_SX300.jpg)                         | My Left Foot                          | `103 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZDZkNDQ3YjktYjBlZC00YTY1LTgxOGYtY2RhMWFhZmNkZGY3XkEyXkFqcGc@._V1_SX300.jpg)                         | The Big Short                         | `130 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SX300.jpg)                                         | Spotlight                             | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_SX300.jpg)                         | Good Will Hunting                     | `126 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNzljZTk5ZDgtZTQ1Zi00NTM4LThlOGUtZDk2MGM4NDQ4NWQyXkEyXkFqcGc@._V1_SX300.jpg)                         | A Beautiful Mind                      | `135 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg)                                         | V for Vendetta                        | `132 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_SX300.jpg)                                         | There Will Be Blood                   | `158 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_SX300.jpg)                         | Gladiator                             | `155 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_SX300.jpg)                         | One Flew Over the Cuckoos Nest        | `133 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX300.jpg)                                         | Oldboy                                | `120 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_SX300.jpg)                         | The Usual Suspects                    | `106 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg)                         | Saving Private Ryan                   | `169 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SX300.jpg)                                         | The Imitation Game                    | `114 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZWExZjliYTgtM2U2Yi00MTU5LWFmOTAtNThkZDE1MzMxYWU2XkEyXkFqcGc@._V1_SX300.jpg)                         | Taste of Cherry                       | `95 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_SX300.jpg)                         | Léon The Professional                 | `110 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_SX300.jpg)                         | The Batman                            | `176 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Dog Day Afternoon                     | `125 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg)                                         | 310 to Yuma                           | `122 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg)                                         | 21                                    | `123 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Taxi Driver                           | `114 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMzliZDk0NjctNjhlOC00MWEyLWI3OWYtNjA5ZDYxMTMzNTc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | The Big Lebowski                      | `117 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZGM5ZTY1ZTEtYjVlZi00M2RiLTllODgtMDYzMzk3YjY1MjNmXkEyXkFqcGdeQXVyMTAyNTQ0MTk@._V1_SX300.jpg)         | The Glass Agency                      | `114 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMzRkZDVkMDItYjk3Mi00NDkyLThmODUtYzhkN2EwZmE2ZTljXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Wag the Dog                           | `97 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BOTNlNWFiNTAtZTMxYS00NzgxLTlmOGYtZjY4NWVlNDlmZDJlXkEyXkFqcGc@._V1_SX300.jpg)                         | Close-Up                              | `98 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Reservoir Dogs                        | `99 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg)                                             | The Departed                          | `151 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Silence of the Lambs              | `118 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | Amélie                                | `122 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTNmZGY4OTctYjUwNi00ZjNmLTlmODItMDVhOGJmYThmMTU5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part Two                          | `135 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BM2JiNjE4YjItNTFhNS00ZmYyLWEwNzctNzJmYzNiYWYzOGM3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part One                          | `134 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BY2M4OWU0MmMtYTQxYS00MDE3LWFkYzAtMzRlYzM1NDcxOWExXkEyXkFqcGc@._V1_SX300.jpg)                         | Maslahat                              | `110 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | The Truman Show                       | `103 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX300.jpg)                                         | Prisoners                             | `153 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg)         | Parasite                              | `132 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | The Shining                           | `146 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjE4ZTZlNDAtM2Q3YS00YjFhLThjN2UtODg2ZGNlN2E2MWU2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg)         | Killers of the Flower Moon            | `206 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg)                                         | Eternal Sunshine of the Spotless Mind | `108 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Forrest Gump                          | `142 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYzlkZTEyYjUtMTY5NS00ZjU0LTk5OTYtM2M0ZDg1NmNjMzhkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Insomnia                              | `118 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg)         | Dunkirk                               | `106 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZGJkMDUwZWQtYTMzMS00NTg5LWE1ZTYtOTVhMDI4NGI1YjMyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg)         | The Killer                            | `118 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg)         | Oppenheimer                           | `180 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTU0NTU5NTAyMl5BMl5BanBnXkFtZTYwNzYwMDg2._V1_SX300.jpg)                                             | Downfall                              | `156 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Schindlers List                       | `195 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Pianist                           | `150 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Pulp Fiction                          | `154 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg)         | 12 Angry Men                          | `96 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_SX300.jpg)                                         | The Girl with the Dragon Tattoo       | `158 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_SX300.jpg)                                         | Sherlock Holmes A Game of Shadows     | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg)                                         | Sherlock Holmes                       | `128 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg)                                         | Gone Girl                             | `149 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNWQ2ODFhNWItNTA4NS00MzkyLTgyYzUtZjlhYWE5MmEzY2Q1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg)         | The Game                              | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Zodiac                                | `157 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNmY4ZGFjYTYtMDNmYi00ZDM4LWFjYTgtNmNlZjBmMzg0MzQ3XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | Panic Room                            | `112 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Whiplash                              | `106 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg)                                             | The Prestige                          | `130 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX300.jpg)                                         | Hacksaw Ridge                         | `139 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYzUyMzA5NDktODUzOS00YWE5LWFjYTEtYjA3MDY0ZTM0NmQwXkEyXkFqcGdeQXVyNTQ0NTUxOTA@._V1_SX300.jpg)         | 1987 When the Day Comes               | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Fight Club                            | `139 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNjAxMTI4MTgzMV5BMl5BanBnXkFtZTgwOTAwODEwMjE@._V1_SX300.jpg)                                         | Begin Again                           | `104 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTQ0MzQxODQ0MV5BMl5BanBnXkFtZTgwNTQ0NzY4NDE@._V1_SX300.jpg)                                         | About Elly                            | `119 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg)                                         | The Wolf of Wall Street               | `180 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg)         | The Shawshank Redemption              | `142 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjA3NjQ2ODYwN15BMl5BanBnXkFtZTgwNTQ0NDc2MDE@._V1_SX300.jpg)                                         | Son of God                            | `138 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjI2OTgyNTc0Ml5BMl5BanBnXkFtZTgwNDM1NTQxMTE@._V1_SX300.jpg)                                         | Noah                                  | `138 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjI3MDY0NjkxNl5BMl5BanBnXkFtZTgwNTM3NTA0MzE@._V1_SX300.jpg)                                         | Exodus Gods and Kings                 | `150 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BODZiMzAxNTctZjdiZC00OGY5LTg2NDAtNWJhNmQwZTcyMWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg)         | Constantine                           | `121 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg)                                             | Catch Me If You Can                   | `141 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg)                                         | The Dark Knight Rises                 | `164 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg)                                         | The Dark Knight                       | `152 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Batman Begins                         | `140 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTczNDgzMjczOV5BMl5BanBnXkFtZTcwOTU3MzMwMg@@._V1_SX300.jpg)                                         | Revolutionary Road                    | `119 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | CODA                                  | `111 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Interstellar                          | `169 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNTlkOWYzZDYtNzQ1MS00YTNkLTkyYTItMjBmNjgyMDBlMjI4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg)         | The Dictator                          | `83 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | The Social Network                    | `120 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg)         | The Matrix Resurrections              | `148 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather Part II                 | `202 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather                         | `175 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTg2MzYzNzgzOF5BMl5BanBnXkFtZTgwOTg4NzQ4OTE@._V1_SX300.jpg)                                         | Snowden                               | `134 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Dune                                  | `155 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg)         | Titanic                               | `194 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Memento                               | `113 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg)         | The Revenant                          | `156 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMzU3YWYwNTQtZTdiMC00NjY5LTlmMTMtZDFlYTEyODBjMTk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Tenet                                 | `150 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNzljNjY3MDYtYzc0Ni00YjU0LWIyNDUtNTE0ZDRiMGExMjZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Argo                                  | `120 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Shutter Island                        | `138 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYTM3ZTllNzItNTNmOS00NzJiLTg1MWMtMjMxNDc0NmJhODU5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg)         | Kingsman The Secret Service           | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg)                                         | Inception                             | `148 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOWRhYWFkMDEtNTFjZC00OWJkLWJmMWQtNzI2OWRjZjVjOGYyXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg)         | Escape from Pretoria                  | `106 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYjhlNDljNTgtZjc4My00NmZmLTk2YzAtYWE5MDYwYjM4MTkzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg)         | Now You See Me 2                      | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg)                                         | Now You See Me                        | `115 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Joker                                 | `122 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg)                                         | Django Unchained                      | `165 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_SX300.jpg)                                         | 12 Years a Slave                      | `134 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | The Matrix Revolutions                | `129 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Matrix Reloaded                   | `138 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | The Matrix                            | `136 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMzllNmRjYWItNjlhNS00MjcyLWIyODEtMTg0ZjBiNTNhNzQwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_SX300.jpg)         | The Platform                          | `94 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BZDE3YzQ3YmQtMDI0NC00NDdhLWI2MGUtYjZiM2Q0ZGM5ZGI4XkEyXkFqcGdeQXVyNDk2MjM2MDI@._V1_SX300.jpg)         | The Lizard                            | `115 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOWYzNDNiYzUtNWMwOS00YmFkLTkzN2UtYmVmOGJlNDdjZWUyXkEyXkFqcGc@._V1_SX300.jpg)                         | Total Recall                          | `118 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BN2RkNTU2YmUtNGJmNy00YTAzLWE2MjMtOTVkYWU5NzY3M2ViXkEyXkFqcGc@._V1_SX300.jpg)                         | Papillon                              | `151 دقیقه`                     |
+| ("![](" + cover + ")")                                                                                                                          | file.name                                             | "`" + length.minute + " دقیقه`" |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_SX300.jpg)                         | Atonement                                             | `123 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNmE0OWJlM2MtNzhmMi00YmQyLTlmY2EtZmUzNzBiNGRlN2JkXkEyXkFqcGc@._V1_SX300.jpg)                         | Marriage Story                                        | `137 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_SX300.jpg)                         | American Hustle                                       | `138 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTQ0YTQyYzItNGEzMi00NmI4LWJkOTMtOWMyMjAwMWEzYTZhXkEyXkFqcGc@._V1_SX300.jpg)                         | Three Colors Red                                      | `99 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMDYwNGVlY2ItMWYxMS00YjZiLWE5MTAtYWM5NWQ2ZWJjY2Q3XkEyXkFqcGc@._V1_SX300.jpg)                         | Dead Poets Society                                    | `128 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjQyMjEwOTIwNV5BMl5BanBnXkFtZTgwOTkzNTMxNDM@._V1_SX300.jpg)                                         | The Post                                              | `116 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDFhMDg2NTEtMTgxMi00YmRjLWEyNGEtYmVmYjQ0ZmQxOGNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)                 | Where Is the Friend's House                           | `83 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTI1NTYyYmUtN2JmYS00YjkyLWFiZmEtNDg4ZWFkMmU4NzQxXkEyXkFqcGc@._V1_SX300.jpg)                         | Silk Road                                             | `112 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg)                         | Goodfellas                                            | `145 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_SX300.jpg)                                         | Boyhood                                               | `165 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SX300.jpg)                                         | Her                                                   | `126 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYzU2NDY0YzItOTVhNS00Yzk4LTg0ZTktNjFiZDJmZTgwMDYyXkEyXkFqcGc@._V1_SX300.jpg)                         | My Left Foot                                          | `103 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZDZkNDQ3YjktYjBlZC00YTY1LTgxOGYtY2RhMWFhZmNkZGY3XkEyXkFqcGc@._V1_SX300.jpg)                         | The Big Short                                         | `130 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_SX300.jpg)                                         | Spotlight                                             | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_SX300.jpg)                         | Good Will Hunting                                     | `126 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNzljZTk5ZDgtZTQ1Zi00NTM4LThlOGUtZDk2MGM4NDQ4NWQyXkEyXkFqcGc@._V1_SX300.jpg)                         | A Beautiful Mind                                      | `135 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg)                                         | V for Vendetta                                        | `132 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_SX300.jpg)                                         | There Will Be Blood                                   | `158 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_SX300.jpg)                         | Gladiator                                             | `155 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_SX300.jpg)                         | One Flew Over the Cuckoos Nest                        | `133 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX300.jpg)                                         | Oldboy                                                | `120 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_SX300.jpg)                         | The Usual Suspects                                    | `106 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg)                         | Saving Private Ryan                                   | `169 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SX300.jpg)                                         | The Imitation Game                                    | `114 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZWExZjliYTgtM2U2Yi00MTU5LWFmOTAtNThkZDE1MzMxYWU2XkEyXkFqcGc@._V1_SX300.jpg)                         | Taste of Cherry                                       | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_SX300.jpg)                         | Léon The Professional                                 | `110 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_SX300.jpg)                         | The Batman                                            | `176 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Dog Day Afternoon                                     | `125 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg)                                         | 310 to Yuma                                           | `122 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjAyNTU5OTcxOV5BMl5BanBnXkFtZTcwMDEyNjM2MQ@@._V1_SX300.jpg)                                         | 21                                                    | `123 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Taxi Driver                                           | `114 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMzliZDk0NjctNjhlOC00MWEyLWI3OWYtNjA5ZDYxMTMzNTc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | The Big Lebowski                                      | `117 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZGM5ZTY1ZTEtYjVlZi00M2RiLTllODgtMDYzMzk3YjY1MjNmXkEyXkFqcGdeQXVyMTAyNTQ0MTk@._V1_SX300.jpg)         | The Glass Agency                                      | `114 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMzRkZDVkMDItYjk3Mi00NDkyLThmODUtYzhkN2EwZmE2ZTljXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Wag the Dog                                           | `97 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BOTNlNWFiNTAtZTMxYS00NzgxLTlmOGYtZjY4NWVlNDlmZDJlXkEyXkFqcGc@._V1_SX300.jpg)                         | Close-Up                                              | `98 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Reservoir Dogs                                        | `99 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg)                                             | The Departed                                          | `151 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Silence of the Lambs                              | `118 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | Amélie                                                | `122 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BM2JiNjE4YjItNTFhNS00ZmYyLWEwNzctNzJmYzNiYWYzOGM3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part One                                          | `134 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTNmZGY4OTctYjUwNi00ZjNmLTlmODItMDVhOGJmYThmMTU5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part Two                                          | `135 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BY2M4OWU0MmMtYTQxYS00MDE3LWFkYzAtMzRlYzM1NDcxOWExXkEyXkFqcGc@._V1_SX300.jpg)                         | Maslahat                                              | `110 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | The Truman Show                                       | `103 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX300.jpg)                                         | Prisoners                                             | `153 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg)         | Parasite                                              | `132 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | The Shining                                           | `146 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjE4ZTZlNDAtM2Q3YS00YjFhLThjN2UtODg2ZGNlN2E2MWU2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg)         | Killers of the Flower Moon                            | `206 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX300.jpg)                                         | Eternal Sunshine of the Spotless Mind                 | `108 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Forrest Gump                                          | `142 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYzlkZTEyYjUtMTY5NS00ZjU0LTk5OTYtM2M0ZDg1NmNjMzhkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Insomnia                                              | `118 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg)         | Dunkirk                                               | `106 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZGJkMDUwZWQtYTMzMS00NTg5LWE1ZTYtOTVhMDI4NGI1YjMyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg)         | The Killer                                            | `118 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg)         | Oppenheimer                                           | `180 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTU0NTU5NTAyMl5BMl5BanBnXkFtZTYwNzYwMDg2._V1_SX300.jpg)                                             | Downfall                                              | `156 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Schindlers List                                       | `195 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Pianist                                           | `150 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Pulp Fiction                                          | `154 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg)         | 12 Angry Men                                          | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_SX300.jpg)                                         | The Girl with the Dragon Tattoo                       | `158 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_SX300.jpg)                                         | Sherlock Holmes A Game of Shadows                     | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg)                                         | Sherlock Holmes                                       | `128 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg)                                         | Gone Girl                                             | `149 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNWQ2ODFhNWItNTA4NS00MzkyLTgyYzUtZjlhYWE5MmEzY2Q1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg)         | The Game                                              | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Zodiac                                                | `157 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNmY4ZGFjYTYtMDNmYi00ZDM4LWFjYTgtNmNlZjBmMzg0MzQ3XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | Panic Room                                            | `112 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Whiplash                                              | `106 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg)                                             | The Prestige                                          | `130 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX300.jpg)                                         | Hacksaw Ridge                                         | `139 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYzUyMzA5NDktODUzOS00YWE5LWFjYTEtYjA3MDY0ZTM0NmQwXkEyXkFqcGdeQXVyNTQ0NTUxOTA@._V1_SX300.jpg)         | 1987 When the Day Comes                               | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | Fight Club                                            | `139 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNjAxMTI4MTgzMV5BMl5BanBnXkFtZTgwOTAwODEwMjE@._V1_SX300.jpg)                                         | Begin Again                                           | `104 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTQ0MzQxODQ0MV5BMl5BanBnXkFtZTgwNTQ0NzY4NDE@._V1_SX300.jpg)                                         | About Elly                                            | `119 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg)                                         | The Wolf of Wall Street                               | `180 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg)         | The Shawshank Redemption                              | `142 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjA3NjQ2ODYwN15BMl5BanBnXkFtZTgwNTQ0NDc2MDE@._V1_SX300.jpg)                                         | Son of God                                            | `138 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjI2OTgyNTc0Ml5BMl5BanBnXkFtZTgwNDM1NTQxMTE@._V1_SX300.jpg)                                         | Noah                                                  | `138 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjI3MDY0NjkxNl5BMl5BanBnXkFtZTgwNTM3NTA0MzE@._V1_SX300.jpg)                                         | Exodus Gods and Kings                                 | `150 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODZiMzAxNTctZjdiZC00OGY5LTg2NDAtNWJhNmQwZTcyMWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg)         | Constantine                                           | `121 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg)                                             | Catch Me If You Can                                   | `141 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg)                                         | The Dark Knight Rises                                 | `164 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg)                                         | The Dark Knight                                       | `152 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg)         | Batman Begins                                         | `140 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTczNDgzMjczOV5BMl5BanBnXkFtZTcwOTU3MzMwMg@@._V1_SX300.jpg)                                         | Revolutionary Road                                    | `119 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | CODA                                                  | `111 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Interstellar                                          | `169 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNTlkOWYzZDYtNzQ1MS00YTNkLTkyYTItMjBmNjgyMDBlMjI4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg)         | The Dictator                                          | `83 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | The Social Network                                    | `120 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg)         | The Matrix Resurrections                              | `148 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather                                         | `175 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather Part II                                 | `202 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTg2MzYzNzgzOF5BMl5BanBnXkFtZTgwOTg4NzQ4OTE@._V1_SX300.jpg)                                         | Snowden                                               | `134 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Dune                                                  | `155 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg)         | Titanic                                               | `194 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | Memento                                               | `113 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg)         | The Revenant                                          | `156 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMzU3YWYwNTQtZTdiMC00NjY5LTlmMTMtZDFlYTEyODBjMTk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Tenet                                                 | `150 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNzljNjY3MDYtYzc0Ni00YjU0LWIyNDUtNTE0ZDRiMGExMjZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Argo                                                  | `120 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | Shutter Island                                        | `138 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYTM3ZTllNzItNTNmOS00NzJiLTg1MWMtMjMxNDc0NmJhODU5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg)         | Kingsman The Secret Service                           | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg)                                         | Inception                                             | `148 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOWRhYWFkMDEtNTFjZC00OWJkLWJmMWQtNzI2OWRjZjVjOGYyXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg)         | Escape from Pretoria                                  | `106 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYjhlNDljNTgtZjc4My00NmZmLTk2YzAtYWE5MDYwYjM4MTkzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg)         | Now You See Me 2                                      | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTY0NDY3MDMxN15BMl5BanBnXkFtZTcwOTM5NzMzOQ@@._V1_SX300.jpg)                                         | Now You See Me                                        | `115 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Joker                                                 | `122 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg)                                         | Django Unchained                                      | `165 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNTNmZDgzMmMtMzJhMy00NGI3LWI5YTktYjg5MTllZmYyYTMxXkEyXkFqcGc@._V1_SX300.jpg)                         | 6 Underground                                         | `128 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_SX300.jpg)                                         | 12 Years a Slave                                      | `134 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_SX300.jpg)                         | Mad Max Fury Road                                     | `120 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | The Matrix Revolutions                                | `129 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Matrix Reloaded                                   | `138 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | The Matrix                                            | `136 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMzllNmRjYWItNjlhNS00MjcyLWIyODEtMTg0ZjBiNTNhNzQwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_SX300.jpg)         | The Platform                                          | `94 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTU5NjI1MjEwMV5BMl5BanBnXkFtZTgwNjc2Mzc3MjE@._V1_SX300.jpg)                                         | Camp X-Ray                                            | `117 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZDE3YzQ3YmQtMDI0NC00NDdhLWI2MGUtYjZiM2Q0ZGM5ZGI4XkEyXkFqcGdeQXVyNDk2MjM2MDI@._V1_SX300.jpg)         | The Lizard                                            | `115 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTIxNzM2NTM2NF5BMl5BanBnXkFtZTcwMzY1NTk1OQ@@._V1_SX300.jpg)                                         | The Painting Pool                                     | `92 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMjEzMzEzNjg0N15BMl5BanBnXkFtZTcwMzg4NDk0Ng@@._V1_SX300.jpg)                                         | Real Steel                                            | `127 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTIyNjIwOTI1MF5BMl5BanBnXkFtZTcwMTQ1NTU3MQ@@._V1_SX300.jpg)                                         | Miracle at St. Anna                                   | `160 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOWYzNDNiYzUtNWMwOS00YmFkLTkzN2UtYmVmOGJlNDdjZWUyXkEyXkFqcGc@._V1_SX300.jpg)                         | Total Recall                                          | `118 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BN2RkNTU2YmUtNGJmNy00YTAzLWE2MjMtOTVkYWU5NzY3M2ViXkEyXkFqcGc@._V1_SX300.jpg)                         | Papillon                                              | `151 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BY2VhYjFlMjEtMjI3Zi00OGJkLWExNzUtNzUzZTA1YzA5MzRjXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg)         | A Cube of Sugar                                       | `116 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_SX300.jpg)                         | Spider-Man                                            | `121 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNDhlMzEyNzItMTA5Mi00YWRhLThlNTktYTQyMTA0MDIyNDEyXkEyXkFqcGc@._V1_SX300.jpg)                         | Pirates of the Caribbean The Curse of the Black Pearl | `143 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX300.jpg)                         | Harry Potter and the Sorcerers Stone                  | `152 دقیقه`                     |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -503,7 +512,9 @@ emoji: 🌱
 | ![](https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_SX300.jpg) | Money Heist       | `38.8 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_SX300.jpg) | Peaky Blinders    | `35.1 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg) | Squid Game        | `14.1 ساعت`                            |
+| ![](https://m.media-amazon.com/images/M/MV5BMzk0NjI1YjQtY2E3Mi00NjU2LTk5NDMtYmI0MTY4OTc2MTUyXkEyXkFqcGc@._V1_SX300.jpg)                 | The Frog          | `12 ساعت`                              |
 | ![](https://m.media-amazon.com/images/M/MV5BMWEzNTFlMTQtMzhjOS00MzQ1LWJjNjgtY2RhMjFhYjQwYjIzXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg) | Sherlock          | `19.4 ساعت`                            |
+| ![](https://m.media-amazon.com/images/M/MV5BZjEwNTJhYzEtNzhmNi00Yjg3LTgxYzItNmFhMzE4MzlhYjk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)         | Vaziat Sefid      | `28 ساعت`                              |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -513,18 +524,30 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`" FROM #Movie WHERE type = "animation" SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                                  | file.name      | "`" + length.minute + " دقیقه`" |
-| --------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------- |
-| ![](https://m.media-amazon.com/images/M/MV5BZjM2M2E3YzAtZDJjYy00MDhkLThiYmItOGZhNzQ3NTgyZmI0XkEyXkFqcGc@._V1_SX300.jpg)                 | The Wild Robot | `102 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2   | `96 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline       | `100 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis     | `96 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca           | `95 دقیقه`                      |
-| ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul           | `100 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg)                                 | Ratatouille    | `111 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg)                                 | Zootopia       | `108 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg) | Coco           | `105 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg)                                 | Inside Out     | `95 دقیقه`                      |
+| ("![](" + cover + ")")                                                                                                                  | file.name               | "`" + length.minute + " دقیقه`" |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------------------------- |
+| ![](https://m.media-amazon.com/images/M/MV5BZjM2M2E3YzAtZDJjYy00MDhkLThiYmItOGZhNzQ3NTgyZmI0XkEyXkFqcGc@._V1_SX300.jpg)                 | The Wild Robot          | `102 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2            | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline                | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis              | `96 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg) | Luca                    | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg) | Soul                    | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg)                                 | Ratatouille             | `111 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg)                                 | Zootopia                | `108 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg) | Coco                    | `105 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg)                                 | Inside Out              | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_SX300.jpg)                                 | Rango                   | `107 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg)                                 | WALL·E                  | `98 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BYjk4OGFmZmYtYWE4NC00MzM4LTkwZTItODdhMjk3NTZjMmI5XkEyXkFqcGc@._V1_SX300.jpg)                 | Madagascar              | `86 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_SX300.jpg)                                     | Cars                    | `116 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg)                                 | The Incredibles         | `115 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDBlYzU2OGMtOGJjNi00ZGZjLWIwNjMtYzdiZjkwYWNjZDljXkEyXkFqcGc@._V1_SX300.jpg)                 | Ice Age                 | `81 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_SX300.jpg)                                     | Finding Nemo            | `100 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_SX300.jpg)                 | Toy Story               | `81 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_SX300.jpg)                 | Shrek                   | `90 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg)                                 | Monsters Inc.           | `92 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BN2VjNjk5MTAtNDE3Ni00NjczLWFhN2EtNGQ1ZmZmOWRjZjIyXkEyXkFqcGc@._V1_SX300.jpg)                 | Treasure Planet         | `95 دقیقه`                      |
+| ![](https://m.media-amazon.com/images/M/MV5BMjM2MWU5ZDEtNDZlZC00ZmQ2LThiOTEtMmZkMzAxMmI5MGIyXkEyXkFqcGc@._V1_SX300.jpg)                 | The Emperors New Groove | `78 دقیقه`                      |
 <!-- SerializedQuery END -->
 
 ‌<br/>‌<br/>
@@ -619,8 +642,8 @@ emoji: 🌱
 | ![](https://s32.picofile.com/file/8478552126/%DA%A9%D9%88%D8%AF%D8%AA%D8%A7%DB%8C_%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D8%AF%D8%B1_%D8%B3%D9%BE%D8%A7%D9%87.jpg)                                                                             | کودتای خزنده در سپاه                         | `47 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478551884/%D9%82%D9%85%D8%A7%D8%B1.jpg)                                                                                                                                                              | قمار                                         | `75 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552118/%D8%AC%D8%A7%D9%85_%D8%B2%D9%87%D8%B1.jpg)                                                                                                                                                 | جام زهر                                      | `56 دقیقه`                      |
-| ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                                                                                                           | اتاق جنگ                                     | `86 دقیقه`                      |
 | ![](https://s32.picofile.com/file/8478552100/%D8%A8%D9%87%D8%AA%D8%A7%D9%86_%D8%A8%D8%B1%D8%A7%DB%8C_%D8%AD%D9%81%D8%B8_%D9%86%D8%B8%D8%A7%D9%85.jpg)                                                                                   | بهتان برای حفظ نظام                          | `150 دقیقه`                     |
+| ![](https://s32.picofile.com/file/8478551842/%D8%A7%D8%AA%D8%A7%D9%82_%D8%AC%D9%86%DA%AF.jpg)                                                                                                                                           | اتاق جنگ                                     | `86 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BYTYyNzVkZDQtYTYxYy00MDBhLTg1ZmItMWE1NjlhNTM3Njg0XkEyXkFqcGdeQXVyNTMyNjAzMDU@._V1_SX300.jpg)                                                                                                 | Xsunami                                      | `96 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BMWE2MTdhOGQtZTljOS00N2MyLTk0N2EtNTNkODQ0YzdiMmM1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjQxMTA1NDM@._V1_SX300.jpg)                                                                                 | Shabnaameh                                   | `98 دقیقه`                      |
 | ![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5bNW0pAECfY&psig=AOvVaw3SyKRipKqs4hMKQu6Q97XN&ust=1747249210313000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjFrdaQoY0DFQAAAAAdAAAAABAE) | هنر از نگاه عباس کیارستمی                    | `37 دقیقه`                      |
@@ -628,3 +651,21 @@ emoji: 🌱
 
 
 ‌<br/>‌<br/>
+
+
+
+## 🎮 بازی
+
+<br> 
+
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, year FROM #Game SORT year DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, year FROM #Game SORT year DESC -->
+
+| ("![](" + cover + ")")                                                                                                          | file.name                   | year |
+| ------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ---- |
+| ![](https://m.media-amazon.com/images/M/MV5BNDRjMjQ3YzItNjZjMS00OTk2LTk0NjEtNTA4YWIyN2IxM2Q3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) | Pilgrims                    | 2019 |
+| ![](https://m.media-amazon.com/images/M/MV5BNDY3NzhjYjEtMTlmYS00OWI1LWExNWYtM2I1MDdmYmE3ZjQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) | Limbo                       | 2010 |
+| ![](https://m.media-amazon.com/images/M/MV5BZjUzMmQ1ZmMtYTAyMS00OTgzLWJkYjUtOGI4YzA1M2QxZmFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) | Machinarium                 | 2009 |
+| ![](https://m.media-amazon.com/images/M/MV5BOTA5MGNlODEtNzMxZC00ZDBmLTlhOGYtYTEzYjRhYTE5ZjYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) | Command & Conquer Generals  | 2003 |
+| ![](https://m.media-amazon.com/images/M/MV5BMjExMDU5MzQ4MV5BMl5BanBnXkFtZTcwMjc4NjkyMQ@@._V1_SX300.jpg)                         | Age of Mythology The Titans | 2002 |
+<!-- SerializedQuery END -->
