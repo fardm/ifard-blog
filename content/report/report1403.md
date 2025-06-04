@@ -133,7 +133,7 @@ emoji: 🌿
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700136134i/252025.jpg)   | ابن مشغله                             | `112 صفحه`             | ⭐⭐⭐⭐   |
 | ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715779752i/178539.jpg)   | نشت نشا                               | `80 صفحه`              | ⭐⭐⭐    |
 | ![](https://s32.picofile.com/file/8478581650/Indispensable.jpg)                                                     | مهره حیاتی                            | `293 صفحه`             | ⭐⭐     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518194023i/8177701.jpg)  | نفحات نفت                             | `230 صفحه`             | ⭐⭐⭐⭐⭐  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518194023i/8177701.jpg)  | نفحات نفت                             | `230 صفحه`             | ⭐⭐⭐⭐   |
 | ![](https://s32.picofile.com/file/8478581626/as_keteb.jpg)                                                          | از کتاب                               | `395 صفحه`             | ⭐⭐⭐⭐⭐  |
 | ![](https://s32.picofile.com/file/8478581634/design_your_life.jpg)                                                  | زندگی خود را طراحی کنید               | `260 صفحه`             | ⭐⭐⭐⭐   |
 | ![](https://s32.picofile.com/file/8478581676/masir_shoghli.jpg)                                                     | مسیر شغلی                             | `92 صفحه`              | ⭐      |
@@ -189,7 +189,7 @@ emoji: 🌿
 
 | ("![](" + cover + ")")                                                                                                                                     | file.name                                               | "`" + length.minute + " دقیقه`" | rating |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------- | ------ |
-| ![](https://s3.castbox.fm/f2/15/32/ffaa96b5ad27d80948bcb03b7d5cefca97_scaled_v1_400.jpg)                                                                   | سریال اشو                                               | `2327 دقیقه`                    | ⭐⭐⭐    |
+| ![](https://s3.castbox.fm/f2/15/32/ffaa96b5ad27d80948bcb03b7d5cefca97_scaled_v1_400.jpg)                                                                   | سریال اشو                                               | `2327 دقیقه`                    | ⭐⭐⭐⭐⭐  |
 | ![](https://s3.castbox.fm/d3/9b/5e/2b6ce5956ee701fe89aac81e25ffaf1aea_scaled_v1_400.jpg)                                                                   | جافکری فصل 23 - مفاهیم اقتصادی - سیامک قاسمی            | `309 دقیقه`                     | ⭐⭐⭐    |
 | ![](https://s3.castbox.fm/e8/f1/ab/6517d099c8d90dc2009680c4fbedd4a2c8_scaled_v1_400.jpg)                                                                   | سریال واترگیت                                           | `284 دقیقه`                     | ⭐⭐⭐    |
 | ![](https://s3.castbox.fm/c0/fc/94/79f1a4dc63e91ae50957acfba1a34fb225_scaled_v1_400.jpg)                                                                   | مَسترمایند                                              | `386 دقیقه`                     | ⭐⭐⭐⭐   |
@@ -381,7 +381,7 @@ emoji: 🌿
 
 | ("![](" + cover + ")")                                                                                                                  | file.name      | "`" + length.minute + " دقیقه`" | rating |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------- | ------ |
-| ![](https://m.media-amazon.com/images/M/MV5BZjM2M2E3YzAtZDJjYy00MDhkLThiYmItOGZhNzQ3NTgyZmI0XkEyXkFqcGc@._V1_SX300.jpg)                 | The Wild Robot | `102 دقیقه`                     | ⭐⭐⭐⭐⭐  |
+| ![](https://m.media-amazon.com/images/M/MV5BZjM2M2E3YzAtZDJjYy00MDhkLThiYmItOGZhNzQ3NTgyZmI0XkEyXkFqcGc@._V1_SX300.jpg)                 | The Wild Robot | `102 دقیقه`                     | ⭐⭐⭐⭐   |
 | ![](https://m.media-amazon.com/images/M/MV5BYTc1MDQ3NjAtOWEzMi00YzE1LWI2OWUtNjQ0OWJkMzI3MDhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg) | Inside Out 2   | `96 دقیقه`                      | ⭐⭐⭐⭐⭐  |
 | ![](https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SX300.jpg)                                 | Coraline       | `100 دقیقه`                     | ⭐⭐⭐    |
 | ![](https://m.media-amazon.com/images/M/MV5BMGRkZThmYzEtYjQxZC00OWEzLThjYjAtYzFkMjY0NGZkZWI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg) | Persepolis     | `96 دقیقه`                      | ⭐⭐⭐    |

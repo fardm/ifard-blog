@@ -6,8 +6,7 @@ date: 2025-04-02
 lastmod: 2025-05-30
 draft: false
 status: 🌱نهال
-parent:
-  - "[[note taking techniques]]"
+parent: []
 order: 
 image: 
 tags: 

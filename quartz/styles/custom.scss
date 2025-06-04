@@ -95,9 +95,6 @@
     }
 
 
-// f
-
-
 // بلوک کد
     pre {
         background: #afafaf1a;
@@ -315,3 +312,8 @@
         vertical-align: middle;
         }
         
+
+// مخفی کردن اولین هدینگ در امبدینگ نوت
+    blockquote.transclude > :is(h1, h2, h3, h4, h5, h6):first-of-type {
+        display: none;
+    }

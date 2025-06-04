@@ -55,7 +55,7 @@ emoji: 🌱
 
 | icon | count          | sum         |
 | ---- | -------------- | ----------- |
-| ✨    | 24 محتوای مفید | `26.7 ساعت` |
+| ✨    | 25 محتوای مفید | `28.3 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -64,7 +64,7 @@ emoji: 🌱
 
 | icon | count            | sum           |
 | ---- | ---------------- | ------------- |
-| 🍿   | 224 فیلم و سریال | `1046.1 ساعت` |
+| 🍿   | 225 فیلم و سریال | `1055.4 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -277,6 +277,7 @@ emoji: 🌱
 
 | ("![](" + cover + ")")                                                                                                                                                                                     | file.name                                                                 | "`" + length.minute + " دقیقه`" |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------- |
+| ![](https://static.cdn.asset.filimo.com/flmt/mov_159113_288651-b.jpg)                                                                                                                                      | اکنون محمدرضا شعبانعلی                                                    | `100 دقیقه`                     |
 | ![](https://i.ytimg.com/vi/3u8b_fLj_zs/maxresdefault.jpg)                                                                                                                                                  | چرا آخرش وقت کم می‌آوریم؟                                                 | `90 دقیقه`                      |
 | ![](https://i.ytimg.com/vi/qo5m92-9_QI/maxresdefault.jpg)                                                                                                                                                  | Home-cooked Software and Barefoot Programmers                             | `27 دقیقه`                      |
 | ![](https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9e003b0a822daba702608136e73f7be001b6b2f2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640)                            | تاریخ بصری دانش بشر                                                       | `13 دقیقه`                      |
@@ -322,7 +323,7 @@ emoji: 🌱
 
 | icon | count    | sum          |
 | ---- | -------- | ------------ |
-| 📺   | 29 سریال | `735.8 ساعت` |
+| 📺   | 29 سریال | `741.8 ساعت` |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎈" as icon, length(rows) + " انیمیشن" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE type = "animation" AND length != null GROUP BY "" -->
@@ -390,8 +391,8 @@ emoji: 🌱
 | ![](https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg)                                             | The Departed                                          | `151 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg)         | The Silence of the Lambs                              | `118 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | Amélie                                                | `122 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BM2JiNjE4YjItNTFhNS00ZmYyLWEwNzctNzJmYzNiYWYzOGM3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part One                                          | `134 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMTNmZGY4OTctYjUwNi00ZjNmLTlmODItMDVhOGJmYThmMTU5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part Two                                          | `135 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BM2JiNjE4YjItNTFhNS00ZmYyLWEwNzctNzJmYzNiYWYzOGM3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg)         | Che Part One                                          | `134 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BY2M4OWU0MmMtYTQxYS00MDE3LWFkYzAtMzRlYzM1NDcxOWExXkEyXkFqcGc@._V1_SX300.jpg)                         | Maslahat                                              | `110 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg)         | The Truman Show                                       | `103 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX300.jpg)                                         | Prisoners                                             | `153 دقیقه`                     |
@@ -439,8 +440,8 @@ emoji: 🌱
 | ![](https://m.media-amazon.com/images/M/MV5BNTlkOWYzZDYtNzQ1MS00YTNkLTkyYTItMjBmNjgyMDBlMjI4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg)         | The Dictator                                          | `83 دقیقه`                      |
 | ![](https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg)         | The Social Network                                    | `120 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMGJkNDJlZWUtOGM1Ny00YjNkLThiM2QtY2ZjMzQxMTIxNWNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg)         | The Matrix Resurrections                              | `148 دقیقه`                     |
-| ![](https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather                                         | `175 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather Part II                                 | `202 دقیقه`                     |
+| ![](https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg)         | The Godfather                                         | `175 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMTg2MzYzNzgzOF5BMl5BanBnXkFtZTgwOTg4NzQ4OTE@._V1_SX300.jpg)                                         | Snowden                                               | `134 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg)         | Dune                                                  | `155 دقیقه`                     |
 | ![](https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg)         | Titanic                                               | `194 دقیقه`                     |
@@ -486,7 +487,8 @@ emoji: 🌱
 
 | ("![](" + cover + ")")                                                                                                                  | file.name         | "`" + round(length.hours,1) + " ساعت`" |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------- |
-| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg)                 | Severance S02     | `3.3 ساعت`                             |
+| ![](https://m.media-amazon.com/images/M/MV5BZDVmMzJkOWUtMjdjMi00NzA4LTgxMTItYjA4NjVjZDI0ZWU1XkEyXkFqcGc@._V1_SX300.jpg)                 | MobLand           | `1 ساعت`                               |
+| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg)                 | Severance         | `15.8 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_SX300.jpg)                 | True Detective    | `32.6 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BMmQ0Y2JiM2EtOWIwMy00MWVjLTgxZDctZTQzOWU3ODkzMWY4XkEyXkFqcGc@._V1_SX300.jpg)                 | Chernobyl         | `5.5 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BYTk4NDA4MGMtNjliOC00MjExLWI1YzctOTc4NWIxM2I1YjM5XkEyXkFqcGc@._V1_SX300.jpg)                 | Mindhunter        | `17 ساعت`                              |
@@ -507,13 +509,12 @@ emoji: 🌱
 | ![](https://m.media-amazon.com/images/M/MV5BZDA4YmE0OTYtMmRmNS00Mzk2LTlhM2MtNjk4NzBjZGE1MmIyXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg) | Better Call Saul  | `52.6 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BZDg1OWRiMTktZDdiNy00NTZlLTg2Y2EtNWRiMTcxMGE5YTUxXkEyXkFqcGdeQXVyMTM2MDY0OTYx._V1_SX300.jpg) | Westworld         | `34.9 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg) | Breaking Bad      | `50.5 ساعت`                            |
-| ![](https://m.media-amazon.com/images/M/MV5BMjkwZjcwMGQtNDAzOC00YjJiLThiYTgtNWU3ZjRiZmY2YzEzXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg) | Severance         | `7.5 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_SX300.jpg) | The Queens Gambit | `6.6 ساعت`                             |
 | ![](https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_SX300.jpg) | Money Heist       | `38.8 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_SX300.jpg) | Peaky Blinders    | `35.1 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg) | Squid Game        | `14.1 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BMzk0NjI1YjQtY2E3Mi00NjU2LTk5NDMtYmI0MTY4OTc2MTUyXkEyXkFqcGc@._V1_SX300.jpg)                 | The Frog          | `12 ساعت`                              |
-| ![](https://m.media-amazon.com/images/M/MV5BMWEzNTFlMTQtMzhjOS00MzQ1LWJjNjgtY2RhMjFhYjQwYjIzXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_SX300.jpg) | Sherlock          | `19.4 ساعت`                            |
+| ![](https://m.media-amazon.com/images/M/MV5BNTQzNGZjNDEtOTMwYi00MzFjLWE2ZTYtYzYxYzMwMjZkZDc5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)         | Sherlock          | `19.4 ساعت`                            |
 | ![](https://m.media-amazon.com/images/M/MV5BZjEwNTJhYzEtNzhmNi00Yjg3LTgxYzItNmFhMzE4MzlhYjk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)         | Vaziat Sefid      | `28 ساعت`                              |
 <!-- SerializedQuery END -->
 

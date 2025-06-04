@@ -12,6 +12,8 @@ parent: "[[reports|📋 گزارش‌های توسعه فردی]]"
 cssclasses:
   - card-s
   - nowarp2
+  - c3-4
+  - w200
 order: "1404"
 emoji: 🌱
 ---
@@ -57,7 +59,7 @@ emoji: 🌱
 
 | icon | count         | sum        |
 | ---- | ------------- | ---------- |
-| ✨    | 1 محتوای مفید | `1.5 ساعت` |
+| ✨    | 2 محتوای مفید | `3.2 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -66,7 +68,7 @@ emoji: 🌱
 
 | icon | count          | sum         |
 | ---- | -------------- | ----------- |
-| 🍿   | 7 فیلم و سریال | `46.3 ساعت` |
+| 🍿   | 8 فیلم و سریال | `59.8 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -84,7 +86,7 @@ emoji: 🌱
 
 | icon | "`" + length(filter(rows, (r) => r.🏋️exercise = true)) + " روز`" | "ورزش کردم" |
 | ---- | ----------------------------------------------------------------- | ----------- |
-| 🏋️  | `47 روز`                                                          | ورزش کردم   |
+| 🏋️  | `50 روز`                                                          | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -94,7 +96,7 @@ emoji: 🌱
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `102 پومودورو`                                  | مطالعه کردم   |
+| 📖   | `105 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "📱" as icon, "`" + round(sum(rows.📱social)) + " ساعت`", "در سوشال‌مدیا بودم" FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
@@ -108,7 +110,6 @@ emoji: 🌱
 
 </div>
 
-
 <br/><br/>
 
 ## بخش اول: مصرف محتوا
@@ -116,19 +117,19 @@ emoji: 🌱
 
 ### 📚 کتاب 
 
-<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`", rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + pages + " صفحه`", rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                               | file.name                             | "`" + pages + " صفحه`" | rating |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ---------------------- | ------ |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372230262i/18131269.jpg)  | دستورالعمل‌های فیل آبی برای ایده یابی | `108 صفحه`             | \-     |
-| ![](https://www.iranketab.ir/Images/ProductImages/ddbb022862d746f693ec326801975f38.jpg)                              | یادگیری زایا                          | `231 صفحه`             | \-     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711024105i/210226829.jpg) | تاکسی سواری                           | `160 صفحه`             | \-     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678958674i/123254244.jpg) | یادگیری یادگیری                       | `248 صفحه`             | ⭐⭐⭐⭐⭐  |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1732359122i/37542567.jpg)  | مزخرفات فارسی                         | `136 صفحه`             | \-     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630003593i/58863007.jpg)  | از قیطریه تا اورنج کانتی              | `318 صفحه`             | ⭐⭐⭐⭐⭐  |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681403696i/55973999.jpg)  | قدرت سکوت                             | `376 صفحه`             | ⭐⭐⭐    |
-| ![](https://img.taaghche.com/frontCover/211482.jpg)                                                                  | کتاب 80000 ساعت                       | `320 صفحه`             | ⭐⭐⭐    |
+| ("![](" + cover + ")")                                                                                               | file.name                             | badge                                        | rating |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | -------------------------------------------- | ------ |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372230262i/18131269.jpg)  | دستورالعمل‌های فیل آبی برای ایده یابی | <ul><li>🪶خوش‌خوان</li><li>🌳پربار</li></ul> | \-     |
+| ![](https://www.iranketab.ir/Images/ProductImages/ddbb022862d746f693ec326801975f38.jpg)                              | یادگیری زایا                          | <ul><li>🐢سخت‌خوان</li></ul>                 | \-     |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711024105i/210226829.jpg) | تاکسی سواری                           | \-                                           | \-     |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678958674i/123254244.jpg) | یادگیری یادگیری                       | <ul><li>🪶خوش‌خوان</li></ul>                 | ⭐⭐⭐⭐⭐  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1732359122i/37542567.jpg)  | مزخرفات فارسی                         | \-                                           | \-     |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630003593i/58863007.jpg)  | از قیطریه تا اورنج کانتی              | <ul><li>☕تلخ</li><li>🪶خوش‌خوان</li></ul>    | ⭐⭐⭐⭐⭐  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681403696i/55973999.jpg)  | قدرت سکوت                             | \-                                           | ⭐⭐⭐    |
+| ![](https://img.taaghche.com/frontCover/211482.jpg)                                                                  | کتاب 80000 ساعت                       | \-                                           | ⭐⭐⭐    |
 <!-- SerializedQuery END -->
 
 
@@ -175,9 +176,10 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`", rating FROM #Media WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`", rating FROM #Media WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                    | file.name                 | "`" + length.minute + " دقیقه`" | rating |
-| --------------------------------------------------------- | ------------------------- | ------------------------------- | ------ |
-| ![](https://i.ytimg.com/vi/3u8b_fLj_zs/maxresdefault.jpg) | چرا آخرش وقت کم می‌آوریم؟ | `90 دقیقه`                      | ⭐⭐⭐    |
+| ("![](" + cover + ")")                                                | file.name                 | "`" + length.minute + " دقیقه`" | rating |
+| --------------------------------------------------------------------- | ------------------------- | ------------------------------- | ------ |
+| ![](https://static.cdn.asset.filimo.com/flmt/mov_159113_288651-b.jpg) | اکنون محمدرضا شعبانعلی    | `100 دقیقه`                     | ⭐⭐⭐⭐   |
+| ![](https://i.ytimg.com/vi/3u8b_fLj_zs/maxresdefault.jpg)             | چرا آخرش وقت کم می‌آوریم؟ | `90 دقیقه`                      | ⭐⭐⭐    |
 <!-- SerializedQuery END -->
 
 
@@ -202,7 +204,7 @@ emoji: 🌱
 
 | icon | count   | sum         |
 | ---- | ------- | ----------- |
-| 📺   | 2 سریال | `35.9 ساعت` |
+| 📺   | 3 سریال | `49.4 ساعت` |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎈" as icon, length(rows) + " انیمیشن" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE type = "animation" AND length != null AND date >= date("2025-03-21") AND date <= date("2026-03-20") GROUP BY "" -->
@@ -223,16 +225,16 @@ emoji: 🌱
 </div>
 
 #### فیلم
-<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`", rating FROM #Movie WHERE type = "movie" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + length.minute + " دقیقه`", rating FROM #Movie WHERE type = "movie" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Movie WHERE type = "movie" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Movie WHERE type = "movie" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                  | file.name          | "`" + length.minute + " دقیقه`" | rating |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------- | ------ |
-| ![](https://m.media-amazon.com/images/M/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_SX300.jpg) | Atonement          | `123 دقیقه`                     | ⭐⭐⭐⭐⭐  |
-| ![](https://m.media-amazon.com/images/M/MV5BNmE0OWJlM2MtNzhmMi00YmQyLTlmY2EtZmUzNzBiNGRlN2JkXkEyXkFqcGc@._V1_SX300.jpg) | Marriage Story     | `137 دقیقه`                     | ⭐⭐⭐⭐⭐  |
-| ![](https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_SX300.jpg) | American Hustle    | `138 دقیقه`                     | ⭐      |
-| ![](https://m.media-amazon.com/images/M/MV5BMTQ0YTQyYzItNGEzMi00NmI4LWJkOTMtOWMyMjAwMWEzYTZhXkEyXkFqcGc@._V1_SX300.jpg) | Three Colors Red   | `99 دقیقه`                      | ⭐⭐     |
-| ![](https://m.media-amazon.com/images/M/MV5BMDYwNGVlY2ItMWYxMS00YjZiLWE5MTAtYWM5NWQ2ZWJjY2Q3XkEyXkFqcGc@._V1_SX300.jpg) | Dead Poets Society | `128 دقیقه`                     | ⭐⭐⭐⭐⭐  |
+| ("![](" + cover + ")")                                                                                                  | file.name          | badge                    | rating |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------ | ------ |
+| ![](https://m.media-amazon.com/images/M/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_SX300.jpg) | Atonement          | <ul><li>☕تلخ</li></ul>   | ⭐⭐⭐⭐⭐  |
+| ![](https://m.media-amazon.com/images/M/MV5BNmE0OWJlM2MtNzhmMi00YmQyLTlmY2EtZmUzNzBiNGRlN2JkXkEyXkFqcGc@._V1_SX300.jpg) | Marriage Story     | <ul><li>🧲گیرا</li></ul> | ⭐⭐⭐⭐⭐  |
+| ![](https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_SX300.jpg) | American Hustle    | \-                       | ⭐      |
+| ![](https://m.media-amazon.com/images/M/MV5BMTQ0YTQyYzItNGEzMi00NmI4LWJkOTMtOWMyMjAwMWEzYTZhXkEyXkFqcGc@._V1_SX300.jpg) | Three Colors Red   | \-                       | ⭐⭐     |
+| ![](https://m.media-amazon.com/images/M/MV5BMDYwNGVlY2ItMWYxMS00YjZiLWE5MTAtYWM5NWQ2ZWJjY2Q3XkEyXkFqcGc@._V1_SX300.jpg) | Dead Poets Society | <ul><li>🧲گیرا</li></ul> | ⭐⭐⭐⭐⭐  |
 <!-- SerializedQuery END -->
 
 
@@ -240,13 +242,14 @@ emoji: 🌱
 
 
 #### سریال
-<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours,1) + " ساعت`", rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, "`" + round(length.hours,1) + " ساعت`", rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, badg, rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                  | file.name      | "`" + round(length.hours,1) + " ساعت`" | rating |
-| ----------------------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------------- | ------ |
-| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg) | Severance S02  | `3.3 ساعت`                             | \-     |
-| ![](https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_SX300.jpg) | True Detective | `32.6 ساعت`                            | ⭐⭐⭐⭐⭐  |
+| ("![](" + cover + ")")                                                                                                  | file.name      | badg | rating |
+| ----------------------------------------------------------------------------------------------------------------------- | -------------- | ---- | ------ |
+| ![](https://m.media-amazon.com/images/M/MV5BZDVmMzJkOWUtMjdjMi00NzA4LTgxMTItYjA4NjVjZDI0ZWU1XkEyXkFqcGc@._V1_SX300.jpg) | MobLand        | \-   | ⭐⭐⭐    |
+| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg) | Severance      | \-   | ⭐⭐⭐    |
+| ![](https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_SX300.jpg) | True Detective | \-   | ⭐⭐⭐⭐⭐  |
 <!-- SerializedQuery END -->
 
 
@@ -309,7 +312,7 @@ emoji: 🌱
 
 | "" | true                 | false                  |
 | -- | -------------------- | ---------------------- |
-|    | 🏋️ 47 روز ورزش کردم | 🛌 22 روز استراحت کردم |
+|    | 🏋️ 50 روز ورزش کردم | 🛌 26 روز استراحت کردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -324,7 +327,7 @@ emoji: 🌱
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 102 پ | 🔺 بیشترین: 8 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.5 پ |
+| 🔘 جمع کل: 105 پ | 🔺 بیشترین: 8 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.4 پ |
 <!-- SerializedQuery END -->
 </div>
 <br><br>
@@ -336,9 +339,9 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
 <!-- SerializedQuery: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
 
-| Total              | Maximum              | Minimum             | Average              |
-| ------------------ | -------------------- | ------------------- | -------------------- |
-| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0.4 ساعت | 📈 میانگین: 1.3 ساعت |
+| Total              | Maximum              | Minimum           | Average              |
+| ------------------ | -------------------- | ----------------- | -------------------- |
+| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1.2 ساعت |
 <!-- SerializedQuery END -->
 </div>
 
