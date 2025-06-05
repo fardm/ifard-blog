@@ -4,7 +4,7 @@ aliases:
   - چرایی یادداشت برداری
 date: 2025-04-24
 lastmod: 2025-04-30
-draft: false
+draft: true
 status: 🌱نهال
 parent: 
 order: 

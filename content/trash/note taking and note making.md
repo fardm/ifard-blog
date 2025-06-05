@@ -4,9 +4,9 @@ aliases:
   - تفاوت یادداشت‌برداری با یادداشت‌سازی
 date: 2025-04-02
 lastmod: 
-draft: false
+draft: true
 status: 🌱نهال
-parent: []
+parent: 
 order: 
 image: 
 tags: 
@@ -26,9 +26,8 @@ emoji: 🌱
 
 پس هر زمان که از مرحله یادداشت‌برداری عبور کردید، نگاهی به نوشته‌های تان بیندازید اگر در زمینه ای یادداشت سازی نکردید یعنی شما اطلاعات زیادی کسب کرده‌اید اما هنوز نتوانسته‌اید به درستی از آن‌ها استفاده کنید. با یادداشت سازی تلاش کنید از ورودی ها خروجی بگیرید. این به شما کمک میکند از دانشی که کسب کردید ارزش و نتیجه بیشتری بگیرید و آن را به شکل موثر تری در زندگی روزمره خود به کار بگیرید.
 
-
-منابع بیشتر:
-- [Differences Between Note Taking and Note Making](https://bscholarly.com/differences-between-note-taking-and-note-making/)
-- [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
-- [Note-taking and Note-making](https://jarango.com/2023/01/26/note-taking-and-note-making/)
-- [Effective Notetaking](https://www.amazon.com/Effective-Notetaking-Study-Skills-McPherson/dp/1927166527/?_encoding=UTF8&pd_rd_w=FX4Jw&content-id=amzn1.sym.579192ca-1482-4409-abe7-9e14f17ac827&pf_rd_p=579192ca-1482-4409-abe7-9e14f17ac827&pf_rd_r=131-9099291-0023604&pd_rd_wg=EQplC&pd_rd_r=4ca40121-a196-46f4-970d-b47a01931f3d&ref_=aufs_ap_sc_dsk)
+> [!blue] 📖 بیشتر بخوانید
+> - [Differences Between Note Taking and Note Making](https://bscholarly.com/differences-between-note-taking-and-note-making/)
+> - [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
+> - [Note-taking and Note-making](https://jarango.com/2023/01/26/note-taking-and-note-making/)
+> - [Effective Notetaking](https://www.amazon.com/Effective-Notetaking-Study-Skills-McPherson/dp/1927166527/?_encoding=UTF8&pd_rd_w=FX4Jw&content-id=amzn1.sym.579192ca-1482-4409-abe7-9e14f17ac827&pf_rd_p=579192ca-1482-4409-abe7-9e14f17ac827&pf_rd_r=131-9099291-0023604&pd_rd_wg=EQplC&pd_rd_r=4ca40121-a196-46f4-970d-b47a01931f3d&ref_=aufs_ap_sc_dsk)
