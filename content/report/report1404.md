@@ -3,17 +3,17 @@ title: گزارش توسعه فردی ۱۴۰۴
 aliases:
   - گزارش توسعه فردی ۱۴۰۴
 date: 2025-04-24
-lastmod: 2025-05-21
+lastmod: 2025-06-07
 draft: false
 tags: 
 status: 🌱نهال
 image: 
-parent: "[[reports|📋 گزارش‌های توسعه فردی]]"
+parent:
+  - "[[reports|📋 گزارش‌های توسعه فردی]]"
 cssclasses:
   - card-s
   - nowarp2
   - c3-4
-  - w200
 order: "1404"
 emoji: 🌱
 ---
@@ -31,7 +31,7 @@ emoji: 🌱
 
 | icon | count      | sum         |
 | ---- | ---------- | ----------- |
-| 📚   | 8 جلد کتاب | `1897 صفحه` |
+| 📚   | 9 جلد کتاب | `2017 صفحه` |
 <!-- SerializedQuery END -->
 
 
@@ -86,7 +86,7 @@ emoji: 🌱
 
 | icon | "`" + length(filter(rows, (r) => r.🏋️exercise = true)) + " روز`" | "ورزش کردم" |
 | ---- | ----------------------------------------------------------------- | ----------- |
-| 🏋️  | `50 روز`                                                          | ورزش کردم   |
+| 🏋️  | `51 روز`                                                          | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -96,7 +96,7 @@ emoji: 🌱
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `105 پومودورو`                                  | مطالعه کردم   |
+| 📖   | `113 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "📱" as icon, "`" + round(sum(rows.📱social)) + " ساعت`", "در سوشال‌مدیا بودم" FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
@@ -120,16 +120,17 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                               | file.name                             | badge                                        | rating |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | -------------------------------------------- | ------ |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372230262i/18131269.jpg)  | دستورالعمل‌های فیل آبی برای ایده یابی | <ul><li>🪶خوش‌خوان</li><li>🌳پربار</li></ul> | \-     |
-| ![](https://www.iranketab.ir/Images/ProductImages/ddbb022862d746f693ec326801975f38.jpg)                              | یادگیری زایا                          | <ul><li>🐢سخت‌خوان</li></ul>                 | \-     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711024105i/210226829.jpg) | تاکسی سواری                           | \-                                           | \-     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678958674i/123254244.jpg) | یادگیری یادگیری                       | <ul><li>🪶خوش‌خوان</li></ul>                 | ⭐⭐⭐⭐⭐  |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1732359122i/37542567.jpg)  | مزخرفات فارسی                         | \-                                           | \-     |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630003593i/58863007.jpg)  | از قیطریه تا اورنج کانتی              | <ul><li>☕تلخ</li><li>🪶خوش‌خوان</li></ul>    | ⭐⭐⭐⭐⭐  |
-| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681403696i/55973999.jpg)  | قدرت سکوت                             | \-                                           | ⭐⭐⭐    |
-| ![](https://img.taaghche.com/frontCover/211482.jpg)                                                                  | کتاب 80000 ساعت                       | \-                                           | ⭐⭐⭐    |
+| ("![](" + cover + ")")                                                                                               | file.name                                             | badge                                          | rating |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------- | ------ |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1733936644i/222473148.jpg) | دستورالعمل‌های «رنه ماگریت» به فیل آبی برای ایده‌یابی | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ⭐⭐⭐⭐   |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372230262i/18131269.jpg)  | دستورالعمل‌های فیل آبی برای ایده یابی                 | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ⭐⭐⭐⭐⭐  |
+| ![](https://www.iranketab.ir/Images/ProductImages/ddbb022862d746f693ec326801975f38.jpg)                              | یادگیری زایا                                          | <ul><li>🐢سخت‌خوان</li></ul>                   | ⭐⭐     |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711024105i/210226829.jpg) | تاکسی سواری                                           | \-                                             | \-     |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678958674i/123254244.jpg) | یادگیری یادگیری                                       | <ul><li>🪶خوش‌خوان</li></ul>                   | ⭐⭐⭐⭐⭐  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1732359122i/37542567.jpg)  | مزخرفات فارسی                                         | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ⭐⭐⭐⭐   |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630003593i/58863007.jpg)  | از قیطریه تا اورنج کانتی                              | <ul><li>☕تلخ</li><li>🪶خوش‌خوان</li></ul>      | ⭐⭐⭐⭐⭐  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681403696i/55973999.jpg)  | قدرت سکوت                                             | \-                                             | ⭐⭐⭐    |
+| ![](https://img.taaghche.com/frontCover/211482.jpg)                                                                  | کتاب 80000 ساعت                                       | \-                                             | ⭐⭐⭐    |
 <!-- SerializedQuery END -->
 
 
@@ -243,13 +244,13 @@ emoji: 🌱
 
 #### سریال
 <!-- QueryToSerialize: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, badg, rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover + ")"), file.name, badge, rating FROM #Movie WHERE type = "series" AND date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
 
-| ("![](" + cover + ")")                                                                                                  | file.name      | badg | rating |
-| ----------------------------------------------------------------------------------------------------------------------- | -------------- | ---- | ------ |
-| ![](https://m.media-amazon.com/images/M/MV5BZDVmMzJkOWUtMjdjMi00NzA4LTgxMTItYjA4NjVjZDI0ZWU1XkEyXkFqcGc@._V1_SX300.jpg) | MobLand        | \-   | ⭐⭐⭐    |
-| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg) | Severance      | \-   | ⭐⭐⭐    |
-| ![](https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_SX300.jpg) | True Detective | \-   | ⭐⭐⭐⭐⭐  |
+| ("![](" + cover + ")")                                                                                                  | file.name      | badge                     | rating |
+| ----------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------- | ------ |
+| ![](https://m.media-amazon.com/images/M/MV5BZDVmMzJkOWUtMjdjMi00NzA4LTgxMTItYjA4NjVjZDI0ZWU1XkEyXkFqcGc@._V1_SX300.jpg) | MobLand        | \-                        | ⭐⭐⭐    |
+| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg) | Severance      | \-                        | ⭐⭐⭐    |
+| ![](https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_SX300.jpg) | True Detective | <ul><li>🌀مرموز</li></ul> | ⭐⭐⭐⭐⭐  |
 <!-- SerializedQuery END -->
 
 
@@ -312,7 +313,7 @@ emoji: 🌱
 
 | "" | true                 | false                  |
 | -- | -------------------- | ---------------------- |
-|    | 🏋️ 50 روز ورزش کردم | 🛌 26 روز استراحت کردم |
+|    | 🏋️ 51 روز ورزش کردم | 🛌 28 روز استراحت کردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -327,7 +328,7 @@ emoji: 🌱
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 105 پ | 🔺 بیشترین: 8 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.4 پ |
+| 🔘 جمع کل: 113 پ | 🔺 بیشترین: 8 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.4 پ |
 <!-- SerializedQuery END -->
 </div>
 <br><br>
@@ -341,7 +342,7 @@ emoji: 🌱
 
 | Total              | Maximum              | Minimum           | Average              |
 | ------------------ | -------------------- | ----------------- | -------------------- |
-| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1.2 ساعت |
+| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1.1 ساعت |
 <!-- SerializedQuery END -->
 </div>
 

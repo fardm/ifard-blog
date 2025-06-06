@@ -22,3 +22,4 @@ comments: false
 - 🌱 [[dataview plugin|نمونه های کاربردی پلاگین دیتاویو]]
 - 🌿 [[quartz customization|تنظیمات سفارشی من برای کوارتز]]
 <!-- SerializedQuery END -->
+

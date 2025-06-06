@@ -3,7 +3,7 @@ title: گزارش توسعه فردی ۱۴۰۳
 aliases:
   - گزارش توسعه فردی ۱۴۰۳
 date: 2024-08-25
-lastmod: 2025-04-01
+lastmod: 2025-06-07
 draft: false
 tags: 
 status: 🌿درختچه
@@ -406,7 +406,7 @@ emoji: 🌿
 | ![](https://m.media-amazon.com/images/M/MV5BM2JiY2Y5ZWUtN2MzMC00ZmFkLWIxYmUtYzc1MDc0YTQ2MjQzXkEyXkFqcGdeQXVyMTcwNTUzODk0._V1_SX300.jpg)                 | In the Shadow of the Cypress           | `20 دقیقه`                      | ⭐⭐⭐⭐⭐  |
 | ![](https://m.media-amazon.com/images/M/MV5BMTg0MDY2NzUwNF5BMl5BanBnXkFtZTgwNzQ0NDc2OTE@._V1_SX300.jpg)                                                 | Dinner for Few                         | `10 دقیقه`                      | ⭐⭐⭐    |
 | ![](https://m.media-amazon.com/images/M/MV5BZTI5YTNhYjAtNTRhYi00ZTg1LTllNGYtODQ5ZTUxZjNjOTMwXkEyXkFqcGdeQXVyMjYwMTc1NDQ@._V1_SX300.jpg)                 | The Box                                | `12 دقیقه`                      | ⭐⭐⭐    |
-| ![](https://m.media-amazon.com/images/M/MV5BYTMyZjUwNjktYjUzNC00YzNhLWI4YzQtMmRhZjJhZDEwYmUyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg)                 | The Boy the Mole the Fox and the Horse | `32 دقیقه`                      | ⭐⭐⭐⭐⭐  |
+| ![](https://m.media-amazon.com/images/M/MV5BZDg4MjI3NGMtOTcwMC00ZWQ0LWI0YjMtNDA0YmZjN2FlYzg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg)                         | The Boy the Mole the Fox and the Horse | `32 دقیقه`                      | ⭐⭐⭐⭐   |
 | ![](https://m.media-amazon.com/images/M/MV5BNTFhNTU0OGQtZTJjYy00Yzg0LThkMmQtZDYxNjU5NzNiYzkyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjA3NDQ@._V1_SX300.jpg) | Destiny                                | `5 دقیقه`                       | ⭐⭐⭐    |
 | ![](https://m.media-amazon.com/images/M/MV5BNjJlYTcxNmItYzgwOS00MWE3LTg3ZjUtODRhN2M4ODVkZDU5XkEyXkFqcGdeQXVyMzc0Njg0NzM@._V1_SX300.jpg)                 | Best Friend                            | `6 دقیقه`                       | ⭐⭐⭐    |
 | ![](https://m.media-amazon.com/images/M/MV5BYzE1OWRlNjItN2M1MC00MzAwLTllOWQtZjdkNjY0OTU2YTA2XkEyXkFqcGdeQXVyMjMzMTI2NzU@._V1_SX300.jpg)                 | Hair Love                              | `7 دقیقه`                       | ⭐⭐⭐⭐   |
@@ -549,6 +549,7 @@ emoji: 🌿
 
 ![[150700.webp]]
 
+برای اینکه بهتر بفهمیم این عدد چه قدر است یک محاسبه جالب انجام دادم. اگر هر 5 ثانیه حدود 30 سانتی متر اسکرول کرده باشم 557 ساعت تقریبا می شود 120 کیلومتر. یعنی با انگشتم یک بار مسیر قم تهران را طی کردم.
 <br><br>
 
 
