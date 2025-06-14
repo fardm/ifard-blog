@@ -86,7 +86,7 @@ emoji: 🌱
 
 | icon | "`" + length(filter(rows, (r) => r.🏋️exercise = true)) + " روز`" | "ورزش کردم" |
 | ---- | ----------------------------------------------------------------- | ----------- |
-| 🏋️  | `51 روز`                                                          | ورزش کردم   |
+| 🏋️  | `55 روز`                                                          | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -96,7 +96,7 @@ emoji: 🌱
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `113 پومودورو`                                  | مطالعه کردم   |
+| 📖   | `114 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "📱" as icon, "`" + round(sum(rows.📱social)) + " ساعت`", "در سوشال‌مدیا بودم" FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
@@ -313,7 +313,7 @@ emoji: 🌱
 
 | "" | true                 | false                  |
 | -- | -------------------- | ---------------------- |
-|    | 🏋️ 51 روز ورزش کردم | 🛌 28 روز استراحت کردم |
+|    | 🏋️ 55 روز ورزش کردم | 🛌 30 روز استراحت کردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -328,7 +328,7 @@ emoji: 🌱
 
 | Total            | Maximum         | Minimum        | Average           |
 | ---------------- | --------------- | -------------- | ----------------- |
-| 🔘 جمع کل: 113 پ | 🔺 بیشترین: 8 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.4 پ |
+| 🔘 جمع کل: 114 پ | 🔺 بیشترین: 8 پ | 🔻 کمترین: 0 پ | 📈 میانگین: 1.3 پ |
 <!-- SerializedQuery END -->
 </div>
 <br><br>
@@ -340,17 +340,23 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
 <!-- SerializedQuery: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
 
-| Total              | Maximum              | Minimum           | Average              |
-| ------------------ | -------------------- | ----------------- | -------------------- |
-| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1.1 ساعت |
+| Total              | Maximum              | Minimum           | Average            |
+| ------------------ | -------------------- | ----------------- | ------------------ |
+| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1 ساعت |
 <!-- SerializedQuery END -->
 </div>
 
+
+<div class="full">
+<!-- QueryToSerialize: table without id " اگر این زمان را صرف راه‌رفتن کرده بودم معادل " + round(sum(rows.📱social))*5 + " کیلومتر پیاده رفته بودم." FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
+<!-- SerializedQuery: table without id " اگر این زمان را صرف راه‌رفتن کرده بودم معادل " + round(sum(rows.📱social))*5 + " کیلومتر پیاده رفته بودم." FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
+
+| " اگر این زمان را صرف راه‌رفتن کرده بودم معادل " + round(sum(rows.📱social))*5 + " کیلومتر پیاده رفته بودم." |
+| ------------------------------------------------------------------------------------------------------------ |
+|  اگر این زمان را صرف راه‌رفتن کرده بودم معادل 440 کیلومتر پیاده رفته بودم.                                   |
+<!-- SerializedQuery END -->
+</div>
+
+(سرعت پیاده روی حدود 5 کیلومتر در ساعت است)
+
 <br><br>
-
-
-
-
-<br><br>
-
-
