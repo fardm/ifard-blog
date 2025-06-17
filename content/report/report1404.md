@@ -68,7 +68,7 @@ emoji: 🌱
 
 | icon | count          | sum         |
 | ---- | -------------- | ----------- |
-| 🍿   | 8 فیلم و سریال | `59.8 ساعت` |
+| 🍿   | 8 فیلم و سریال | `66.7 ساعت` |
 <!-- SerializedQuery END -->
 
 
@@ -86,7 +86,7 @@ emoji: 🌱
 
 | icon | "`" + length(filter(rows, (r) => r.🏋️exercise = true)) + " روز`" | "ورزش کردم" |
 | ---- | ----------------------------------------------------------------- | ----------- |
-| 🏋️  | `55 روز`                                                          | ورزش کردم   |
+| 🏋️  | `57 روز`                                                          | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -104,7 +104,7 @@ emoji: 🌱
 
 | icon | "`" + round(sum(rows.📱social)) + " ساعت`" | "در سوشال‌مدیا بودم" |
 | ---- | ------------------------------------------ | -------------------- |
-| 📱   | `88 ساعت`                                  | در سوشال‌مدیا بودم   |
+| 📱   | `118 ساعت`                                 | در سوشال‌مدیا بودم   |
 <!-- SerializedQuery END -->
 
 
@@ -205,7 +205,7 @@ emoji: 🌱
 
 | icon | count   | sum         |
 | ---- | ------- | ----------- |
-| 📺   | 3 سریال | `49.4 ساعت` |
+| 📺   | 3 سریال | `56.3 ساعت` |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎈" as icon, length(rows) + " انیمیشن" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Movie WHERE type = "animation" AND length != null AND date >= date("2025-03-21") AND date <= date("2026-03-20") GROUP BY "" -->
@@ -248,8 +248,8 @@ emoji: 🌱
 
 | ("![](" + cover + ")")                                                                                                  | file.name      | badge                     | rating |
 | ----------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------- | ------ |
-| ![](https://m.media-amazon.com/images/M/MV5BZDVmMzJkOWUtMjdjMi00NzA4LTgxMTItYjA4NjVjZDI0ZWU1XkEyXkFqcGc@._V1_SX300.jpg) | MobLand        | \-                        | ⭐⭐⭐    |
-| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg) | Severance      | \-                        | ⭐⭐⭐    |
+| ![](https://m.media-amazon.com/images/M/MV5BZDVmMzJkOWUtMjdjMi00NzA4LTgxMTItYjA4NjVjZDI0ZWU1XkEyXkFqcGc@._V1_SX300.jpg) | MobLand        | <ul><li>🧲گیرا</li></ul>  | ⭐⭐⭐⭐   |
+| ![](https://m.media-amazon.com/images/M/MV5BZDI5YzJhODQtMzQyNy00YWNmLWIxMjUtNDBjNjA5YWRjMzExXkEyXkFqcGc@._V1_SX300.jpg) | Severance      | <ul><li>🌀مرموز</li></ul> | ⭐⭐⭐    |
 | ![](https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_SX300.jpg) | True Detective | <ul><li>🌀مرموز</li></ul> | ⭐⭐⭐⭐⭐  |
 <!-- SerializedQuery END -->
 
@@ -313,7 +313,7 @@ emoji: 🌱
 
 | "" | true                 | false                  |
 | -- | -------------------- | ---------------------- |
-|    | 🏋️ 55 روز ورزش کردم | 🛌 30 روز استراحت کردم |
+|    | 🏋️ 57 روز ورزش کردم | 🛌 32 روز استراحت کردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -340,9 +340,9 @@ emoji: 🌱
 <!-- QueryToSerialize: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
 <!-- SerializedQuery: table without id "🔘 جمع کل: " + round(sum(rows.📱social)) + " ساعت" as Total, "🔺 بیشترین: " + round(max(rows.📱social),1) + " ساعت" as Maximum, "🔻 کمترین: " + round(min(rows.📱social),1) + " ساعت" as Minimum, "📈 میانگین: " + round(sum(rows.📱social) / length(rows), 1) + " ساعت" as Average FROM #journal WHERE file.name >= ("2025-03-21") AND file.name <= ("2026-03-20") GROUP BY "" -->
 
-| Total              | Maximum              | Minimum           | Average            |
-| ------------------ | -------------------- | ----------------- | ------------------ |
-| 🔘 جمع کل: 88 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0 ساعت | 📈 میانگین: 1 ساعت |
+| Total               | Maximum              | Minimum             | Average              |
+| ------------------- | -------------------- | ------------------- | -------------------- |
+| 🔘 جمع کل: 118 ساعت | 🔺 بیشترین: 2.5 ساعت | 🔻 کمترین: 0.4 ساعت | 📈 میانگین: 1.3 ساعت |
 <!-- SerializedQuery END -->
 </div>
 
@@ -353,7 +353,7 @@ emoji: 🌱
 
 | " اگر این زمان را صرف راه‌رفتن کرده بودم معادل " + round(sum(rows.📱social))*5 + " کیلومتر پیاده رفته بودم." |
 | ------------------------------------------------------------------------------------------------------------ |
-|  اگر این زمان را صرف راه‌رفتن کرده بودم معادل 440 کیلومتر پیاده رفته بودم.                                   |
+|  اگر این زمان را صرف راه‌رفتن کرده بودم معادل 590 کیلومتر پیاده رفته بودم.                                   |
 <!-- SerializedQuery END -->
 </div>
 

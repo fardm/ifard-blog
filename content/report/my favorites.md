@@ -22,12 +22,14 @@ cssclasses:
 
 | ("![](" + cover + ")")                                                                                                                  | file.name                             | badge                           | year |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------- | ---- |
+| ![](https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg) | Zodiac                                | <ul><li>🌀مرموز</li></ul>       | 2007 |
 | ![](https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | The Silence of the Lambs              | \-                              | 1991 |
 | ![](https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg)                                     | The Prestige                          | \-                              | 2006 |
 | ![](https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | The Pianist                           | <ul><li>☕تلخ</li></ul>          | 2002 |
 | ![](https://m.media-amazon.com/images/M/MV5BZDE3YzQ3YmQtMDI0NC00NDdhLWI2MGUtYjZiM2Q0ZGM5ZGI4XkEyXkFqcGdeQXVyNDk2MjM2MDI@._V1_SX300.jpg) | The Lizard                            | \-                              | 2004 |
 | ![](https://m.media-amazon.com/images/M/MV5BNWQ2ODFhNWItNTA4NS00MzkyLTgyYzUtZjlhYWE5MmEzY2Q1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg) | The Game                              | \-                              | 1997 |
 | ![](https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg) | Shutter Island                        | <ul><li>🌀مرموز</li></ul>       | 2010 |
+| ![](https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg)                 | Se7en                                 | <ul><li>🌀مرموز</li></ul>       | 1995 |
 | ![](https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg) | Parasite                              | <ul><li>😵بهت‌آور</li></ul>     | 2019 |
 | ![](https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg) | Memento                               | <ul><li>🌀مرموز</li></ul>       | 2000 |
 | ![](https://m.media-amazon.com/images/M/MV5BNmE0OWJlM2MtNzhmMi00YmQyLTlmY2EtZmUzNzBiNGRlN2JkXkEyXkFqcGc@._V1_SX300.jpg)                 | Marriage Story                        | <ul><li>🧲گیرا</li></ul>        | 2019 |
@@ -42,8 +44,6 @@ cssclasses:
 | ![](https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_SX300.jpg)                                 | 310 to Yuma                           | <ul><li>🧩سرگرم‌کننده</li></ul> | 2007 |
 | ![](https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_SX300.jpg)                                 | 12 Years a Slave                      | <ul><li>☕تلخ</li></ul>          | 2013 |
 | ![](https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg) | 12 Angry Men                          | <ul><li>🦉آموزنده</li></ul>     | 1957 |
-| ![](https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg)                 | Se7en                                 | <ul><li>🌀مرموز</li></ul>       | 1995 |
-| ![](https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg) | Zodiac                                | <ul><li>🌀مرموز</li></ul>       | 2007 |
 <!-- SerializedQuery END -->
 
 <br> <br> 
