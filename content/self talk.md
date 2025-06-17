@@ -4,7 +4,7 @@ aliases:
   - خودگویی
 date: 2025-05-25
 lastmod: 2025-06-17
-draft: true
+draft: false
 comments: true
 status: 
 cssclasses:
