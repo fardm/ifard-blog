@@ -9,6 +9,7 @@ status: 🌱
 tags:
 comments: true
 draft: false
+image: "[[add-content-obsidian.webp]]"
 ---
 ![[add-content-obsidian.webp]]
 

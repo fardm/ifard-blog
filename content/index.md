@@ -15,18 +15,32 @@ draft: false
 
 ---
 
-```cardnote
-{
-  "title": "مدیریت دانش شخصی",
-  "image": "/assets/images/pkm.webp",
-  "link": "./pkm"
-}
 
-{
-  "title": "نرم‌افزار ابسیدین",
-  "image": "/assets/images/obsidian-in-mine.webp",
-  "link": "./obsidian"
-}
+
+
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "pkm"
+            - file.name == "obsidian"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
 ```
 
-%%  [[archive|آرشیو]]  |  [[tags|تگ‌ها]] %%
+
+
+
+
+<style>
+	.bases-view-meta {
+		display: none;
+	}
+	
+</style>

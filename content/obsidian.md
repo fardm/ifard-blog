@@ -8,6 +8,7 @@ cssclasses:
 comments: false
 created: 2025-01-01
 draft: false
+image: "[[obsidian-in-mine.webp]]"
 ---
 ## برای آشنایی با ابسیدین
 ```cardnote

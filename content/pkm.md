@@ -8,6 +8,7 @@ status: 🌳
 publish: true
 comments: true
 draft: false
+image: "[[pkm.webp]]"
 ---
 ![[pkm.webp]]
 

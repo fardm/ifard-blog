@@ -4,7 +4,7 @@
 @use "./_ui.scss";
 @use "./my-callouts.scss";
 
-// gelobal-----------
+// gelobal------------
     :root {
         --bodyFont: "DanaVF" !important;
         --headerFont: "DanaVF" !important;
@@ -80,6 +80,10 @@
 
     .footnotes > ol > li {
         line-height: 4rem;
+    }
+
+    button {
+        font-family: var(--bodyFont);
     }
 
 
@@ -218,8 +222,7 @@
     // قبلا تصاویر داخل تگ پاراگراف بود اما به خاطر پلاگین clickableImages رفته داخل تگ دیو به خاطر همین تگ پی رو برداشتم.
     img {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto !important;
     }
 
 
