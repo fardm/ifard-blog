@@ -249,7 +249,7 @@ plugins:
       priority: 15
       display: all
 layout:
-  groups:
+  groups:   
     toolbar:
       priority: 35
       direction: row

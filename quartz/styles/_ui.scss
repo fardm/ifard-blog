@@ -187,8 +187,8 @@
     }
 
 // afterBody
-    // backlinks & tag list
-    .flex-component:has(> div > div.backlinks, > div > ul.tags) {
+    // backlinks
+    div.backlinks {
         border: solid 1px var(--lightgray);
         border-radius: 0.5rem;
         padding: 1.5rem;
@@ -197,30 +197,15 @@
         margin-top: 3rem;
     }
 
-    //اضافه کردن بوردر بین بک‌ لینک و تگ وقتی هر دو وجود دارن
-    .flex-component:has(> div > div.backlinks):has(> div > ul.tags) > div:first-child {
-    border-bottom: 1px solid var(--lightgray);
-}
 
-    // backlinks
-        .backlinks{
-
-        }
-
-        .backlinks>h3 {
-            color: var(--darkgray);
-            font-size: 1.4rem;
-            // border-bottom: 1px solid var(--lightgray);      
-        }
-
-        ul.overflow:after,ol.overflow:after {
-            display: none;
-        }
+        // ul.overflow:after,ol.overflow:after {
+        //     // display: none;
+        // }
 
     // tags
-    .tags {
-        margin-right: -2.5rem;
-    }
+    // .tags {
+    //     margin-right: -2.5rem;
+    // }
 
     // div:has(> ul.tags)::before {
     //     content: "تگ‌ها";
