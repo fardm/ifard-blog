@@ -1,0 +1,63 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Youtube",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "length",
+			"value": "{{schema:@VideoObject:duration|duration:\\\"H:mm\\\"|replace:\\\":\\\":\\\"h \\\"|trim}}m",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "Media",
+			"type": "multitext"
+		},
+		{
+			"name": "cover",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "cover_self",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "cover_source",
+			"value": "{{meta:property:og:image}}",
+			"type": "text"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "number"
+		}
+	],
+	"triggers": [
+		"https://www.youtube.com/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "Resources/Media"
+}

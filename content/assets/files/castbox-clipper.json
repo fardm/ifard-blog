@@ -1,0 +1,63 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Castbox",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "author",
+			"value": "{{schema:@BreadcrumbList:itemListElement[1].item.name}}",
+			"type": "multitext"
+		},
+		{
+			"name": "length",
+			"value": "{{selector:div.duration |replace:\\\"/^0?(\\\\d+):(\\\\d+):\\\\d+$/\\\":\\\"$1h $2m\\\" |replace:\\\"/^0h /\\\":\\\"\\\" }}",
+			"type": "text"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "cover",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "cover_self",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "cover_source",
+			"value": "{{selector:img.cover?src}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "Podcast",
+			"type": "multitext"
+		},
+		{
+			"name": "date",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "status",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://castbox.fm/"
+	],
+	"noteNameFormat": "{{selector:h1.trackinfo-title?title}}",
+	"path": "Resources/Podcasts"
+}
