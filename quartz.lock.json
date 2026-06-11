@@ -187,11 +187,23 @@
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-06-10T18:13:08.771Z"
     },
+    "quartz-content-meta-plus": {
+      "source": "github:fardm/quartz-content-meta-plus",
+      "resolved": "https://github.com/fardm/quartz-content-meta-plus.git",
+      "commit": "f5300fc8305917e1bd1e4c2a867e7d0ba2d0928a",
+      "installedAt": "2026-06-11T12:01:58.048Z"
+    },
     "quartz-plugin-cardnote": {
       "source": "github:fardm/quartz-plugin-cardnote",
       "resolved": "https://github.com/fardm/quartz-plugin-cardnote.git",
-      "commit": "fe49904f67bae7986ebd9616caad3ca39a525606",
-      "installedAt": "2026-06-10T19:16:49.482Z"
+      "commit": "4b8a10a5497badc5b3e1a3d2fb5ccdc5ccaa3a89",
+      "installedAt": "2026-06-11T08:59:40.854Z"
+    },
+    "quartz-standalone-comments": {
+      "source": "github:fardm/quartz-standalone-comments",
+      "resolved": "https://github.com/fardm/quartz-standalone-comments.git",
+      "commit": "a5ec87238034a370fa987cd87cc6d2fbc32e5687",
+      "installedAt": "2026-06-11T09:14:58.406Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",

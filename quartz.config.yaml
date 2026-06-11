@@ -171,7 +171,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -237,7 +237,8 @@ plugins:
       includeAll: false
       includedProperties:
         - status
-        - tags
+        - created
+        - modified
       excludedProperties: []
       hidePropertiesView: true
       delimiters: ---
@@ -249,6 +250,21 @@ plugins:
       display: all
   - source: github:fardm/quartz-plugin-cardnote
     enabled: true
+  - source: github:fardm/quartz-standalone-comments
+    enabled: true
+    options:
+      backendUrl: "https://ifard.ir/comments"
+    layout:
+      position: afterBody
+      priority: 100
+  - source: github:fardm/quartz-content-meta-plus
+    enabled: true
+    options:
+      showComma: false
+      showReadingTime: false
+    layout:
+      position: beforeBody
+      priority: 20
 layout:
   groups:   
     toolbar:

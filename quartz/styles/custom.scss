@@ -4,7 +4,7 @@
 @use "./_ui.scss";
 @use "./my-callouts.scss";
 
-// gelobal------------
+// gelobal------
     :root {
         --bodyFont: "DanaVF" !important;
         --headerFont: "DanaVF" !important;
@@ -284,7 +284,7 @@ a.internal {
 }
 
 a:hover {
-    text-decoration: underline;
+    // text-decoration: underline;
 }
 
 a.external .external-icon {

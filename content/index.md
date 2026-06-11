@@ -39,8 +39,10 @@ views:
 
 
 <style>
-	.bases-view-meta {
-		display: none;
-	}
+  h1.article-title,
+  .content-meta-plus,
+  .bases-view-meta {
+    display: none;
+  }
 	
 </style>
