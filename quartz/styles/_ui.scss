@@ -221,16 +221,6 @@
 
 // sidebar
 
-    .sidebar {
-        padding: 4rem 2rem 2rem !important;
-    }
-
-    @media (max-width: 800px) {
-        .sidebar {
-            padding: 0 !important;
-        }
-    }
-
     @media not (min-width: 1200px) {
         .page>#quartz-body .sidebar.right {
             flex-direction: column;
@@ -417,7 +407,7 @@ div.page-listing ul.section-ul {
 //     }
 //   }
 
-// ----
+// -------
 
 .sidebar {
     padding: 0 !important;
@@ -430,6 +420,12 @@ div.page-listing ul.section-ul {
 .page {
     position: relative; 
     padding-top: 8rem; 
+}
+
+@media (max-width: 800px) {
+    .page {
+        padding-top: 4rem; 
+    }
 }
   
 div.flex-component:has(.page-title) {
