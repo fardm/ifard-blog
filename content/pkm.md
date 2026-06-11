@@ -105,17 +105,25 @@ flowchart LR
 
 <br> 
 
-> 📖 پیشنهاد مطالعه: در [[note-taking|یادداشت برداری]] در مورد موضوع این توضیحات کامل‌تری نوشته‌ام:
-> ```cardnote
-> {
->   "title": "یادداشت برداری",
->   "image": "/assets/images/note-taking.webp",
->   "link": "./note-taking"
-> }
-> {  
-> "empty": true  
-> }
-> ```
+📖 پیشنهاد مطالعه: در [[note-taking|یادداشت برداری]] در مورد این موضوع توضیحات کامل‌تری نوشته‌ام:
+
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "note-taking"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
+```
+
+
+
 
 <br>
 
@@ -126,19 +134,22 @@ flowchart LR
 
 <br> 
 
-> 📖 پیشنهاد مطالعه:
-> ```cardnote
-> {
->   "title": "سازماندهی یادداشت‌ها",
->   "image": "/assets/images/organizing-note.webp",
->   "link": "./organizing-notes"
-> }
-> {
->   "title": "لینک‌دهی، ایجاد ارتباط بین یادداشت‌ها",
->   "image": "/assets/images/linking.webp",
->   "link": "./linking"
-> }
-> ```
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "organizing-notes"
+            - file.name == "linking"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
+```
+
 
 <br> <br> 
 
@@ -154,15 +165,20 @@ flowchart LR
 
 دانسته‌ها اگر فراموش نشوند لزوما به مرحله عمل نمی‌رسند. با انجام فعالیت‌های مولد در این مرحله تلاش می‌کنیم آنچه را آموختیم به کار ببندیم و زندگی‌شان کنیم.
 
-```cardnote
-{
-  "title": "یادداشت سازی",
-  "image": "/assets/images/note-making.webp",
-  "link": "./note-making"
-}
-{  
-"empty": true  
-}
+
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "note-making"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
 ```
 
 %%
@@ -177,16 +193,6 @@ flowchart LR
 ### مرحله چهارم: بیان‌کردن(Express)
 در این مرحله تلاش می‌کنیم از ورودی‌ها خروجی بگیریم. با روش های مختلف تلاش می‌کنیم آنچه را یادگرفتیم بیان کنیم. البته بهتر است این بیان کردن عمومی باشد. [[learn-in-public|یادگیری در ملأعام]] مفهومی است که توصیه می کند فرآیند یادگیری‌مان را عمومی کنیم و بگذاریم دیگران هم ببینند چطور یاد می‌گیریم، چه چیزهایی می‌فهمیم، و چه چیزهایی هنوز برایمان مبهم‌اند. این کار باعث می‌شود بازخورد بگیریم و اشتباهاتمان را بهتر بشناسیم.
 
-```cardnote
-{
-  "title": "یادگیری در ملأعام",
-  "image": "/assets/images/learn-in-public.webp",
-  "link": "./learn-in-public"
-}
-{  
-"empty": true  
-}
-```
 
 نشر و بیان دانش به شکل ‌های متعددی انجام است. می توانید جستار، مقاله یا کتاب بنویسید. همچنین می توانید به دیگران آموزش بدهید. وقتی چیزی را به کسی آموزش می‌دهیم، در واقع خودمان هم بهتر یاد می‌گیریم. تدریس یکی از بهترین روش‌ها برای عمیق کردن یادگیری است. حتی اگر کسی را پیدا نکردید به خوتان توضیح دهید. 
 %% نیاز به بازنویسی داره %%
@@ -208,17 +214,22 @@ flowchart LR
 امروز دنیای دیجیتال طوری طراحی شده که همه بر سر تصاحب کردن توجه ما با یکدیگر رقابت می‌کنند. باید توجه خود را مدیریت کنید و اجازه ندهید هرکسی این منبع ارزشمند را هدر دهد. 
 
 
-> 📖 پیشنهاد مطالعه: در [[attention-management|مدیریت توجه]] راهکارهای مناسبی برای مدیریت توجه معرفی کردم:
-> ```cardnote
-> {
->   "title": "مدیریت توجه",
->   "image": "/assets/images/attention-management.webp",
->   "link": "./attention-management"
-> }
-> {  
-> "empty": true  
-> }
-> ```
+📖 پیشنهاد مطالعه: در [[attention-management|مدیریت توجه]] راهکارهای مناسبی برای مدیریت توجه معرفی کردم:
+
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "attention-management"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
+```
 
 
 <br> 
@@ -256,17 +267,8 @@ flowchart LR
 ## سیستم‌های متداول مدیریت دانش
 برای مدیریت دانش شخصی سیستم‌های متعددی طراحی شده است. هر کدام از این سیستم‌ها از اصول خاصی پیروی می‌کنند. اگر ابتدای مسیر مدیریت دانش هستید می‌توانید این موارد را با دقت مطالعه کنید و روشی که با نیاز شما همخوانی بیشتری دارد را انتخاب کنید. 
 
-البته لزوما قرار نیست از یکی از سیستم های موجود پیروی کنید. شما می توانید بر اساس نیاز و علاقه خود سیستم مناسب خودتان را طراحی کنید. از ایده ها و ساختارهای هر کدام الهام بگیرید و سیستم شخصی خودتان را کارآمد کنید.  برای اینکه نیاز و شخصیت خودتان را بیشتر بشناسید پیشنهاد می کنم [[your-note-style|شخصیت شما در یادداشت برداری]] را مطالعه کنید:
-```cardnote
-{
-  "title": "شخصیت شما در یادداشت برداری",
-  "image": "/assets/images/your-note-style.webp",
-  "link": "./your-note-style"
-}
-{  
-"empty": true  
-}
-```
+البته لزوما قرار نیست از یکی از سیستم های موجود پیروی کنید. شما می توانید بر اساس نیاز و علاقه خود سیستم مناسب خودتان را طراحی کنید. از ایده ها و ساختارهای هر کدام الهام بگیرید و سیستم شخصی خودتان را کارآمد کنید.  برای اینکه نیاز و شخصیت خودتان را بیشتر بشناسید پیشنهاد می کنم [[your-note-style|شخصیت شما در یادداشت برداری]] را مطالعه کنید.
+
 
 <br>
 
@@ -282,16 +284,21 @@ flowchart LR
 
 این روش هم ساختار شبکه‌ای را توصیه می کند.‌
 
-```cardnote
-{
-  "title": "دیجیتال گاردن",
-  "image": "/assets/images/digital-garden.webp",
-  "link": "./digital-garden"
-}
-{  
-"empty": true  
-}
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "digital-garden"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
 ```
+
 <br> 
 
 ### ساختن مغز دوم (Building a Second Brain
@@ -299,15 +306,19 @@ flowchart LR
 
 این روش چندان تحت ساختار سلسله مراتبی نیست، اما اصراری هم بر لینک دهی و ساختن شبکه اطلاعات ندارد.
 
-```cardnote
-{
-  "title": "ساختن مغز دوم",
-  "image": "/assets/images/second-brain.webp",
-  "link": "./second-brain"
-}
-{  
-"empty": true  
-}
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "second-brain"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
 ```
 
 <br> 
@@ -341,3 +352,23 @@ flowchart LR
 [^6]: این چهار مرحله در واقع همان فرایند چهار مرحله‌ای CODE است که توسط تیاگو فورته طراحی شده اما من ترجیح دادم در مرحله سوم به جای عصاره گیری(Distill) از پردازش استفاده کنم. در این مرحله من اقدامات بیشتری انجام می‌دهم که واژه‌ی عصاره گیری شامل آنها نمی‌شود.
 
 [^7]: در کنار مدیریت دانش شخصی یک اصطلاح دیگر هم وجود دارد: مدیریت اطلاعات شخصی(Personal Information Management). مدیریت اطلاعات اغلب شامل ذخیره و سازماندهی گزارش‌ها، فاکتورها، عکس‌ها، پروژه‌ها و تسک‌ها است که چندان عمیق نیست و بیشتر جنبه‌ی خصوصی دارد. در مقابل مدیریت دانش اغلب شامل یادداشت برداری، تحیل و ارزیابی، به کارگیری و نشر دانش است که جنبه‌ی عمیق‌تری دارد. امروزه این تفکیک کمرنگ شده و این دو مفهوم یک کاسه شده‌اند. یعنی در مدیریت دانش شخصی، داده‌ها هم از جنس اطلاعات شخصی هستند هم از جنس دانش. با توجه به تنوع مطالب فکر می‌کنم این تفکیک دیگر ضرورت ندارد چون نمی‌توان مرز مشخصی برای تفکیک اطلاعات از دانش تعریف کرد. در روشی که تیاگو فورته با عنوان ساخت مغز دوم طراحی کرده می‌توانید ادغام این دو مفهوم را به خوبی مشاهده کنید. چارچوبی که برای سازماندهی در این روش تعریف شده هم شامل دانش است هم اطلاعات.
+
+
+
+<style>
+	div.bases-cards {
+		justify-items: center;
+		grid-template-columns: 1fr 1fr !important;
+	}
+	
+	.bases-view-meta {
+    display: none;
+	}
+	
+    @media (max-width: 480px) {
+		div.bases-cards {
+			grid-template-columns: 1fr !important;
+		}
+    }
+</style>
+

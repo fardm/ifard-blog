@@ -1,7 +1,7 @@
 ---
-title: یادداشت‌های اخیر
+title: نوشته‌ها
 aliases:
-  - یادداشت‌های اخیر
+  - نوشته‌ها
 created: 2025-01-01
 modified:
 publish: true
