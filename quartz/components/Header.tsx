@@ -1,7 +1,9 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
-  return children.length > 0 ? <header>{children}</header> : null
+  const hasChildren = Array.isArray(children) ? children.length > 0 : !!children
+  
+  return hasChildren ? <header>{children}</header> : null
 }
 
 Header.css = `

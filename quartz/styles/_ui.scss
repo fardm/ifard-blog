@@ -1,27 +1,8 @@
 // beforeBody
     // navbar
-    header {
-        position: absolute;
-        top: 1.8rem;
-        left: -0.45rem;
-        width: 100%;
-        // z-index: 1000;
-        margin: 0;
-        box-sizing: border-box;
-    }
 
-    header>div {
-        width: 100%;
-        max-width: 850px;
-        margin: 0 auto;
-        justify-content: space-between;
-        box-sizing: border-box;
-        padding: 1.2rem;
-        border-radius: 0.5rem;
-        background: var(--on-background);
-        border: solid 1px var(--lightgray);
 
-    }
+
 
     body::before {
         content: "";
@@ -35,7 +16,7 @@
     }
 
     body {
-        padding-top: 80px;
+        padding-top: 3rem;
         background: var(--background);
     }
 
@@ -136,7 +117,6 @@
         border: solid var(--lightgray);
         border-width: 1px;
         border-radius: 0.5rem;
-        margin-top: 4rem !important;
         padding: 1.5rem;
         box-sizing: border-box;
     }
@@ -262,7 +242,7 @@
         border-radius: 5px;
         border: 1px solid var(--lightgray);
         background: var(--on-background);
-        padding: 12px; 
+        padding: 1.2rem 1.2rem 1.2rem 0.4rem; 
         font-size: 0.9rem;
 
     }
@@ -363,7 +343,7 @@
         padding: 0.3rem 1rem 0;
         box-sizing: border-box;
         background: var(--on-background);
-        margin-top: 2rem;
+        // margin-top: 2rem;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -436,3 +416,57 @@ div.page-listing ul.section-ul {
 //       height: 1.4em;
 //     }
 //   }
+
+// ----
+
+.sidebar {
+    padding: 0 !important;
+}
+
+.page>#quartz-body {
+    gap: 2rem;
+}
+
+.page {
+    position: relative; 
+    padding-top: 8rem; 
+}
+  
+div.flex-component:has(.page-title) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: var(--content-width, 800px); 
+    z-index: 999;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    background: var(--on-background);
+    border: solid 1px var(--lightgray);
+}
+  
+div.flex-component:has(.page-title) > div {
+    flex-grow: 0 !important;
+    flex-basis: auto !important;
+}
+  
+div.flex-component:has(.page-title) > div:nth-child(2) {
+    margin-right: auto; 
+    margin-left: 1rem;
+}
+  
+.page-title {
+    margin: 0 !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+  
+.search {
+    margin: 0 !important;
+}
