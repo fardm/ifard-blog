@@ -134,78 +134,6 @@
     }
 
 
-
-
-
-
-// دکمه
-    //دیفالت - توپر
-    .my-button {
-    background-color: var(--tertiary);
-    color: white;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-family: var(--bodyFont);
-    font-size: 1em;
-    }  
-
-    .my-button:hover {
-        background-color: var(--secondary);
-    }
-
-    // تو خالی
-    .button2 {
-        background-color: transparent;
-        color: var(--darkgray);
-        padding: 8px 15px;
-        border: 1px solid var(--darkgray);
-        border-radius: 50px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        font-family: var(--bodyFont);
-        font-size: 0.9em;
-        } 
-    
-    .button2:hover {
-        background-color: var(--tertiary);
-        color: white;
-        border: 1px solid var(--secondary);
-        }
-
-    .minimal-button {
-        font-family: var(--bodyFont);
-        background-color: var(--light);
-        color: var(--darkgray);
-        border: 1px solid var(--darkgray);
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        } 
-    
-    .minimal-button:hover {
-        background-color: var(--tertiary);
-        color: white;
-        border: 1px solid var(--secondary);
-        }
-
-
-// لیست استایل برای صفحات نقشه محتوا
-.map-list {
-    ul {
-        list-style: none;
-        margin-inline-start: -2em;
-    }
-    
-    li {
-        line-height: 2.5rem;
-    }
-
-}
-
-
 // تصاویر
 
     // اینورت رنگ تصاویر 
@@ -225,7 +153,6 @@
         margin: 0 auto !important;
     }
 
-
     // گالری جدید
     .img-grid {
         display: grid;
@@ -235,7 +162,6 @@
         align-items: stretch;
     }
     
-
     .img-grid .lightbox-wrapper {
         height: 100%;
         display: flex;
@@ -263,34 +189,25 @@
         
 
 // بلاک نقل قول
-    blockquote.transclude > :is(h1, h2, h3, h4, h5, h6):nth-child(1) {
-        display: none;
-    }
+blockquote.transclude > :is(h1, h2, h3, h4, h5, h6):nth-child(1) {
+    display: none;
+}
 
-    blockquote {
-        border-left: none;
-        border-right: 3px solid var(--secondary);
-        padding-right: 0.6rem;
-        padding-left: 0;
 
-    }
+blockquote { // انتقال بوردر رنگی به سمت راست تا مناسب متن فارسی باشه
+    border-left: none;
+    border-right: 3px solid var(--secondary);
+}
     
-
-
 
 // لینک
 a.internal {
     background-color: transparent;
 }
 
-a:hover {
-    // text-decoration: underline;
-}
-
 a.external .external-icon {
     transform: scaleX(-1);
 }
-
 
 
 
@@ -303,8 +220,6 @@ a.external .external-icon {
     fill: var(--lightgray) !important;
     stroke: var(--gray) !important;
 }
-
-/* متن شاخه‌ها */
 
 .mindmap-node[class*="section-"]:not(.section-root) text {
     fill: var(--darkgray) !important;

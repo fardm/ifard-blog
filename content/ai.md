@@ -4,7 +4,6 @@ aliases:
   - 🤖هوش مصنوعی
 publish: true
 cssclasses:
-  - map-list
 comments: false
 created: 2025-01-01
 draft: false
