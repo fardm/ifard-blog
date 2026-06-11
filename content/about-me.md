@@ -8,6 +8,7 @@ publish: true
 comments: true
 status: 🌱
 draft: false
+image: "[[me.webp]]"
 ---
 
 ![[me.webp |200]]

@@ -9,6 +9,7 @@ tags:
 status: 🌳
 comments: true
 draft: false
+image: "[[obsidian-in-hand.webp]]"
 ---
 
 ![[obsidian-in-hand.webp]]

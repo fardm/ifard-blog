@@ -9,6 +9,7 @@ comments: true
 status: 🌱
 tags:
 draft: false
+image: "[[none.webp]]"
 ---
 
 

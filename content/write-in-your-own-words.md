@@ -10,6 +10,7 @@ cssclasses:
 comments: true
 modified: 2025-09-05
 draft: false
+image: "[[none.webp]]"
 ---
 **رونویسی نکنید؛ با زبان خودتان بنویسید**
 

@@ -9,6 +9,7 @@ status: 🌱
 cssclasses:
 modified: 2026-06-08
 draft: false
+image: "[[how-the-brain-learns.webp]]"
 ---
 ![[how-the-brain-learns.webp]]
 

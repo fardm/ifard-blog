@@ -9,6 +9,7 @@ draft: false
 publish: true
 comments: true
 status: 🌱
+image: "[[second-brain.webp]]"
 ---
 ![[second-brain.webp]]
 

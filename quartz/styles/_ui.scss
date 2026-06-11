@@ -277,6 +277,10 @@
         padding-right: 1rem;
     }
 
+    button.toc-header.collapsed .fold {
+        transform: rotate(90deg)
+    }
+
     @media (max-width: 1510px) {
         .mobile-only.toc {
             display: block;

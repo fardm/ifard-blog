@@ -12,6 +12,7 @@ status: 🌿
 tags:
   - AI
 draft: false
+image: "[[ollama.svg]]"
 ---
 ![[ollama.svg]]
 

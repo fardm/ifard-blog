@@ -9,6 +9,7 @@ tags:
 comments: true
 modified: 2026-06-09
 draft: false
+image: "[[create-report.webp]]"
 ---
 ![[create-report.webp]]
 

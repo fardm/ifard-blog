@@ -13,6 +13,7 @@ cssclasses:
   - card-s
   - nowarp2
 draft: false
+image: "[[reports.webp]]"
 ---
 <br>
 

@@ -9,6 +9,7 @@ publish: true
 comments: true
 tags:
 status: 🌱
+image: "[[obsidian-in-display.webp]]"
 ---
 ![[obsidian-in-display.webp]]
 

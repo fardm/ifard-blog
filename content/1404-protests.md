@@ -10,6 +10,7 @@ comments: true
 status: 🌱
 tags:
   - تحلیلواره
+image: "[[1404-protests-1771132637122.webp]]"
 ---
 ![[1404-protests-1771132637122.webp|500]][^1]
 

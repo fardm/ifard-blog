@@ -9,6 +9,7 @@ status: 🌿
 tags:
 comments: true
 draft: false
+image: "[[obsidian-publish.webp]]"
 ---
 
 ![[obsidian-publish.webp]]

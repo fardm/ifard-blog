@@ -14,6 +14,7 @@ cssclasses:
   - nowarp2
   - c3-4
 draft: false
+image: "[[reports.webp]]"
 ---
 
 > [!quote] ‌

@@ -10,6 +10,7 @@ tags:
 status: 🌿
 cssclasses:
 draft: false
+image: "[[quartz-customization.webp]]"
 ---
 
 ![[quartz-customization.webp]]

@@ -15,7 +15,19 @@ draft: false
 
 ---
 
+```cardnote
+{
+  "title": "مدیریت دانش شخصی",
+  "image": "/assets/images/pkm.webp",
+  "link": "./pkm"
+}
 
+{
+  "title": "نرم‌افزار ابسیدین",
+  "image": "/assets/images/obsidian-in-mine.webp",
+  "link": "./obsidian"
+}
+```
 
 
 ```base

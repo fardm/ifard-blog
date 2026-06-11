@@ -10,6 +10,7 @@ publish: true
 draft: false
 comments: true
 cssclasses:
+image: "[[none.webp]]"
 ---
 
 

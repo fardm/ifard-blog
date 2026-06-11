@@ -9,6 +9,7 @@ status: 🌳
 comments: true
 modified: 2025-09-05
 draft: false
+image: "[[digital-garden.webp]]"
 ---
 ![[digital-garden.webp]]
 

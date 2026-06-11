@@ -12,6 +12,7 @@ cssclasses:
   - nowarp2
   - card-s
 draft: false
+image: "[[reports.webp]]"
 ---
 
 

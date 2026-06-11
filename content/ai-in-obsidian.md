@@ -10,6 +10,7 @@ status: 🌿
 tags:
   - AI
 draft: false
+image: "[[obsidian-ai.webp]]"
 ---
 ![[obsidian-ai.webp]]
 

@@ -8,6 +8,7 @@ publish: true
 comments: true
 status: 🌿
 draft: false
+image: "[[note-taking.webp]]"
 ---
 
 ![[note-taking.webp]]

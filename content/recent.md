@@ -7,6 +7,7 @@ modified:
 publish: true
 status:
 draft: false
+comments: false
 ---
 
 ```base
@@ -38,6 +39,7 @@ views:
     sort:
       - property: created
         direction: DESC
+    image: note.image
 
 ```
 

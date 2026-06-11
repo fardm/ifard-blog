@@ -8,6 +8,7 @@ cssclasses:
 comments: false
 created: 2025-01-01
 draft: false
+image: "[[reports.webp]]"
 ---
 ![[reports.webp]]
 

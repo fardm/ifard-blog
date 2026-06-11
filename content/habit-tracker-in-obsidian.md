@@ -8,7 +8,7 @@ publish: true
 comments: true
 status: 🌿
 draft: false
-image: "[[habit-tracker-in-obsidian]]"
+image: "[[habit-tracker.webp]]"
 ---
 ![[habit-tracker.webp]]
 

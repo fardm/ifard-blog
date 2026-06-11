@@ -10,6 +10,7 @@ status: 🌱
 tags:
   - بازاندیشی
 draft: false
+image: "[[none.webp]]"
 ---
 
 > [!quote] ‌

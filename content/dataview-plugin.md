@@ -11,6 +11,7 @@ cssclasses:
   - fill-table
 comments: true
 draft: false
+image: "[[dataview.webp]]"
 ---
 
 ![[dataview.webp]]

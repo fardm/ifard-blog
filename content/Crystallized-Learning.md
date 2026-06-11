@@ -10,6 +10,7 @@ cssclasses:
 comments: true
 modified: 2025-09-05
 draft: false
+image: "[[none.webp]]"
 ---
 این یادداشت به زودی تکمیل خواهد شد...
 

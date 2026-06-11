@@ -5,8 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: "matomo"
-    host: "analytics.ifard.ir"
+    provider: matomo
+    host: analytics.ifard.ir
     siteId: "1"
   locale: fa-IR
   baseUrl: ifard.ir
@@ -253,7 +253,7 @@ plugins:
   - source: github:fardm/quartz-standalone-comments
     enabled: true
     options:
-      backendUrl: "https://ifard.ir/comments"
+      backendUrl: https://ifard.ir/comments
     layout:
       position: afterBody
       priority: 100
@@ -262,11 +262,8 @@ plugins:
     options:
       showComma: false
       showReadingTime: false
-    layout:
-      position: beforeBody
-      priority: 20
 layout:
-  groups:   
+  groups:
     toolbar:
       priority: 35
       direction: row

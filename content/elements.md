@@ -7,6 +7,7 @@ publish: true
 comments: true
 modified: 2026-06-03
 draft: false
+image: "[[none.webp]]"
 ---
 [فایل اصلی](https://github.com/fardm/quartz/blob/v4/content/elements.md)
 

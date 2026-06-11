@@ -9,6 +9,7 @@ publish: true
 comments: true
 status: 🌱
 draft: false
+image: "[[linking.webp]]"
 ---
 ![[linking.webp]]
 

@@ -9,6 +9,7 @@ status: 🌱
 tags:
 comments: true
 draft: false
+image: "[[cover-wikipedia.jpg]]"
 ---
 ![[cover-wikipedia.jpg]]
 

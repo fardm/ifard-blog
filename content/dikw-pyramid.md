@@ -10,6 +10,7 @@ tags:
 cssclasses:
 comments: true
 draft: false
+image: "[[pyramid.webp]]"
 ---
 ![[pyramid.webp|400]]
 

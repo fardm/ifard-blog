@@ -10,6 +10,7 @@ status: 🌱
 tags:
   - خویش_داستان
 draft: false
+image: "[[none.webp]]"
 ---
 
 
