@@ -26,7 +26,7 @@ views:
         direction: DESC
     image: note.image
     imageAspectRatio: 2
-    cardSize: 200
+    cardSize: 300
   - type: cards
     name: تاریخ ایجاد
     filters:
@@ -40,6 +40,8 @@ views:
       - property: created
         direction: DESC
     image: note.image
+    cardSize: 300
+    imageAspectRatio: 2
 
 ```
 

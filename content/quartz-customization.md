@@ -3,7 +3,7 @@ title: تنظیمات سفارشی من برای کوارتز
 aliases:
   - تنظیمات سفارشی من برای کوارتز
 created: 2024-05-29
-modified: 2026-06-03
+modified: 2026-06-12
 publish: true
 comments: true
 tags:
