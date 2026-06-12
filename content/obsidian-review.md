@@ -202,16 +202,22 @@ image: "[[obsidian-in-hand.webp]]"
 ## منابع برای یادگیری
 برای یادگیری ابسیدین منابع مختلفی وجود دارد بهترین مورد [داکیومنت ابسیدین](https://help.obsidian.md/) است. البته اگر اول راه هستید ممکن است حوصله‌ی خواندن این داکیومنت را نداشته باشید. بهتر است از ویدئوی‌های موجود در یوتیوب استفاده کنید. البته من هم یک ویدئو ضبط کردم. در حد آشنایی با رابط کاربری و تنظیمات اولیه کارتان را راه می اندازد. در یادداشت زیر می‌توانید آن را مشاهده کنید:
 
-```cardnote
-{
-  "title": "آموزش نرم افزار ابسیدین",
-  "image": "/assets/images/obsidian-in-display.webp",
-  "link": "./obsidian-install"
-}
-{
-  "empty": true
-}
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "obsidian-install"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
 ```
+
+
 
 مطالب دیگری هم در مورد ابسیدین نوشته‌ام که در صفحه [[obsidian|🔮نرم‌افزار ابسیدین]] فهرست شده‌اند. می‌توانید از این یادداشت‌ها استفاده کنید.
 
@@ -226,3 +232,22 @@ image: "[[obsidian-in-hand.webp]]"
 
 
 [^1]: یکی از مشکلات من اهمیت دادن بیش‌ازاندازه به ابزارهاست از وقتی آن جمله معروف [تیز کردن اره](https://www.artofmanliness.com/character/habits/the-7-habits-sharpen-the-saw/) را شنیدم اوضاع بدتر هم شد، نه‌تنها کارم را بیهوده نمی‌دانستم بلکه آنقدر مشغول تیزکردن شدم که دیگر فرصت نکردم درختی قطع کنم. در واقع کم کم دچار [سندرم شیء براق](https://fa.wikipedia.org/wiki/%D8%B3%D9%86%D8%AF%D8%B1%D9%85_%D8%B4%DB%8C_%D8%A8%D8%B1%D8%A7%D9%82) شدم.([+](https://nesslabs.com/shiny-toy-syndrome)) امروز هم سرعت تولید نرم‌افزارها به‌شدت افزایش‌یافته و هرلحظه ابزار جدیدی تولید می‌شود و اگر بخواهید پیگیر آن‌ها باشید دیگر فرصت نمی‌کنید نوشته‌های خود را مدیریت کنید. کمی تأمّل کنید و شتاب‌زده سراغ ابزارهای مختلف نروید. 
+
+
+
+<style>
+	div.bases-cards {
+		justify-items: center;
+		grid-template-columns: 1fr 1fr !important;
+	}
+	
+	.bases-view-meta {
+    display: none;
+	}
+	
+    @media (max-width: 480px) {
+		div.bases-cards {
+			grid-template-columns: 1fr !important;
+		}
+    }
+</style>

@@ -3,8 +3,8 @@ title: آسیب‌های تشکیل حکومت اسلامی
 aliases:
   - آسیب‌های تشکیل حکومت اسلامی
 created: 2026-03-16
-modified: 2026-05-05
-draft: false
+modified: 2026-06-12
+draft: true
 publish: true
 comments: true
 status: 🌱
