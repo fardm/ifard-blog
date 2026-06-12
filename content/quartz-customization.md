@@ -44,7 +44,7 @@ image: "[[quartz-customization.webp]]"
 <br>
 
 ### ‌کال‌اوت
-توی فایل `_my-callouts.scss` چندتا کال‌اوت بدون آیکون با رنگ های مختلف بسازم:
+توی فایل `_my-callouts.scss` چندتا کال‌اوت بدون آیکون با رنگ های مختلف ساختم:
 
 > [!empty]- پیش نمایش
 > 
@@ -209,80 +209,54 @@ cssclasses: card-g c-3
 <br>
 
 ### گرید تصاویر
+یک گرید ساختم برای اینکه بتونم تصاویر رو توی یک ردیف کنار هم داشته باشم. برای اینکار از سینتکس کال‌اوت استفاده کردم. یعنی کافیه تصاویر رو داخل کال‌اوت grid قرار بدید به این صورت:
+```md
+> [!grid]
+> ![[image-1.webp]]
+> ![[image-2.webp]]
+```
 
-وقتی از چندتا تصویر استفاده میکنم یک گرید اضافه کردم که کنار هم قرار بگیرند. اینطوری:
+خروجی میشه این:
 
-<div class="img-grid">
-  <img src="pic-obsi001.jpg" alt="Description of image 1"/>
-  <img src="pic-obsi002.jpg" alt="Description of image 2"/>
-  <img src="obsidian-review.webp" alt="Description of image 3"/>
-</div>
+> [!grid]
+> ![[pkm.webp]] 
+> ![[obsidian-in-mine.webp]]
 
-<br> 
+تعداد ستون ها به صورت خودکار بر اساس تعداد تصاویر و عرض صفحه تعیی میشه. معمولا دو تصویر دو ستون و سه تصویر در سه ستون نمایش داده میشه. 
 
-برای اینکار اول کد زیر رو به فایل custom.scss اضافه کنید:
+برای اینکار کد زیر رو به فایل custom.scss اضافه کنید:
 
-اگر لایت باکس رو فعال کردید این رو استفاده کنید:
 ```scss title="custom.scss"
-.img-grid {
-	display: grid;
-	margin-block: 0.5rem;
-	grid-column-gap: 0.5rem;
-	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-	align-items: stretch;
+.callout[data-callout="grid"] {
+    background-color: transparent;
+    padding: 0 !important;
+    --border: transparent;
+    
+    & .callout-content {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+
+        > p:empty {
+            display: none;
+        }
+    }
+
+    & .callout-title {
+        display: none;
+    }
 }
 
-.img-grid .lightbox-wrapper {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.callout[data-callout="grid"] .callout-content {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
-.img-grid .lightbox-wrapper .lightbox-image {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	margin: 0;
-}
-```
-
-اگر لایت باکس رو فعال نکردید این رو استفاده کنید:
-```scss title="custom.scss"
-.img-grid {
-	display: grid;
-	margin-block: 0.5rem;
-	grid-column-gap: 0.5rem;
-	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-	align-items: stretch;
-}
-
-.img-grid img {
-	object-fit: cover;
-	margin: 0 auto;
+@media (max-width: 480px) {
+    .callout[data-callout="grid"] .callout-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 ```
-
-بعد به این شکل از تصاویر داخل فایل مارکدان استفاده کنید:
-```html
-<div class="img-grid">
-  <img src="image1.jpg"/>
-  <img src="image2.jpg"/>
-  <img src="image3.jpg"/>
-</div>
-```
-
-اسم فایل تون رو جایگزین `image1.jpg` کنید.
-
-اینطوری هم میتونید بهش کپشن اضافه کنید:
-```html
-<div class="img-grid">
-	<figure><img src="image1.webp"/><figcaption>image1</figcaption></figure>
-	<figure><img src="image2.webp"/><figcaption>image2</figcaption></figure>
-	<figure><img src="image3.webp"/><figcaption>image3</figcaption></figure>
-</div>
-```
-
 
 <br>
 

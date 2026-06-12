@@ -196,8 +196,8 @@
     "quartz-clickable-images": {
       "source": "github:fardm/quartz-clickable-images",
       "resolved": "https://github.com/fardm/quartz-clickable-images.git",
-      "commit": "01958f332b14d9cd2fffa9d13bd1647299f410ae",
-      "installedAt": "2026-06-12T09:54:30.235Z"
+      "commit": "d1f0eed49b815942a3d90fe9dcb212bdb9eaf56d",
+      "installedAt": "2026-06-12T11:04:09.766Z"
     },
     "quartz-content-meta-plus": {
       "source": "github:fardm/quartz-content-meta-plus",
