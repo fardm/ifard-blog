@@ -209,25 +209,70 @@ cssclasses: card-g c-3
 <br>
 
 ### گرید تصاویر
-یک گرید ساختم برای اینکه بتونم تصاویر رو توی یک ردیف کنار هم داشته باشم. برای اینکار از سینتکس کال‌اوت استفاده کردم. یعنی کافیه تصاویر رو داخل کال‌اوت grid قرار بدید به این صورت:
-```md
-> [!grid]
-> ![[image-1.webp]]
-> ![[image-2.webp]]
-```
+یک گرید ساختم برای اینکه بتونم تصاویر رو توی یک ردیف کنار هم داشته باشم. برای اینکار از سینتکس کال‌اوت استفاده کردم. یعنی کافیه تصاویر رو داخل کال‌اوت grid قرار بدید.
 
-خروجی میشه این:
+تعداد ستون ها به صورت خودکار بر اساس تعداد تصاویر و عرض صفحه تعیین میشه. معمولا دو تصویر دو ستون و سه تصویر در سه ستون نمایش داده میشه. نسبت تصویر رو هم میشه مشخص کرد.
 
-> [!grid]
-> ![[pkm.webp]] 
-> ![[obsidian-in-mine.webp]]
+> [!empty]- پیش نمایش
+> 
+> #### grid
+> ```md
+> > [!grid]
+> > ![[image-1.webp]]
+> > ![[image-2.webp]]
+> ```
+> 
+> > [!grid]
+> > 
+> > ![[obsidian-in-hand.webp]] 
+> > ![[obsidian-in-mine.webp]]
+> 
+> #### grid 1-1
+> ```md
+> > [!grid-1-1]
+> > 
+> > ![[image-1.webp]]
+> > ![[image-2.webp]]
+> ```
+> 
+> > [!grid-1-1]
+> > 
+> > ![[obsidian-in-hand.webp]] 
+> > ![[obsidian-in-mine.webp]]
+> 
+> #### grid 4-3
+> ```md
+> > [!grid-4-3]
+> > 
+> > ![[image-1.webp]]
+> > ![[image-2.webp]]
+> ```
+> 
+> > [!grid-4-3]
+> > 
+> > ![[obsidian-in-hand.webp]] 
+> > ![[obsidian-in-mine.webp]]
+> 
+> #### grid 16-9
+> ```md
+> > [!grid-16-9]
+> > 
+> > ![[image-1.webp]]
+> > ![[image-2.webp]]
+> ```
+> 
+> > [!grid-16-9]
+> > 
+> > ![[obsidian-in-hand.webp]] 
+> > ![[obsidian-in-mine.webp]]
+> 
 
-تعداد ستون ها به صورت خودکار بر اساس تعداد تصاویر و عرض صفحه تعیی میشه. معمولا دو تصویر دو ستون و سه تصویر در سه ستون نمایش داده میشه. 
+<br> 
 
 برای اینکار کد زیر رو به فایل custom.scss اضافه کنید:
 
 ```scss title="custom.scss"
-.callout[data-callout="grid"] {
+.callout[data-callout^="grid"] {
     background-color: transparent;
     padding: 0 !important;
     --border: transparent;
@@ -247,16 +292,78 @@ cssclasses: card-g c-3
     }
 }
 
-.callout[data-callout="grid"] .callout-content {
+.callout[data-callout="grid-16-9"] .callout-content img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-1-1"] .callout-content img {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-4-3"] .callout-content img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.callout[data-callout^="grid"] .callout-content {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 @media (max-width: 480px) {
-    .callout[data-callout="grid"] .callout-content {
+    .callout[data-callout^="grid"] .callout-content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 ```
+
+<br>
+
+### کپشن تصاویر
+برای اضافه کردن کپشن هم یه کال‌اوت ایجاد کردم. میشد با html کار رو راه انداخت اما میخواستم با همون روش مارک داون تصاویر رو اضافه کنم.چون این بهینه تره و اگر لینک تصاویر رو تغییر دادم ابسیدین خودکار تشخیص میده و اصلاح میکنه.
+
+باید از این استفاده کنید:
+
+```
+> [!figure]
+> ![[image.webp]]
+> caption
+```
+
+خروجی اینه:
+> [!figure]
+> ![[pkm.webp]]
+> caption 1
+
+
+
+میشه با گرید قبلی هم ترکیبش کرد: 
+```
+> [!grid]
+> > [!figure]
+> >
+> > ![[image1.webp]]
+> > caption 1
+> 
+> > [!figure]
+> >
+> > ![[image2.webp]]
+> > caption 2
+```
+
+خروجی اینه:
+
+> [!grid]
+> > [!figure]
+> >
+> > ![[Windows1.0.webp]]
+> > Windows 1.0
+> 
+> > [!figure]
+> >
+> > ![[windows-3-1.webp]]
+> > windows 3-1
 
 <br>
 
@@ -286,8 +393,13 @@ cssclasses: card-g c-3
 
 <br> 
 
-برای نصب این پلاگین این کد رو به `quartz.config.yaml` اضافه کنید:
-```yaml
+برای نصب این پلاگین دستور زیر رو وارد کنید:
+```
+npx quartz plugin add github:fardm/quartz-content-meta-plus
+```
+
+تنظیماتش به این صورته:
+```yaml title="quartz.config.yaml"
 - source: github:fardm/quartz-content-meta-plus
 enabled: true
 options:
@@ -298,13 +410,7 @@ layout:
   priority: 20
 ```
 
-بعدش این دستور رو بزنید تا نصب بشه:
-```shell
-npx quartz plugin install --from-config
-```
-
-
-حالا از پراپرتی های زیر میتونید توی یادداشت تون استفاده کنید:
+بعد از اینکه نصب شد میتونید از پراپرتی های زیر توی یادداشت تون استفاده کنید:
 
 ```md title="example.md"
 ---
@@ -317,6 +423,19 @@ status: "🌱"نهال
 ```
 
 <br>
+
+### لایت باکس تصاویر
+یکی از کاربرا برای نسخه قبل پلاگینی نوشته بود که تصاویر رو قابل کلیک کرده بود تا لایت باکس داشته باشه. فایلش اینجاست:
+
+[Quartz Clickable Images Zoom plugin](https://github.com/vazome/quartz-clickable-images-zoom-plugin)
+
+من اصلاحش کردم تا توی نسخه 5 قابل استفاده باشه. برای نصبش کافیه این دستور رو بزنید:
+
+```
+npx quartz plugin add github:fardm/quartz-clickable-images
+```
+
+<br> 
 
 ### کامنت مستقل
 
@@ -341,8 +460,13 @@ status: "🌱"نهال
 3. توی مروگر به این لینک برید: `https://yourdomain.com/comments/set-password.php`. یک پسورد وارد کنید و تایید کنید.
 
 #### گام دوم: نصب پلاگین
- این کد رو به `quartz.config.yaml` اضافه کنید:
-```yaml
+برای نصب پلاگین روی کوارتز این دستور رو بزنید:
+```
+npx quartz plugin add github:fardm/quartz-standalone-comments
+```
+
+تنظیماتش در حالت پیشفرض اینه:
+```yaml title="quartz.config.yaml"
 - source: github:fardm/quartz-standalone-comments
 enabled: true
 options:
@@ -354,12 +478,12 @@ layout:
 
 مقدار backendUrl باید دامنه خودتون رو وارد کنید و مسیری که فایل رو توش آپلود کردید.
 
-بعدش این دستور رو بزنید تا نصب بشه:
-```shell
-npx quartz plugin install --from-config
+دستور زیر رو بزنید تا پیش نمایش سایت رو ببینید:
+```
+npx quartz build --serve
 ```
 
-دستور بیلد سرو رو بزنید باید کامنت اضافه شده باشه.
+سایت رو چک کنید باید کامنت به انتهای صفحه اضافه شده باشه.
 
 برای دیدن پنل ادمین کامنت باید به این لینک برید: `https://yourdomain.com/comments/admin.html`.
 

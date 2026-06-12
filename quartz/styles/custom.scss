@@ -216,7 +216,7 @@ code.mermaid svg path.edge {
 
 
 //  Callout Grid Layouts -----------------------------------
-.callout[data-callout="grid"] {
+.callout[data-callout^="grid"] {
     background-color: transparent;
     padding: 0 !important;
     --border: transparent;
@@ -236,12 +236,50 @@ code.mermaid svg path.edge {
     }
 }
 
-.callout[data-callout="grid"] .callout-content {
+.callout[data-callout="grid-16-9"] .callout-content img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-1-1"] .callout-content img {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-4-3"] .callout-content img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.callout[data-callout^="grid"] .callout-content {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 @media (max-width: 480px) {
-    .callout[data-callout="grid"] .callout-content {
+    .callout[data-callout^="grid"] .callout-content {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+// caption image
+
+.callout[data-callout="figure"] {
+    background-color: transparent;
+    padding: 0 !important;
+    --border: transparent;
+    text-align: center;
+    margin: 0;
+
+    & .callout-content {
+        display: flex;
+        flex-direction: column;
+        > p:empty {
+            display: none;
+    }
+    }
+
+    & .callout-title {
+        display: none;
     }
 }

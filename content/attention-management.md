@@ -80,11 +80,10 @@ image: "[[attention-management.webp]]"
 
 من اپ های اصلی و ضروری را به صفحه اصلی اضافه کردم و بقیه اپ ها را مجبورم با سرچ کردن پیدا کنم. برای اینستاگرام و توییتر هم محدودیت گذاشتم و موقع ورود باید مشخص کنم که چند دقیقه قصد دارم از اپ استفاده کنم. به این ترتیب آگاهانه وارد اپ میشوم و وقتی مهلتم تمام شود اپ بسته می‌شود.
 
-<div class="img-grid">
-  <img src="digital-detox-1763925897275.webp" alt="Description of image 1"/>
-  <img src="digital-detox-1763926196621.webp" alt="Description of image 2"/>
-  <img src="digital-detox-1763925905764.webp" alt="Description of image 3"/>
-</div>
+> [!grid]
+> ![[digital-detox-1763925897275.webp]]
+> ![[digital-detox-1763926196621.webp]]
+> ![[digital-detox-1763925905764.webp]]
 
 
 
@@ -144,16 +143,17 @@ image: "[[attention-management.webp]]"
 
 اولین کامپیوترها قابلیت مولتی‌تسکینگ واقعی را نداشتند و  فقط یک کار را اجرا می‌کردند. مولتی‌تسکینگ از دهه‌ی ۱۹۶۰ میلادی با سیستم‌هایی مثل CTSS و بعداً Multics/UNIX به وجود آمد. حتی ویندوز در نسخه 1.0 پنجره‌ها را به صورت کاشی شده نشان می‌داد و امکان قرار گیری پنجره‌ها روی هم از ویندوز 2.0 معرفی شد.
 
-<div class="img-grid">
-	<figure>
-		<img src="Windows1.0.webp" alt="Description of image 1"/>
-		<figcaption>Windows1.0</figcaption>
-	</figure>
-	<figure>
-		<img src="windows-3-1.webp" alt="Description of image 2"/>
-		<figcaption>Windows3.1</figcaption>
-	</figure>
-</div>
+
+> [!grid]
+> > [!figure]
+> >
+> > ![[Windows1.0.webp]]
+> > Windows 1.0
+> 
+> > [!figure]
+> >
+> > ![[windows-3-1.webp]]
+> > windows 3-1
 
 <br> 
 
