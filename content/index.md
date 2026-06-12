@@ -2,7 +2,6 @@
 title: حسین فردمحمدی
 description: یادداشت‌های حسین فردمحمدی
 cssclasses:
-  - hide
 comments: false
 publish: true
 created: 2025-01-01
@@ -40,3 +39,7 @@ views:
     display: none;
   }	
 </style>
+
+
+
+

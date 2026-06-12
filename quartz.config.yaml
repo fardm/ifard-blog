@@ -184,9 +184,9 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
-      position: beforeBody
+      position: afterBody
       priority: 30
   - source: github:quartz-community/page-title
     enabled: true
@@ -240,6 +240,12 @@ plugins:
     enabled: true
     options: {}
     order: 50
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: "auto"
+      exportPadding: 20
   - source: github:quartz-community/note-properties
     enabled: true
     options:

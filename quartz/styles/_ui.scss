@@ -11,7 +11,6 @@ body::before {
 }
 
 body {
-    padding-top: 3rem;
     background: var(--background);
 }
 
@@ -21,26 +20,29 @@ body {
     gap: 2rem;
 }
 
-.page {
+.page[data-frame="default"] {
     position: relative; 
-    padding-top: 8rem; 
+    padding-top: 9rem; 
 }
 
 @media (max-width: 800px) {
-    .page {
-        padding-top: 4rem; 
+    .page[data-frame="default"] {
+        padding-top: 7rem; 
+    }
+    .page>#quartz-body {
+        gap: 1rem;
     }
 }
   
 div.flex-component:has(.page-title) {
     position: absolute;
-    top: 0;
+    top: 2rem;
     left: 0;
     right: 0;
     margin: 0 auto;
     width: 100%;
     max-width: var(--content-width, 800px); 
-    z-index: 999;
+    z-index: 1;
     display: flex;
     justify-content: space-between !important;
     align-items: center;
@@ -194,6 +196,29 @@ div.backlinks {
     background: var(--on-background);
     margin-top: 3rem;
 }
+
+// tag-list
+div.page-footer ul.tags {
+    border: solid 1px var(--lightgray);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background: var(--on-background);
+    margin-top: 3rem;
+}
+
+
+div.page-footer ul.tags::before {
+    content: "برچسب‌ها:";
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+// .tags li:first-child::before {
+//     content: "برچسب‌ها";
+//     margin-left: 0.5rem;
+//   }
 
 
 // standalone-comments --------------------
