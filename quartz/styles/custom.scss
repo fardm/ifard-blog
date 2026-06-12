@@ -251,6 +251,11 @@ code.mermaid svg path.edge {
     object-fit: cover;
 }
 
+.callout[data-callout="grid-3-4"] .callout-content img {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
 .callout[data-callout^="grid"] .callout-content {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }

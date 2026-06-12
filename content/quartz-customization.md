@@ -333,8 +333,8 @@ cssclasses: card-g c-3
 
 خروجی اینه:
 > [!figure]
-> ![[pkm.webp]]
-> caption 1
+> ![[obsidian-in-mine.webp]]
+> caption
 
 
 
@@ -357,13 +357,13 @@ cssclasses: card-g c-3
 > [!grid]
 > > [!figure]
 > >
-> > ![[Windows1.0.webp]]
-> > Windows 1.0
+> > ![[obsidian-in-mine.webp]]
+> > caption 1
 > 
 > > [!figure]
 > >
-> > ![[windows-3-1.webp]]
-> > windows 3-1
+> > ![[obsidian-in-hand.webp]]
+> > caption 2
 
 <br>
 
