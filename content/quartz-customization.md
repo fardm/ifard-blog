@@ -471,4 +471,9 @@ RewriteRule ^(.*)/$ $1/index.html [L]
 - لایت باکس
 - کاروسل
 
+
+```
+npx quartz plugin add github:fardm/quartz-clickable-images
+```
+
  %%
