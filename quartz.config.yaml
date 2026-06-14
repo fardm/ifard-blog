@@ -263,13 +263,6 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source: github:fardm/quartz-standalone-comments
-    enabled: true
-    options:
-      backendUrl: https://ifard.ir/comments
-    layout:
-      position: afterBody
-      priority: 100
   - source: github:fardm/quartz-content-meta-plus
     enabled: true
     options:
@@ -280,6 +273,14 @@ plugins:
       priority: 20
   - source: github:fardm/quartz-clickable-images
     enabled: true
+  - source: github:fardm/quartz-standalone-comments
+    enabled: true
+    options:
+      backendUrl: https://comments.ifard.ir
+    order: 100
+    layout:
+      position: afterBody
+      priority: 100
 layout:
   groups:
     toolbar:

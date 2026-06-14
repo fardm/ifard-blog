@@ -208,8 +208,8 @@
     "quartz-standalone-comments": {
       "source": "github:fardm/quartz-standalone-comments",
       "resolved": "https://github.com/fardm/quartz-standalone-comments.git",
-      "commit": "a5ec87238034a370fa987cd87cc6d2fbc32e5687",
-      "installedAt": "2026-06-11T09:14:58.406Z"
+      "commit": "3268a67acac9efff12cecbcc198c884badbddd05",
+      "installedAt": "2026-06-14T08:15:36.104Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
