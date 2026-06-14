@@ -488,3 +488,9 @@ mklink /J "C:\myvault\quartz-content" "C:\quartz\content"
 > 
  %%
 
+
+
+## لینک های مفید
+https://github.com/quartz-community/awesome-quartz
+
+https://deepwiki.com/jackyzha0/quartz 
