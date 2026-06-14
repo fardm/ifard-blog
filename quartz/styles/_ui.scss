@@ -1,4 +1,5 @@
-// body ----------------------
+// ================ 01. BODY & BACKGROUND ================
+
 body::before {
     content: "";
     pointer-events: none;
@@ -14,7 +15,10 @@ body {
     background: var(--background);
 }
 
-// Navbar ==========================
+// ================ 02. NAVBAR & HEADER ================
+
+
+// ---------- 2.1 GROUP COMPONENTS ----------
 
 .page>#quartz-body {
     gap: 2rem;
@@ -63,8 +67,8 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
     margin-left: 1rem;
 }
 
+// ---------- 2.2 PAGE TITLE ----------
 
-// page title ----------------------
 .page-title {
     position: relative;
     border-bottom: none;
@@ -106,7 +110,8 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
     }
 }
 
-// search ----------------------
+// ---------- 2.3 SEARCH ----------
+
 @media (max-width: 1510px) {
     .search>.search-button>p {      
         display: none;
@@ -121,16 +126,15 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
     padding-left: 0.6rem;
 }
 
+// ---------- 2.4 DARKMODE TOGGLE ----------
 
-// darkmode -----------------------
 .darkmode {
     vertical-align: middle;
-    }
+}
 
+// ================ 03. CENTER & CONTENT AREA ================
 
-// pageBody ================================
-
-//page top --------------------
+// ---------- 3.1 PAGE TOP ----------
 .page-top {
     background: var(--on-background);
     border: solid var(--lightgray);
@@ -147,24 +151,22 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
     }
 }
 
+.page-header {
+    margin-top: 0rem !important;
+}
 
-// page header ---------------------
-    .page-header {
-        margin-top: 0rem !important;
+.article-title {
+    margin: 1rem 0;
+}
+
+@media not (min-width: 1200px) {
+    .page>#quartz-body {
+        padding: 0 0.3rem;
     }
+}
 
-// article ---------------------
-    .article-title {
-        margin: 1rem 0;
-    }
+// ---------- 3.2 FOOTNOTES ----------
 
-    @media not (min-width: 1200px) {
-        .page>#quartz-body {
-            padding: 0 0.3rem;
-        }
-    }
-
-// footnotes ------------------
 .footnotes {
     border-top: none;
     margin: 3rem 0;
@@ -185,9 +187,9 @@ h2#footnote-label::after{
     color: var(--darkgray);             
 }
 
-// afterBody =================================
+// ================ 04. AFTER BODY ================
 
-// backlinks
+// ---------- 4.1 Backlinks ----------
 div.backlinks {
     border: solid 1px var(--lightgray);
     border-radius: 0.5rem;
@@ -197,7 +199,7 @@ div.backlinks {
     margin-top: 3rem;
 }
 
-// tag-list
+// ---------- 4.2 Tag List -----------
 div.page-footer ul.tags {
     border: solid 1px var(--lightgray);
     border-radius: 0.5rem;
@@ -207,7 +209,6 @@ div.page-footer ul.tags {
     margin-top: 3rem;
 }
 
-
 div.page-footer ul.tags::before {
     content: "برچسب‌ها:";
     display: block;
@@ -215,13 +216,7 @@ div.page-footer ul.tags::before {
     font-weight: 700;
 }
 
-// .tags li:first-child::before {
-//     content: "برچسب‌ها";
-//     margin-left: 0.5rem;
-//   }
-
-
-// standalone-comments --------------------
+// ---------- 4.3 Standalone Comments ----------
 .post-comment {
     border: solid 1px var(--lightgray);
     border-radius: 0.5rem;
@@ -231,21 +226,20 @@ div.page-footer ul.tags::before {
     margin-top: 3rem;
 }
 
-
-// sidebar =================================
+// ================ 05. SIDEBAR ================
 
 .sidebar {
     padding: 0 !important;
 }
 
-// Table of Contents -------------------------
+// ---------- 5.1 TABLE OF CONTENTS ----------
+
 .toc {
     border-radius: 5px;
     border: 1px solid var(--lightgray);
     background: var(--on-background);
     padding: 1.2rem 1.2rem 1.2rem 0.4rem; 
     font-size: 0.9rem;
-
 }
 
 .toc-header h3 {
@@ -268,7 +262,8 @@ button.toc-header.collapsed .fold {
     }
 }
 
-// Explorer ----------------------
+// ---------- 5.2. EXPLORER ----------
+
 @media (min-width: 800px) {
     .explorer {
         border-radius: 5px;
@@ -285,7 +280,8 @@ button.toc-header.collapsed .fold {
     }
 }
 
-// Graph view ------------------------------
+// ---------- 5.3 GRAPH VIEW ----------
+
 .graph-outer {
     background: var(--on-background);
     margin: 0 !important;
@@ -301,7 +297,8 @@ button.toc-header.collapsed .fold {
     }
 }
 
-// recent notes ------------------------------
+// ---------- 5.4 RECENT NOTES ----------
+
 .recent-notes {
     border-radius: 5px;
     border: 1px solid var(--lightgray);
@@ -336,15 +333,14 @@ li.recent-li > div {
     white-space: nowrap;
 }
 
+// ================ 06. FOOTER ================
 
-// Footer ============================
 footer {
     border: solid 1px var(--lightgray);
     border-radius: 0.5rem;
     padding: 0.3rem 1rem 0;
     box-sizing: border-box;
     background: var(--on-background);
-    // margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -362,7 +358,12 @@ footer {
     }
 }
 
-// tags or folders page ====================
+// ================ 07. TAGS PAGES ================
+
 div.page-listing ul.section-ul {
     margin-right: -2.5rem;
+}
+
+li.section-li>.section .meta {
+    margin: 0 0em 0 1em;
 }

@@ -3,171 +3,110 @@
 @use "./_ui.scss";
 @use "./my-callouts.scss";
 
-// gelobal-------------
-    :root {
-        --bodyFont: "DanaVF" !important;
-        --headerFont: "DanaVF" !important;
-        --codeFont: "DanaVF" !important;
-        --background: #efdfcd;
-        --on-background: #f9e8d6;
-        --secondary-shadow: #ee5a2512;
-        --grain-opacity: .3;
-      }
-  
-    [saved-theme="dark"] {
-        --background: #161618;
-        --on-background: #1f1f22;
-        --secondary-shadow: #ee5a2512;
-        --grain-opacity: 0.04;
+// ================ 01. THEME VARIABLES ================
 
-    }
+:root {
+    --bodyFont: "DanaVF" !important;
+    --headerFont: "DanaVF" !important;
+    --codeFont: "DanaVF" !important;
+    --background: #efdfcd;
+    --on-background: #f9e8d6;
+    --secondary-shadow: #ee5a2512;
+    --grain-opacity: .3;
+}
 
-// Font
-    @font-face { 
-        font-family: 'DanaVF';
-        src: url('/static/fonts/DanaVF.woff2') format('woff2-variations');
-        font-weight: 100 900;
-        font-style: normal;
-        font-display: swap;
-    }
+[saved-theme="dark"] {
+    --background: #161618;
+    --on-background: #1f1f22;
+    --secondary-shadow: #ee5a2512;
+    --grain-opacity: 0.04;
+}
 
+// ================ 02. FONTS ================
 
+@font-face { 
+    font-family: 'DanaVF';
+    src: url('/static/fonts/DanaVF.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
 
-// Typography
-    body {
-        font-size: 1.1em;
-    }
+// ================ 03. TYPOGRAPHY ================
 
-    p, li {
-        line-height: 1.9rem;
-        font-weight: 400;
-    } 
+body {
+    font-size: 1.1em;
+}
 
-    sup {
+p, li {
+    line-height: 1.9rem;
+    font-weight: 400;
+} 
+
+sup {
     vertical-align: middle; //اگه توی متن از پانوشت استفاده شده باشه باعث میشه فاصله بین خطوط به هم نریزه
-    }
+}
 
-    h1{
-        font-size: 1.7rem;
-        font-weight: 800;
-    }
+h1{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
 
-    h2 {
-        font-size: 1.55rem;
-        font-weight: 800;
-        margin-top: 1rem;
-        margin-bottom: -0.2rem;
-        border-bottom: 1px solid var(--lightgray);
-        padding-bottom: 0.2em;
-    }
+h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: -0.2rem;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.2em;
+}
 
-    h3 {
-        font-size: 1.4rem;
-        font-weight: 700;
-        margin-top: 1rem;
-        margin-bottom: -0.2rem;
-    }
+h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: -0.2rem;
+}
 
-    h4,
-    h5,
-    h6 {
+h4,
+h5,
+h6 {
     font-size: 1.25rem;
     font-weight: 700;
     margin-top: 1rem;
     margin-bottom: -0.2rem;
-    }
+}
 
-    .footnotes > ol > li {
-        line-height: 4rem;
-    }
+.footnotes > ol > li {
+    line-height: 4rem;
+}
 
-    button {
-        font-family: var(--bodyFont);
-    }
-
-
+button {
+    font-family: var(--bodyFont);
+}
 
 
+// ================ 04. IMAGES ================
 
-// صفحه برچسب (تگ)
-    li.section-li>.section .meta {
-        margin: 0 0em 0 1em;
-    }
+img {
+    display: block;
+    margin: 0 auto !important; // وسطچین کردن تصاویر
+}
 
+// ================ 05. BLOCKQUOTE ================
 
-
-// بلوک کد
-    pre {
-        background: #afafaf1a;
-    }
-
-    pre>code {
-        overflow-x: auto;
-    }
-
-    code {
-        direction: ltr !important;
-    }
-
-    figure[data-rehype-pretty-code-figure] {
-        direction: ltr;
-    }
-
-
-// دیاگرام
-    .mermaid {
-        direction: rtl !important;
-    }
-
-    pre:has(>code.mermaid) {
-        // background-color: transparent;
-        .clipboard-button {
-            display: none;
-        }
-        svg {
-            margin: auto;
-        }
-    }
-
-    .nodeLabel {
-        font-family: var(--bodyFont);
-    }
-
-
-// تصاویر
-
-    // اینورت رنگ تصاویر 
-    [saved-theme="dark"] img.invert {
-        filter: invert(1);
-    }
-
-    // بک گراند برای حالت دارک تصاویر کاور
-    [saved-theme="dark"] .cover-bg {
-        background-color: #a5a5a526;
-    }
-
-    // وسطچین کردن تصاویر
-    // قبلا تصاویر داخل تگ پاراگراف بود اما به خاطر پلاگین clickableImages رفته داخل تگ دیو به خاطر همین تگ پی رو برداشتم.
-    img {
-        display: block;
-        margin: 0 auto !important;
-    }
-
-
-// بلاک نقل قول
 blockquote.transclude > :is(h1, h2, h3, h4, h5, h6):nth-child(1) {
     display: none;
 }
-
 
 blockquote { // انتقال بوردر رنگی به سمت راست تا مناسب متن فارسی باشه
     border-left: none;
     border-right: 3px solid var(--secondary);
     padding-right: 1rem;
 }
-    
 
-// لینک
+// ================ 06. LINKS ================
+
 a.internal {
     background-color: transparent;
 }
@@ -176,11 +115,45 @@ a.external .external-icon {
     transform: scaleX(-1);
 }
 
+// ================ 07. CODE BLOCKS ================
 
+pre {
+    background: #afafaf1a;
+}
 
-// mermaid
+pre>code {
+    overflow-x: auto;
+}
+
+code {
+    direction: ltr !important;
+}
+
+figure[data-rehype-pretty-code-figure] {
+    direction: ltr;
+}
+
+// ================ 08. MERMAID ================
+
+.mermaid {
+    direction: rtl !important;
+}
+
+pre:has(>code.mermaid) {
+    // background-color: transparent;
+    .clipboard-button {
+        display: none;
+    }
+    svg {
+        margin: auto;
+    }
+}
+
+.nodeLabel {
+    font-family: var(--bodyFont);
+}
+
 /* همه شاخه‌ها */
-
 .mindmap-node[class*="section-"]:not(.section-root) path,
 .mindmap-node[class*="section-"]:not(.section-root) rect,
 .mindmap-node[class*="section-"]:not(.section-root) circle {
@@ -193,13 +166,11 @@ a.external .external-icon {
 }
 
 /* خطوط اتصال */
-
 .mindmap-edges .edge {
     stroke: var(--gray) !important;
 }
 
 /* مرکز */
-
 .section-root circle,
 .section-root path {
     fill: var(--secondary) !important;
@@ -211,80 +182,4 @@ a.external .external-icon {
 
 code.mermaid svg path.edge {
     stroke-width: 4px !important;
-}
-
-
-
-//  Callout Grid Layouts -----------------------------------
-.callout[data-callout^="grid"] {
-    background-color: transparent;
-    padding: 0 !important;
-    --border: transparent;
-    
-    & .callout-content {
-        display: grid;
-        gap: 20px;
-        justify-items: center;
-
-        > p:empty {
-            display: none;
-        }
-    }
-
-    & .callout-title {
-        display: none;
-    }
-}
-
-.callout[data-callout="grid-16-9"] .callout-content img {
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-}
-
-.callout[data-callout="grid-1-1"] .callout-content img {
-    aspect-ratio: 1;
-    object-fit: cover;
-}
-
-.callout[data-callout="grid-4-3"] .callout-content img {
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-}
-
-.callout[data-callout="grid-3-4"] .callout-content img {
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-}
-
-.callout[data-callout^="grid"] .callout-content {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-
-@media (max-width: 480px) {
-    .callout[data-callout^="grid"] .callout-content {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-
-// caption image
-
-.callout[data-callout="figure"] {
-    background-color: transparent;
-    padding: 0 !important;
-    --border: transparent;
-    text-align: center;
-    margin: 0;
-
-    & .callout-content {
-        display: flex;
-        flex-direction: column;
-        > p:empty {
-            display: none;
-    }
-    }
-
-    & .callout-title {
-        display: none;
-    }
 }

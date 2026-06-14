@@ -1,148 +1,180 @@
+// ================ 01. BASIC STYLE ================
+
 .callout {
 
-  &.is-collapsed {
-    & > .callout-title > .fold-callout-icon {
-      transform: rotateZ(90deg);
-    }
+  // دوران آیکون <
+  &.is-collapsed > .callout-title > .fold-callout-icon {
+    transform: rotateZ(90deg);
   }
 
-  &[data-callout="quote"] {
-    --color: var(--dark);
-    --border: var(--gray);
-    --bg: #8d8d8d1e;
-  }
-
+  // کالتوت های جدید
+  &[data-callout="quote"],
   &[data-callout="poem"] {
     --color: var(--dark);
     --border: var(--gray);
     --bg: #8d8d8d1e;
+  }
+  
+  &[data-callout="poem"] {
     text-align: center;
   }
 
-  &[data-callout="en"],
-  &[data-callout="en0"] {
+  &[data-callout^="en"],
+  &[data-callout^="gray"] {
     --color: var(--darkgray);
     --border: var(--gray);
     --bg: #8d8d8d1e;
+  }
+
+  &[data-callout^="en"] {
     direction: ltr;
   }
 
-  &[data-callout="empty"],
-  &[data-callout="empty0"] {
+  &[data-callout^="empty"] {
     --color: var(--darkgray);
     --border: var(--gray);
     --bg: transparent;
   }
 
-  &[data-callout="gray"],
-  &[data-callout="gray0"] {
-    --color: var(--darkgray);
-    --border: var(--gray);
-    --bg: #8d8d8d1e;
-  }
-
-  &[data-callout="yellow"],
-  &[data-callout="yellow0"] {
+  &[data-callout^="yellow"] {
     --color: #e2941e;
     --border: #e2b11f5e;
     --bg: #ffc8220a;
   }
 
-  &[data-callout="orange"],
-  &[data-callout="orange0"] {
+  &[data-callout^="orange"] {
     --color: #e7842e;
     --border: #e68d3f56;
     --bg: #db89420c;
   }  
   
-  &[data-callout="red"],
-  &[data-callout="red0"] {
+  &[data-callout^="red"] {
     --color: #f55c4b;
     --border: #ff776856;
     --bg: #ff85770e;
   }
 
-  &[data-callout="blue"],
-  &[data-callout="blue0"] {
+  &[data-callout^="blue"] {
     --color: #468ee5;
     --border: #468ee565;
     --bg: #468ee50c;
   }
 
-  &[data-callout="green"],
-  &[data-callout="green0"] {
+  &[data-callout^="green"] {
     --color: #21ad1e;
     --border: #0281003b;
     --bg: #1a8d1809;
   }  
 
-  &[data-callout="purple"],
-  &[data-callout="purple0"] {
+  &[data-callout^="purple"] {
     --color: #805de7;
     --border: #805de777;
     --bg: #805de709;
   } 
   
-   &[data-callout="brown"],
-   &[data-callout="brown0"] {
+  &[data-callout^="brown"] {
     --color: #b38247;
     --border: #b382476b;
     --bg: #b382470a;
   }  
-}
 
-// Hide icon
-.callout.empty .callout-icon,
-.callout.gray .callout-icon,
-.callout.yellow .callout-icon,
-.callout.orange .callout-icon,
-.callout.blue .callout-icon,
-.callout.green .callout-icon,
-.callout.purple .callout-icon,
-.callout.brown .callout-icon,
-.callout.red .callout-icon,
-.callout.poem .callout-icon,
-.callout.en .callout-icon {
-  display: none;
-}
+  //  مخفی کردن آیکون‌
+  &:is(.empty, .gray, .yellow, .orange, .blue, .green, .purple, .brown, .red, .poem, .en) {
+    .callout-icon {
+      display: none;
+    }
+  }
 
-//Hide title
-.callout.empty0 .callout-title,
-.callout.gray0 .callout-title,
-.callout.yellow0 .callout-title,
-.callout.orange0 .callout-title,
-.callout.blue0 .callout-title,
-.callout.green0 .callout-title,
-.callout.purple0 .callout-title,
-.callout.brown0 .callout-title,
-.callout.red0 .callout-title,
-.callout.poem .callout-title,
-.callout.en0 .callout-title {
-  display: none;
-}
-
-// pt
-
-.callout.empty0,
-.callout.gray0,
-.callout.yellow0,
-.callout.orange0,
-.callout.blue0,
-.callout.green0 ,
-.callout.purple0,
-.callout.brown0,
-.callout.red0,
-.callout.poem,
-.callout.en0 {
-
-  > .callout-content{
-    padding-top: 1rem;
+  // مخفی کردن عنوان و تنظیم فاصله برای سری0
+  &:is(.empty0, .gray0, .yellow0, .orange0, .blue0, .green0, .purple0, .brown0, .red0, .poem, .en0) {
+    .callout-title {
+      display: none;
+    }
+    > .callout-content {
+      padding-top: 1rem;
+    }
   }
 }
 
-
-
-// bold title
-.callout-title>.callout-title-inner>p {
+// بولد کردن متن تمام عنوان‌ها
+.callout-title > .callout-title-inner > p {
   font-weight: 600;
+}
+
+
+
+
+
+// ================ 02. GRID LAYOUTS ================
+
+.callout[data-callout^="grid"] {
+    background-color: transparent;
+    padding: 0 !important;
+    --border: transparent;
+    
+    & .callout-content {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+
+        > p:empty {
+            display: none;
+        }
+    }
+
+    & .callout-title {
+        display: none;
+    }
+}
+
+.callout[data-callout="grid-16-9"] .callout-content img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-1-1"] .callout-content img {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-4-3"] .callout-content img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.callout[data-callout="grid-3-4"] .callout-content img {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.callout[data-callout^="grid"] .callout-content {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+@media (max-width: 480px) {
+    .callout[data-callout^="grid"] .callout-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+// ================ 03. IMGAGES CAPTION  ================
+
+.callout[data-callout="figure"] {
+    background-color: transparent;
+    padding: 0 !important;
+    --border: transparent;
+    text-align: center;
+    margin: 0;
+
+    & .callout-content {
+        display: flex;
+        flex-direction: column;
+        > p:empty {
+            display: none;
+        }
+    }
+
+    & .callout-title {
+        display: none;
+    }
 }
