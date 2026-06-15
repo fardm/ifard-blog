@@ -225,7 +225,8 @@ plugins:
     options:
       links:
         Recent: /recent
-        Tags: /tags
+        Telegram: https://t.me/ifard_ir
+        Github: https://github.com/fardm
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
