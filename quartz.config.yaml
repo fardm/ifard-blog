@@ -224,7 +224,6 @@ plugins:
     enabled: true
     options:
       links:
-        Recent: /recent
         Telegram: https://t.me/ifard_ir
         Github: https://github.com/fardm
   - source: github:quartz-community/recent-notes

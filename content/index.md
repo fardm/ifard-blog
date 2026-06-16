@@ -13,6 +13,9 @@ draft: false
 
 اینجا محلی برای اشتراک و انتشار یادداشت‌های من است. این سایت بیشتر شبیه به یک ویکی‌پدیای شخصی است که لینک‌های داخلی مسیر خواندن مطالب را مشخص می‌کنند.([[manifest|+]])
 
+---
+
+
 ```base
 views:
   - type: cards
@@ -23,6 +26,7 @@ views:
             - file.name == "pkm"
             - file.name == "obsidian"
             - file.name == "attention-management"
+            - file.name == "linking"
     sort:
       - property: file.name
         direction: DESC
@@ -31,6 +35,11 @@ views:
 
 ```
 
+<br>
+
+<center><a href="/recent">همه یادداشت‌ها ←</a></center>
+
+<br> 
 
 <style>
   h1.article-title,
