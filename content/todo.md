@@ -8,16 +8,16 @@ publish: false
 comments: true
 status:
 ---
-## کامنت
-- [ ] تست فوروارد ایمیل به جیمیل
 
 ## تسک
-- [x] اضافه کردن کانال تلگرام به سایت
-- [ ] تصویر توی ردمی هبیت ترکر گیت هاب خراب شده
-- [ ] تست پسورد گذاشتن
-- [ ] یه کاری با کنواس یا اکسدرا کردن
 - [ ] پرسیدن هدر توی دیسکورد
 - [ ] معرفی کامنت توی دیسکورد
+```
+If anyone is looking for a self-hosted alternative to Giscus for Quartz, I extended Standalone Comments Server for my own site. It doesn't require GitHub accounts and runs on simple PHP shared hosting.
+
+I've been using it successfully and thought it might be useful to others:
+https://github.com/fardm/standalone-comments-server
+```
 - [ ] شمسی کردن تاریخ بیس
 - [ ] تست این پلاگین اگر خوب بود توی انتشار رایگان اضافه بشه: https://github.com/enveloppe/obsidian-enveloppe
 
