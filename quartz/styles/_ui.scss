@@ -95,7 +95,7 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
         background-size: cover;
         background-repeat: no-repeat;
         background-color: var(--secondary);
-        border-radius: 100%;
+        border-radius: 5px;
     }
     &:hover::before {
         background-color: var(--tertiary);
