@@ -196,20 +196,20 @@
     "quartz-clickable-images": {
       "source": "github:fardm/quartz-clickable-images",
       "resolved": "https://github.com/fardm/quartz-clickable-images.git",
-      "commit": "d1f0eed49b815942a3d90fe9dcb212bdb9eaf56d",
-      "installedAt": "2026-06-12T11:04:09.766Z"
+      "commit": "a085b559397ee83c4ad044e51ed14b3e6b7d6e69",
+      "installedAt": "2026-06-16T11:27:39.425Z"
     },
     "quartz-content-meta-plus": {
       "source": "github:fardm/quartz-content-meta-plus",
       "resolved": "https://github.com/fardm/quartz-content-meta-plus.git",
-      "commit": "f5300fc8305917e1bd1e4c2a867e7d0ba2d0928a",
-      "installedAt": "2026-06-11T12:01:58.048Z"
+      "commit": "a030f69385637dc3e7db1d67a166784213d3143d",
+      "installedAt": "2026-06-16T11:27:39.788Z"
     },
     "quartz-standalone-comments": {
       "source": "github:fardm/quartz-standalone-comments",
       "resolved": "https://github.com/fardm/quartz-standalone-comments.git",
-      "commit": "3268a67acac9efff12cecbcc198c884badbddd05",
-      "installedAt": "2026-06-14T08:15:36.104Z"
+      "commit": "e35a4d8b59980838bf1d7958b6972ec7a83d5fba",
+      "installedAt": "2026-06-16T11:27:39.475Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",

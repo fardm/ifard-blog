@@ -27,7 +27,8 @@ views:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+
 ```
 
 
