@@ -201,9 +201,9 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: false
+    enabled: true
     layout:
-      position: left
+      position: afterBody
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs

@@ -132,6 +132,12 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
     vertical-align: middle;
 }
 
+// ---------- 2.5 Reader Mode ----------
+
+.readermode {
+    vertical-align: middle;
+}
+
 // ================ 03. CENTER & CONTENT AREA ================
 
 // ---------- 3.1 PAGE TOP ----------
@@ -270,6 +276,19 @@ button.toc-header.collapsed .fold {
     }
 }
 
+ul.toc-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+ul.toc-content::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+ul.toc-content::-webkit-scrollbar-thumb {
+  background-color: var(--gray, #ccc); 
+  border-radius: 10px;
+}
+
 // ---------- 5.2. EXPLORER ----------
 
 @media (min-width: 800px) {
@@ -350,6 +369,7 @@ li.recent-li > div {
     border-radius: .5rem;
     padding: 1rem;
     overflow: hidden;
+    min-height: 32rem;
 }
 
 #recent-comments-title {
@@ -357,12 +377,16 @@ li.recent-li > div {
     font-size: 1.2rem !important;
 }
 
+.rc-widget-item {
+    background: #8787871a !important;
+}
+
 // ================ 06. FOOTER ================
 
 footer {
     border: solid 1px var(--lightgray);
     border-radius: 0.5rem;
-    padding: 0.3rem 1rem 0;
+    padding: 0.3rem 1rem;
     box-sizing: border-box;
     background: var(--on-background);
     display: flex;
@@ -370,7 +394,7 @@ footer {
     align-items: baseline;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    opacity: 0.9;
+    opacity: 1;
 
     p {
         font-size: 1rem;
