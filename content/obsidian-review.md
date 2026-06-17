@@ -10,6 +10,9 @@ status: 🌳
 comments: true
 draft: false
 image: "[[obsidian-in-hand.webp]]"
+cssclasses:
+  - bases-hide-meta
+  - bases-2col
 ---
 
 ![[obsidian-in-hand.webp]]
@@ -233,21 +236,3 @@ views:
 
 [^1]: یکی از مشکلات من اهمیت دادن بیش‌ازاندازه به ابزارهاست از وقتی آن جمله معروف [تیز کردن اره](https://www.artofmanliness.com/character/habits/the-7-habits-sharpen-the-saw/) را شنیدم اوضاع بدتر هم شد، نه‌تنها کارم را بیهوده نمی‌دانستم بلکه آنقدر مشغول تیزکردن شدم که دیگر فرصت نکردم درختی قطع کنم. در واقع کم کم دچار [سندرم شیء براق](https://fa.wikipedia.org/wiki/%D8%B3%D9%86%D8%AF%D8%B1%D9%85_%D8%B4%DB%8C_%D8%A8%D8%B1%D8%A7%D9%82) شدم.([+](https://nesslabs.com/shiny-toy-syndrome)) امروز هم سرعت تولید نرم‌افزارها به‌شدت افزایش‌یافته و هرلحظه ابزار جدیدی تولید می‌شود و اگر بخواهید پیگیر آن‌ها باشید دیگر فرصت نمی‌کنید نوشته‌های خود را مدیریت کنید. کمی تأمّل کنید و شتاب‌زده سراغ ابزارهای مختلف نروید. 
 
-
-
-<style>
-	div.bases-cards {
-		justify-items: center;
-		grid-template-columns: 1fr 1fr !important;
-	}
-	
-	.bases-view-meta {
-    display: none;
-	}
-	
-    @media (max-width: 480px) {
-		div.bases-cards {
-			grid-template-columns: 1fr !important;
-		}
-    }
-</style>

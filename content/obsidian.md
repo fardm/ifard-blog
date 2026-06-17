@@ -4,6 +4,7 @@ aliases:
   - 🔮نرم‌افزار ابسیدین
 publish: true
 cssclasses:
+  - bases-hide-meta
 comments: false
 created: 2025-01-01
 draft: false
@@ -80,11 +81,3 @@ views:
 
 
 
-
-<style>
-  h1.article-title,
-  .content-meta-plus,
-  .bases-view-meta {
-    display: none;
-  }	
-</style>

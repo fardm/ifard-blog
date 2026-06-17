@@ -295,4 +295,33 @@ background:
 }
 
 
-//
+// ================ 09. CSSCLASSES ================
+
+
+// -------------- hide h1 title ------------
+body:is(
+    [data-slug="index"],
+    [data-slug="obsidian"]
+) :is(.article-title, .content-meta-plus) {
+    display: none;
+}
+
+
+// ---------------- bases ----------------
+
+// hide meta
+.bases-hide-meta .bases-view-meta  {
+    display: none;
+}
+
+// 2col
+.bases-2col div.bases-cards {
+    justify-items: center;
+    grid-template-columns: 1fr 1fr !important;
+}
+
+@media (max-width: 480px) {
+    .bases-2col div.bases-cards {
+        grid-template-columns: 1fr !important;
+    }
+}

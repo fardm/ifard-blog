@@ -2,11 +2,14 @@
 title: حسین فردمحمدی
 description: یادداشت‌های حسین فردمحمدی
 cssclasses:
+  - bases-hide-meta
 comments: false
 publish: true
 created: 2025-01-01
 draft: false
 ---
+
+
 سلام👋
 
 من [[about-me|حسین فردمحمدی]]‌ام.
@@ -54,11 +57,4 @@ views:
 
 <br> 
 
-<style>
-  h1.article-title,
-  .content-meta-plus,
-  .bases-view-meta {
-    display: none;
-  }	
-</style>
 
