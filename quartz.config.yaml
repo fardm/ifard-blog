@@ -316,4 +316,5 @@ layout:
       positions:
         right: []
     canvas: {}
-    bases: {}
+    bases:
+      template: minimal
