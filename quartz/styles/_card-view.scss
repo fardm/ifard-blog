@@ -161,20 +161,25 @@
 // نسبت تصویر
 .c1-1 .table-container>table td img {
     aspect-ratio: 1 / 1;
-    object-fit: contain;
     background-color: #a5a5a526;
 }
 
 .c16-9 .table-container>table td img {
     aspect-ratio: 16 / 9;
-    object-fit: contain;
     background-color: #a5a5a526;
 }
 
 .c3-4 .table-container>table td img {
     aspect-ratio: 3 / 4;
-    object-fit: contain;
     background-color: #a5a5a526;
+}
+
+// آبجکت فیت
+.fit-cover .table-container>table td img {
+    object-fit: cover;
+}
+.fit-contain .table-container>table td img {
+    object-fit: contain;
 }
 
 

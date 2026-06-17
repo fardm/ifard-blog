@@ -37,7 +37,20 @@ views:
 
 <br>
 
-<center><a href="/recent">همه یادداشت‌ها ←</a></center>
+
+<center>
+<a href="https://ifard.ir/recent" class="all-notes-btn">
+  <span>همه یادداشت‌ها</span>
+<svg viewBox="0 0 24 24" fill="none">
+  <path d="M19 12H5M5 12L11 6M5 12L11 18"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+</svg>
+</a>
+</center>
+
 
 <br> 
 
@@ -48,7 +61,4 @@ views:
     display: none;
   }	
 </style>
-
-
-
 

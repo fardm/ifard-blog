@@ -48,6 +48,7 @@ div.flex-component:has(.page-title) {
     max-width: var(--content-width, 800px); 
     z-index: 1;
     display: flex;
+    gap: 1rem !important;
     justify-content: space-between !important;
     align-items: center;
     box-sizing: border-box;
@@ -56,16 +57,20 @@ div.flex-component:has(.page-title) {
     background: var(--on-background);
     border: solid 1px var(--lightgray);
 }
+
+.flex-component:has(.page-title) > div:nth-child(2) {
+    margin-right: auto;
+}
   
 div.flex-component:has(.page-title) > div {
     flex-grow: 0 !important;
     flex-basis: auto !important;
 }
   
-div.flex-component:has(.page-title) > div:nth-child(2) {
-    margin-right: auto; 
-    margin-left: 1rem;
-}
+// div.flex-component:has(.page-title) > div:nth-child(2) {
+//     margin-right: auto; 
+//     margin-left: 1rem;
+// }
 
 // ---------- 2.2 PAGE TITLE ----------
 
@@ -112,11 +117,9 @@ div.flex-component:has(.page-title) > div:nth-child(2) {
 
 // ---------- 2.3 SEARCH ----------
 
-@media (max-width: 1510px) {
     .search>.search-button>p {      
         display: none;
     }
-}
 
 .search>.search-button {
     padding: 0;

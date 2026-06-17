@@ -12,6 +12,7 @@ status: 🌱
 cssclasses:
   - card-s
   - nowarp2
+  - fit-cover
   - c3-4
 draft: false
 image: "[[reports.webp]]"

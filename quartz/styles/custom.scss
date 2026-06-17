@@ -185,27 +185,114 @@ code.mermaid svg path.edge {
 }
 
 
-// ==
+// ================ 08. BUTTONS ================
 
-// a[href*="t.me/ifard_ir?direct"] {
-//   background: #3a3b3b;
-//   color: white;
-//   padding: 8px 14px;
-//   border-radius: 5px;
-//   svg {
-//     display: none;
-//   }
-// }
+// --------- telegram --------------
+/* From Uiverse.io by adamgiebl */ 
+button.telegram-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  background: #37a6e3;
+  color: white;
+  padding: .3em 1em .3em .8em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  direction: ltr;
+  justify-self: center;
+}
 
-// a[href*="t.me/ifard_ir?direct"]::after {
-//   content: "";
-//   display: inline-block;
-//   width: 24px;
-//   height: 24px;
-//   margin-inline-start: 5px;
-//   background-image: url("https://cdn.simpleicons.org/telegram");
-//   background-size: contain;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   vertical-align: middle;
-// }
+button.telegram-btn span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button.telegram-btn svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button.telegram-btn:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button.telegram-btn:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button.telegram-btn:hover span {
+  transform: translateX(5em);
+}
+
+button.telegram-btn:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+
+// -------- all note btn ----------
+.all-notes-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+
+  padding: 0.85rem 1.25rem;
+  border-radius: 8px;
+
+  text-decoration: none;
+  font-weight: 600;
+
+  color: var(--dark);
+
+  border: 1px solid var(--lightgray);
+
+  transition: all 0.5s ease;
+background:
+  linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--light) 96%, white),
+    var(--light)
+  );
+
+  svg.external-icon {
+    display: none;
+  }
+}
+
+.all-notes-btn svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.4s ease;
+}
+
+.all-notes-btn:hover {
+  border-color: color-mix(in srgb, var(--secondary) 50%, var(--lightgray));
+  color: var(--secondary);
+
+  box-shadow:
+    0 0 10px color-mix(in srgb, var(--secondary) 10%, transparent);
+
+}
+
+.all-notes-btn:hover svg {
+  transform: translateX(-4px);
+}
+
+
+//
