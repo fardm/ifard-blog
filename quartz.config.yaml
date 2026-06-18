@@ -6,8 +6,6 @@ configuration:
   enablePopovers: true
   analytics:
     provider: matomo
-    host: analytics.hoseinfm.ir
-    siteId: "1"
   locale: fa-IR
   baseUrl: ifard.ir
   ignorePatterns:
