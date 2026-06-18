@@ -4,7 +4,6 @@ aliases:
   - چه میخواهم از نوشتن؟
 created: 2026-01-01
 modified: 2026-02-05
-publish: true
 comments: true
 status: 🌱
 tags:

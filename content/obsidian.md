@@ -2,7 +2,6 @@
 title: 🔮نرم‌افزار ابسیدین
 aliases:
   - 🔮نرم‌افزار ابسیدین
-publish: true
 cssclasses:
   - bases-hide-meta
 comments: false

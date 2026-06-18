@@ -4,7 +4,6 @@ aliases:
   - شخصیت شما در یادداشت برداری
 created: 2024-07-01
 modified: 2026-05-17
-publish: true
 comments: true
 status: 🌿
 draft: false

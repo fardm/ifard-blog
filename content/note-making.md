@@ -4,7 +4,6 @@ aliases:
   - یادداشت سازی
 created: 2025-09-24
 modified: 2026-05-11
-publish: true
 comments: true
 status: 🌱
 draft: false

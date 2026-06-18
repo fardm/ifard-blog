@@ -5,7 +5,6 @@ aliases:
 created: 2024-04-07
 modified: 2026-05-18
 draft: false
-publish: true
 comments: true
 tags:
 status: 🌱

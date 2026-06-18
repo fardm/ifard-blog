@@ -6,7 +6,6 @@ created: 2025-04-02
 modified: 2026-05-05
 status: 🌱
 tags:
-publish: true
 draft: false
 comments: true
 cssclasses:

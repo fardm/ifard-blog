@@ -6,7 +6,6 @@ aliases:
 created: 2026-05-16
 modified: 2026-05-17
 draft: false
-publish: true
 comments: true
 status: 🌱
 image: "[[second-brain.webp]]"

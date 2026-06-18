@@ -5,7 +5,6 @@ aliases:
   - گزارش 1403
 created: 2024-08-25
 modified: 2026-04-23
-publish: true
 comments: true
 wordcount: false
 status: 🌿

@@ -2,7 +2,6 @@
 title: 🤖هوش مصنوعی
 aliases:
   - 🤖هوش مصنوعی
-publish: true
 cssclasses:
 comments: false
 created: 2025-01-01

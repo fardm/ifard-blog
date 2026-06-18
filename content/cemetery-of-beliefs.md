@@ -4,7 +4,6 @@ aliases:
   - گورستان باورها
 created: 2025-09-05
 modified: 2026-02-11
-publish: true
 comments: true
 status: 🌱
 tags:

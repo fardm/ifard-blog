@@ -4,7 +4,6 @@ aliases:
   - هرم دانش
 created: 2025-04-25
 modified: 2026-05-12
-publish: true
 status: 🌱
 tags:
 cssclasses:

@@ -5,7 +5,6 @@ aliases:
   - گزارش 1404
 created: 2025-04-24
 modified: 2026-04-23
-publish: true
 comments: true
 wordcount: false
 status: 🌱

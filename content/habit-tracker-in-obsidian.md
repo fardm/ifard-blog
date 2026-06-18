@@ -4,7 +4,6 @@ aliases:
   - ساخت هبیت ترکر در ابسیدین
 created: 2024-05-25
 modified: 2026-06-09
-publish: true
 comments: true
 status: 🌿
 draft: false

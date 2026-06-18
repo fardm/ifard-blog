@@ -5,7 +5,6 @@ aliases:
 created: 2025-04-24
 modified: 2026-06-06
 status: 🌳
-publish: true
 comments: true
 draft: false
 image: "[[pkm.webp]]"

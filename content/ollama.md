@@ -6,7 +6,6 @@ aliases:
   - آموزش اولاما(Ollama)
 created: 2024-09-12
 modified: 2026-05-18
-publish: true
 comments: true
 status: 🌿
 tags:

@@ -2,7 +2,6 @@
 title: 📋گزارش‌های شخصی
 aliases:
   - 📋گزارش‌های شخصی
-publish: true
 cssclasses:
 comments: false
 created: 2025-01-01

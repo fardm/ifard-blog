@@ -4,7 +4,6 @@ aliases:
   - سرگردانی در دوران جوانی
 created: 2023-08-31
 modified: 2026-01-13
-publish: true
 tags:
   - بازاندیشی
 status: 🌿

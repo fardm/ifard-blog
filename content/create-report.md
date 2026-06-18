@@ -3,7 +3,6 @@ title: ساخت گزارش عملکرد شخصی در ابسیدین
 aliases:
   - ساخت گزارش عملکرد شخصی در ابسیدین
 created: 2025-01-05
-publish: true
 status: 🌱
 tags:
 comments: true

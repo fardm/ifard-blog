@@ -6,7 +6,6 @@ aliases:
 created: 2025-05-16
 modified: 2026-05-18
 draft: false
-publish: true
 comments: true
 status: 🌱
 image: "[[none.webp]]"

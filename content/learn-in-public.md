@@ -7,7 +7,6 @@ modified: 2026-05-15
 status: 🌿
 tags:
 draft: false
-publish: true
 comments: true
 cssclasses:
 image: "[[learn-in-public.webp]]"

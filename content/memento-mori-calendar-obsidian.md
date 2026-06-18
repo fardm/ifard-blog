@@ -4,7 +4,6 @@ aliases:
   - تقویم Memento Mori در ابسیدین
 created: 2025-08-13
 modified: 2026-01-09
-publish: true
 comments: true
 status: 🌱
 draft: false

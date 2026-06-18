@@ -4,7 +4,6 @@ aliases:
   - مانیفست
 created: 2026-02-22
 modified: 2026-05-16
-publish: true
 comments: true
 status: 🌱
 draft: false

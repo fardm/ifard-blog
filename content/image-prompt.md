@@ -4,7 +4,6 @@ aliases:
   - پرامپت نویسی برای ساخت عکس با هوش مصنوعی
 created: 2024-10-07
 modified: 2026-04-24
-publish: true
 status: 🌱
 tags:
   - AI

@@ -4,9 +4,8 @@ aliases:
 created: 2026-02-06
 modified:
 draft: true
-publish: true
 comments: true
-status: "🌱"
+status: 🌱
 tags:
   - بازاندیشی
 ---

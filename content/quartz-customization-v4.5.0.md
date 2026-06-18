@@ -4,7 +4,6 @@ aliases:
   - تنظیمات سفارشی کوارتز - ورژن 4.5.0
 created: 2024-05-29
 modified: 2026-06-03
-publish: true
 comments: true
 tags:
 status: 🌿

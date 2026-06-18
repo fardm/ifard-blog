@@ -3,7 +3,6 @@ title: تنظیمات سفارشی کوراتز - ورژن 4.2.5
 aliases:
   - کوراتز - ورژن 4.2.5
 created: 2024-05-29
-publish: true
 tags:
 status:
 comments: true

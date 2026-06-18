@@ -5,7 +5,6 @@ aliases:
 created: 2025-03-31
 modified: 2026-05-18
 status: 🌿
-publish: true
 comments: true
 tags:
   - AI

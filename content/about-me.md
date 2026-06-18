@@ -4,7 +4,6 @@ aliases:
   - درباره من
 created: 2025-06-17
 modified: 2026-05-14
-publish: true
 comments: true
 status: 🌱
 draft: false

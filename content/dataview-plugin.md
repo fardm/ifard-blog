@@ -4,7 +4,6 @@ aliases:
   - نمونه های کاربردی پلاگین دیتاویو
 created: 2024-07-04
 modified: 2026-01-09
-publish: true
 tags:
 status: 🌱
 cssclasses:

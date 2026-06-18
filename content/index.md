@@ -4,7 +4,6 @@ description: یادداشت‌های حسین فردمحمدی
 cssclasses:
   - bases-hide-meta
 comments: false
-publish: true
 created: 2025-01-01
 draft: false
 ---

@@ -4,7 +4,6 @@ aliases:
   - API رایگان هوش مصنوعی (LLM)
 created: 2025-08-08
 modified: 2026-05-18
-publish: true
 comments: true
 status: 🌱
 tags:

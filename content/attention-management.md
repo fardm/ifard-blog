@@ -4,7 +4,6 @@ aliases:
   - مدیریت توجه
 created: 2025-09-11
 modified: 2026-06-09
-publish: true
 comments: true
 status: 🌳
 draft: false

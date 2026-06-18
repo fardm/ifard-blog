@@ -4,7 +4,6 @@ aliases:
   - ماشین غم‌افزا
 created: 2026-01-13
 modified: 2026-02-12
-publish: true
 comments: true
 status: 🌱
 tags:

@@ -5,7 +5,6 @@ aliases:
   - لینک‌دهی
 created: 2025-06-05
 modified: 2026-05-16
-publish: true
 comments: true
 status: 🌱
 draft: false

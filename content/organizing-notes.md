@@ -4,7 +4,6 @@ aliases:
   - سازماندهی یادداشت‌ها
 created: 2025-09-24
 modified: 2026-06-05
-publish: true
 comments: true
 status: 🌱
 draft: false

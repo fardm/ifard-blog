@@ -4,7 +4,6 @@ aliases:
   - وارد کردن محتوا در ابسیدین
 created: 2025-01-05
 modified: 2026-06-09
-publish: true
 status: 🌱
 tags:
 comments: true

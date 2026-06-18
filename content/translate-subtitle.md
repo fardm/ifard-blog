@@ -4,7 +4,6 @@ aliases:
   - ترجمه زیرنویس
 created: 2025-04-17
 modified: 2026-05-18
-publish: true
 comments: true
 status: 🌱
 draft: false

@@ -3,7 +3,6 @@ title: نوشتن به زبان خود
 aliases:
   - نوشتن به زبان خود
 created: 2025-04-30
-publish: true
 status: 🌱
 tags:
 cssclasses:

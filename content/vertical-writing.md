@@ -4,7 +4,6 @@ aliases:
   - عمودی نوشتن
 created: 2025-04-02
 modified: 2026-05-03
-publish: true
 comments: true
 status: 🌱
 draft: false

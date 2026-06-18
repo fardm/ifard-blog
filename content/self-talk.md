@@ -4,7 +4,6 @@ aliases:
   - خودگویی
 created: 2025-05-25
 modified: 2026-05-16
-publish: true
 comments: true
 status: 🌱
 tags:

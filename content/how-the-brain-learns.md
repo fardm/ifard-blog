@@ -3,7 +3,6 @@ title: مغز چطور یاد می‌گیرد؟
 aliases:
   - مغز چطور یاد می‌گیرد؟
 created: 2025-06-07
-publish: true
 comments: true
 status: 🌱
 cssclasses:

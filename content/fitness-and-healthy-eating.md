@@ -3,7 +3,6 @@ title: تجربه من از ورزش و تغذیه سالم
 aliases:
   - تجربه من از ورزش و تغذیه سالم
 created: 2025-02-25
-publish: true
 tags:
 status: 🌱
 comments: true

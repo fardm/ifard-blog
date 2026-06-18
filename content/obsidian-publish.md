@@ -4,7 +4,6 @@ aliases:
   - انتشار رایگان یادداشت‌های ابسیدین
 created: 2024-09-06
 modified: 2026-06-09
-publish: true
 status: 🌿
 tags:
 comments: true

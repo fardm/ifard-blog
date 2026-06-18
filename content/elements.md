@@ -3,7 +3,6 @@ title: پیش‌نمایش و تست سازگاری
 aliases:
   - پیش‌نمایش و تست سازگاری
 created: 2024-09-06
-publish: true
 comments: true
 modified: 2026-06-03
 draft: false

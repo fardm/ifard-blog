@@ -4,7 +4,6 @@ aliases:
   - به خاطر کمبود گاز فقط دوش آب سرد ممکن است
 created: 2026-01-03
 modified: 2026-04-30
-publish: true
 comments: true
 status: 🌱
 tags:

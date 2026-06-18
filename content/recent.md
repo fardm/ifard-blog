@@ -4,7 +4,6 @@ aliases:
   - نوشته‌ها
 created: 2025-01-01
 modified:
-publish: true
 status:
 draft: false
 comments: false

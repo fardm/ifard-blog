@@ -4,7 +4,6 @@ aliases:
   - گزارش کلی
 created: 2024-08-29
 modified: 2026-01-03
-publish: true
 comments: true
 wordcount: false
 status: 🌱

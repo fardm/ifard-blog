@@ -3,7 +3,6 @@ title: لینک نمادین(Symbolic Link)
 aliases:
   - لینک نمادین
 created: 2024-08-29
-publish: true
 status: 🌱
 tags:
   - Tech

@@ -4,7 +4,6 @@ aliases:
   - چرا نمی‌توان به ویکی‌پدیا اعتماد کامل داشت؟
 created: 2023-09-01
 modified: 2026-01-09
-publish: true
 status: 🌱
 tags:
 comments: true

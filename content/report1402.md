@@ -5,7 +5,6 @@ aliases:
   - گزارش 1402
 created: 2024-03-29
 modified: 2026-02-26
-publish: true
 comments: true
 wordcount: false
 status: 🌿

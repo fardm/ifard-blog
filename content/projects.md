@@ -4,7 +4,6 @@ aliases:
   - پروژه ها
 created: 2025-08-01
 modified: 2026-04-24
-publish: true
 comments: true
 status: 🌱
 draft: false
