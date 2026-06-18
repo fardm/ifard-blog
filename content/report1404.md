@@ -28,6 +28,11 @@ image: "[[reports.webp]]"
 
 هنوز امیدوارم. نه امید واهی. روزای خوب میاد. ایران روزای بدتر از اینم داشته.
 
+
+
+
+
+
 <br> 
 
 ## در یک نگاه
@@ -114,53 +119,16 @@ image: "[[reports.webp]]"
 
 ### 📚 کتاب
 
+<iframe
+  src="https://library.ifard.ir/reports/1404-books.base"
+  width="100%"
+  height="500"
+  frameborder="0"
+  loading="lazy">
+</iframe>
+
+
 <br> 
-
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
-
-| ("![](" + cover_self + ")")                                                                       | file.name                                                        | badge                                          | rating |
-| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------- | ------ |
-| ![](https://ifard.ir/assets/covers/books/chra-adbyat.webp)                                        | چرا ادبیات                                                       | \-                                             |        |
-| ![](https://ifard.ir/assets/covers/books/farhang-goftari.webp)                                    | فرهنگ گفتاری                                                     | \-                                             | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/shrab-kham.webp)                                         | شراب خام                                                         | <ul><li>☕تلخ</li></ul>                         | ★★★    |
-| ![](https://ifard.ir/assets/covers/books/teori-act.webp)                                          | تئوری اکت                                                        | <ul><li>🦉آموزنده</li><li>🤏موجز</li></ul>     | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/artbat-bdwn-khshwnt-zban-zndgy.webp)                     | ارتباط بدون خشونت، زبان زندگی                                    | <ul><li>🦉آموزنده</li></ul>                    |        |
-| ![](https://ifard.ir/assets/covers/books/zmstan-62.webp)                                          | زمستان ۶۲                                                        | <ul><li>🧲گیرا</li><li>☕تلخ</li></ul>          | ★★★★★  |
-| ![](https://ifard.ir/assets/covers/books/flakt-rwzmrh.webp)                                       | فلاکت روزمره                                                     | \-                                             | ★★     |
-| ![](https://ifard.ir/assets/covers/books/asm-nmy-khwahd.webp)                                     | اسم نمی خواهد                                                    | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ★★★⯩   |
-| ![](https://ifard.ir/assets/covers/books/shb-hay-rwshn.webp)                                      | شب های روشن                                                      | <ul><li>☕تلخ</li></ul>                         | ★★⯩    |
-| ![](https://ifard.ir/assets/covers/books/chra-mlt-ha-shkst-mykhwrnd.webp)                         | چرا ملت ها شکست میخورند؟                                         | <ul><li>🐢سخت‌خوان</li></ul>                   |        |
-| ![](https://ifard.ir/assets/covers/books/jnayt-w-mkafat.webp)                                     | جنایت و مکافات                                                   | <ul><li>🧲گیرا</li><li>🪶خوش‌خوان</li></ul>    | ★★★★★  |
-| ![](https://ifard.ir/assets/covers/books/chnd-rwayt-matbr-mjmwah-dastan.webp)                     | چند روایت معتبر (مجموعه داستان)                                  | <ul><li>🥱کسل‌کننده</li></ul>                  | ★★     |
-| ![](https://ifard.ir/assets/covers/books/mrdy-bh-nam-awh.webp)                                    | مردی به نام اوه                                                  | <ul><li>🪶خوش‌خوان</li><li>😊دلنشین</li></ul>  | ★★★★★  |
-| ![](https://ifard.ir/assets/covers/books/khtr-sqwt-bhmn.webp)                                     | خطر سقوط بهمن                                                    | <ul><li>🦉آموزنده</li><li>🪶خوش‌خوان</li></ul> | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/mskh-w-dastan-hay-dygr.webp)                             | مسخ و داستان های دیگر                                            | <ul><li>🥱کسل‌کننده</li></ul>                  | ★★     |
-| ![](https://ifard.ir/assets/covers/books/mn-danay-kl-hstm-mjmwah-dastan.webp)                     | من دانای کل هستم؛ مجموعه داستان                                  | <ul><li>🥱کسل‌کننده</li></ul>                  | ★★     |
-| ![](https://ifard.ir/assets/covers/books/tarykh-mkhtsr-bh-gnd-kshydn-jhan.webp)                   | تاریخ مختصر به گند کشیدن جهان                                    | \-                                             |        |
-| ![](https://ifard.ir/assets/covers/books/sh-tar.webp)                                             | سه تار                                                           | <ul><li>🪶خوش‌خوان</li></ul>                   | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/qlah-hywanat.webp)                                       | قلعه حیوانات                                                     | <ul><li>🪶خوش‌خوان</li><li>🧲گیرا</li></ul>    | ★★★★★  |
-| ![](https://ifard.ir/assets/covers/books/fqt-bray-tfryh.webp)                                     | فقط برای تفریح                                                   | <ul><li>🪶خوش‌خوان</li></ul>                   | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/nshkhwar-thhny.webp)                                     | نشخوار ذهنی                                                      | <ul><li>🦉آموزنده</li></ul>                    | ★★     |
-| ![](\-)                                                                                           | بامداد خمار                                                      | <ul><li>☕تلخ</li></ul>                         | ★★     |
-| ![](https://ifard.ir/assets/covers/books/dayy-jan-naplewn.webp)                                   | دایی جان ناپلئون                                                 | <ul><li>🧲گیرا</li><li>🪶خوش‌خوان</li></ul>    | ★★★★★  |
-| ![](https://ifard.ir/assets/covers/books/ktabkhwan.webp)                                          | کتاب‌خوان                                                        | <ul><li>🪶خوش‌خوان</li><li>☕تلخ</li></ul>      | ★★★★★  |
-| ![](\-)                                                                                           | The PARA Method Simplify, Organize, and Master Your Digital Life | <ul><li>🪶خوش‌خوان</li></ul>                   | ★★★    |
-| ![](https://ifard.ir/assets/covers/books/byshyadgyry.webp)                                        | بیش‌یادگیری                                                      | <ul><li>🦉آموزنده</li></ul>                    | ★★     |
-| ![](https://ifard.ir/assets/covers/books/sm-zdayy-dyjytal.webp)                                   | سم زدایی دیجیتال                                                 | <ul><li>🦉آموزنده</li></ul>                    | ★★★    |
-| ![](https://ifard.ir/assets/covers/books/mayzlys-tewry-bnyady-shtrnj.webp)                        | مایزلیس، تئوری بنیادی شطرنج                                      | <ul><li>🦉آموزنده</li></ul>                    | ★★     |
-| ![](https://ifard.ir/assets/covers/books/mynymalysm-dyjytal.webp)                                 | مینیمالیسم دیجیتال                                               | <ul><li>🦉آموزنده</li></ul>                    | ★★★    |
-| ![](https://ifard.ir/assets/covers/books/dastan-prdazy-ba-dadhha.webp)                            | داستان پردازی با داده‌ها                                         | <ul><li>🪶خوش‌خوان</li><li>🌳پربار</li></ul>   | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/dstwralamlhay-rnh-magryt-bh-fyl-aaby-bray-aydhyaby.webp) | دستورالعمل‌های «رنه ماگریت» به فیل آبی برای ایده‌یابی            | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/dstwralamlhay-fyl-aaby-bray-aydh-yaby.webp)              | دستورالعمل‌های فیل آبی برای ایده یابی                            | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ★★★★⯩  |
-| ![](https://ifard.ir/assets/covers/books/yadgyry-zaya.webp)                                       | یادگیری زایا                                                     | <ul><li>🐢سخت‌خوان</li></ul>                   | ★★     |
-| ![](https://ifard.ir/assets/covers/books/taksy-swary.webp)                                        | تاکسی سواری                                                      | <ul><li>🪶خوش‌خوان</li></ul>                   | ★★     |
-| ![](https://ifard.ir/assets/covers/books/yadgyry-yadgyry.webp)                                    | یادگیری یادگیری                                                  | <ul><li>🪶خوش‌خوان</li></ul>                   | ★★★★⯩  |
-| ![](https://ifard.ir/assets/covers/books/mzkhrfat-farsy.webp)                                     | مزخرفات فارسی                                                    | <ul><li>🪶خوش‌خوان</li><li>🦉آموزنده</li></ul> | ★★★★   |
-| ![](https://ifard.ir/assets/covers/books/az-qytryh-ta-awrnj-kanty.webp)                           | از قیطریه تا اورنج کانتی                                         | <ul><li>☕تلخ</li><li>🪶خوش‌خوان</li></ul>      | ★★★★★  |
-| ![](https://ifard.ir/assets/covers/books/qdrt-skwt.webp)                                          | قدرت سکوت                                                        | \-                                             | ★★★    |
-| ![](https://ifard.ir/assets/covers/books/ktab-80000-saat.webp)                                    | کتاب 80000 ساعت                                                  | \-                                             | ★★★    |
-<!-- SerializedQuery END -->
 
 
 خیلی وقت بود داستان نخونده بودم. اکثر کتاب‌هایی که خونده بودم غیرداستانی بودند. امسال شروع کردم به خوندن داستان و رمان. تازه مزه کتاب خوندن رو چشیدم. **کتابخوان**، **قلعه حیوانات**، **دایی جان ناپلئون**، **مردی به نام اوه**، **جنایات و مکافات** رو بیشتر از بقیه دوست داشتم.
