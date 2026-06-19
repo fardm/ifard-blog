@@ -99,11 +99,11 @@ div.flex-component:has(.page-title) > div {
         background-image: url("/static/avatar.webp");
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: var(--secondary);
+        // background-color: var(--secondary);
         border-radius: 5px;
     }
     &:hover::before {
-        background-color: var(--tertiary);
+        filter: brightness(110%);
     }
     }
 }

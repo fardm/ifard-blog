@@ -9,7 +9,7 @@ tags:
   - AI
 cssclasses: []
 comments: true
-draft: false
+draft: true
 image: "[[none.webp]]"
 ---
 

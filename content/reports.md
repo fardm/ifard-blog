@@ -8,14 +8,22 @@ created: 2025-01-01
 draft: false
 image: "[[reports.webp]]"
 ---
-![[reports.webp]]
 
 
-- [[report1402|گزارش ۱۴۰۲]]
-- [[report1403|گزارش ۱۴۰۳]]
-- [[report1404|گزارش ۱۴۰۴]]
-- [[report1405|گزارش ۱۴۰۵]]
-- [[report-all|گزارش کلی]]
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - and:
+            - file.name.startsWith("report")
+            - file.name != "reports"
+            - '!file.name.endsWith("webp")'
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 300
 
-
-
+```

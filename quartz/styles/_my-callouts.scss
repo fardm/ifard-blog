@@ -151,10 +151,18 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+.callout[data-callout="grid3"] .callout-content {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (max-width: 480px) {
     .callout[data-callout^="grid"] .callout-content {
         grid-template-columns: repeat(1, 1fr);
     }
+    
+    .callout[data-callout="grid3"] .callout-content {
+      grid-template-columns: 1fr;
+  }
 }
 
 // ================ 03. IMGAGES CAPTION  ================

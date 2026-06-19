@@ -51,7 +51,6 @@ views:
     sort: []
     image: note.image
     cardSize: 300
-
 ```
 
 

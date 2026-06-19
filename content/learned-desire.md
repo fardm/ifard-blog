@@ -8,7 +8,7 @@ comments: true
 status: 🌱
 tags:
   - بازاندیشی
-draft: false
+draft: true
 image: "[[none.webp]]"
 ---
 

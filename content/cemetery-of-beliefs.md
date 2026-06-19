@@ -8,7 +8,7 @@ comments: true
 status: 🌱
 tags:
   - بازاندیشی
-draft: false
+draft: true
 image: "[[none.webp]]"
 ---
 به باورهایم فکر می‌کنم. به باورهایی که مرده‌اند و دیگر باوری به آنها ندارم.

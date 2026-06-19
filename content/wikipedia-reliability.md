@@ -7,7 +7,7 @@ modified: 2026-01-09
 status: 🌱
 tags:
 comments: true
-draft: false
+draft: true
 image: "[[cover-wikipedia.jpg]]"
 ---
 ![[cover-wikipedia.jpg]]

@@ -8,7 +8,7 @@ tags:
   - بازاندیشی
 status: 🌿
 comments: true
-draft: false
+draft: true
 image: "[[cover-wandering.jpg]]"
 ---
 ![[cover-wandering.jpg]]

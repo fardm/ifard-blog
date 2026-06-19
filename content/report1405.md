@@ -11,7 +11,7 @@ cssclasses:
   - card-s
   - nowarp2
   - c3-4
-draft: false
+draft: true
 image: "[[reports.webp]]"
 ---
 <br> 
@@ -28,15 +28,15 @@ image: "[[reports.webp]]"
 
 | icon | count      | sum         |
 | ---- | ---------- | ----------- |
-| 📚   | 7 جلد کتاب | `1904 صفحه` |
+| 📚   | 8 جلد کتاب | `2344 صفحه` |
 <!-- SerializedQuery END -->
 
-<!-- QueryToSerialize: TABLE WITHOUT ID "🎓" as icon, length(rows) + " دوره‌آموزشی" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Course WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") GROUP BY "" -->
-<!-- SerializedQuery: TABLE WITHOUT ID "🎓" as icon, length(rows) + " دوره‌آموزشی" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Course WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") GROUP BY "" -->
+<!-- QueryToSerialize: TABLE WITHOUT ID "🎓" as icon, length(rows) + " دوره‌" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Course WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") GROUP BY "" -->
+<!-- SerializedQuery: TABLE WITHOUT ID "🎓" as icon, length(rows) + " دوره‌" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Course WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") GROUP BY "" -->
 
-| icon | count         | sum      |
-| ---- | ------------- | -------- |
-| 🎓   | 1 دوره‌آموزشی | `6 ساعت` |
+| icon | count   | sum      |
+| ---- | ------- | -------- |
+| 🎓   | 1 دوره‌ | `6 ساعت` |
 <!-- SerializedQuery END -->
 
 <!-- QueryToSerialize: TABLE WITHOUT ID "🎙" as icon, length(rows) + " پادکست" as count, "`" + round(sum(rows.length.hours),1) + " ساعت`" as sum FROM #Podcast WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") GROUP BY "" -->
@@ -68,7 +68,7 @@ image: "[[reports.webp]]"
 
 | icon | "`" + length(filter(rows, (r) => r.🏋️exercise = true)) + " روز`" | "ورزش کردم" |
 | ---- | ----------------------------------------------------------------- | ----------- |
-| 🏋️  | `35 روز`                                                          | ورزش کردم   |
+| 🏋️  | `41 روز`                                                          | ورزش کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -77,7 +77,7 @@ image: "[[reports.webp]]"
 
 | icon | "`" + round(sum(rows.📚reading)) + " پومودورو`" | "مطالعه کردم" |
 | ---- | ----------------------------------------------- | ------------- |
-| 📖   | `92 پومودورو`                                   | مطالعه کردم   |
+| 📖   | `103 پومودورو`                                  | مطالعه کردم   |
 <!-- SerializedQuery END -->
 
 
@@ -94,65 +94,19 @@ image: "[[reports.webp]]"
 
 <br><br>
 
-## ۱. مصرف محتوا
+## محتواها
 
 
 ### 📚 کتاب
 
-<br> 
-
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Book WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Book WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-
-| ("![](" + cover_self + ")")                                                    | file.name                    | badge                           | rating |
-| ------------------------------------------------------------------------------ | ---------------------------- | ------------------------------- | ------ |
-| ![](https://ifard.ir/assets/covers/books/shb-yk-shb-dw.webp)                   | شب یک شب دو                  | \-                              |        |
-| ![](https://ifard.ir/assets/covers/books/estizah-rahbari.webp)                 | استیضاح رهبری                | \-                              | ★★★⯩   |
-| ![](https://ifard.ir/assets/covers/books/sexuality.webp)                       | سکسوالیته                    | <ul><li>🐢سخت‌خوان</li></ul>    | ★★     |
-| ![](https://ifard.ir/assets/covers/books/mjmwah-aathar-chkhwf-jld-chharm.webp) | مجموعه آثار چخوف (جلد چهارم) | \-                              |        |
-| ![](https://ifard.ir/assets/covers/books/ykhzar-kwdn.webp)                     | یک‌هزار کودن                 | <ul><li>🪶خوش‌خوان</li></ul>    | ★★★    |
-| ![](https://ifard.ir/assets/covers/books/qmarbaz.webp)                         | قمارباز                      | \-                              |        |
-| ![](https://ifard.ir/assets/covers/books/dar-setayesh-namadari.webp)           | در ستایش نامادری             | <ul><li>🧩سرگرم‌کننده</li></ul> | ★★⯩    |
-<!-- SerializedQuery END -->
-
-
-
 <br><br>
 
-### 🎓 دوره‌های آموزشی
-
-<br> 
-
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, "`" + round(length.hours,1) + " ساعت`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Course WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, "`" + round(length.hours,1) + " ساعت`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Course WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-
-| ("![](" + cover_self + ")")                                   | file.name           | "`" + round(length.hours,1) + " ساعت`" | rating |
-| ------------------------------------------------------------- | ------------------- | -------------------------------------- | ------ |
-| ![](https://ifard.ir/assets/covers/courses/dastan-kotah.webp) | کارگاه داستان کوتاه | `6 ساعت`                               | ★★★    |
-<!-- SerializedQuery END -->
-
-
+### 🎓 دوره‌ها
 
 <br><br>
 
 
 ### 🎙 پادکست
-
-<br> 
-
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Podcast WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Podcast WHERE date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-
-| ("![](" + cover_self + ")")                                                                        | file.name                                          | "`" + length.minute + " دقیقه`" | rating |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------- | ------ |
-| ![](https://ifard.ir/assets/covers/podcasts/myna-kamran-w-ahsan-mhtdy-bnyangtharan-rwstatysh.webp) | مینا کامران و احسان مهتدی بنیان‌گذاران روستاتیش    | `148 دقیقه`                     | ★★★⯩   |
-| ![](https://ifard.ir/assets/covers/podcasts/bplus.webp)                                            | حوزه علمیه نهاد دینی، رابطه با پول و رابطه با قدرت | `46 دقیقه`                      |        |
-| ![](https://ifard.ir/assets/covers/podcasts/bplus.webp)                                            | چرا آمریکا به ایران حمله کرد؟                      | `55 دقیقه`                      |        |
-| ![](https://ifard.ir/assets/covers/podcasts/rhbry-shsh-mtalah-dr-astratzhy-jhany.webp)             | رهبری شش مطالعه در استراتژی جهانی                  | `78 دقیقه`                      |        |
-<!-- SerializedQuery END -->
-
-
-
 <br><br>
 
 ### 🍿 فیلم و سریال
@@ -162,35 +116,12 @@ image: "[[reports.webp]]"
 
 <br> 
 
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "film" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "film" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-
-| ("![](" + cover_self + ")")                                                    | file.name                      | badge                                     | rating |
-| ------------------------------------------------------------------------------ | ------------------------------ | ----------------------------------------- | ------ |
-| ![](https://ifard.ir/assets/covers/movies/hit-man.webp)                        | Hit Man                        | <ul><li>🧩سرگرم‌کننده</li></ul>           | ★★★★⯩  |
-| ![](https://ifard.ir/assets/covers/movies/vertigo.webp)                        | Vertigo                        | \-                                        | ★★⯩    |
-| ![](https://ifard.ir/assets/covers/movies/psycho.webp)                         | Psycho                         | <ul><li>🧲گیرا</li></ul>                  | ★★★★⯩  |
-| ![](https://ifard.ir/assets/covers/movies/the-phoenician-scheme.webp)          | The Phoenician Scheme          | <ul><li>🧩سرگرم‌کننده</li></ul>           | ★★★★   |
-| ![](https://ifard.ir/assets/covers/movies/all-quiet-on-the-western-front.webp) | All Quiet on the Western Front | <ul><li>☕تلخ</li></ul>                    | ★★★★⯩  |
-| ![](https://ifard.ir/assets/covers/movies/the-french-dispatch.webp)            | The French Dispatch            | <ul><li>🧩سرگرم‌کننده</li></ul>           | ★★★★⯩  |
-| ![](https://ifard.ir/assets/covers/movies/heroic-losers.webp)                  | Heroic Losers                  | <ul><li>😊دلنشین</li><li>🧲گیرا</li></ul> | ★★★★⯩  |
-<!-- SerializedQuery END -->
-
-
 
 <br><br>
 
 
 #### سریال
 
-<br> 
-
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "series" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, badge, choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "series" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-
-| ("![](" + cover_self + ")") | file.name | badge | rating |
-| --------------------------- | --------- | ----- | ------ |
-<!-- SerializedQuery END -->
 
 
 
@@ -221,12 +152,12 @@ image: "[[reports.webp]]"
 <!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "short" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
 <!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "short" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
 
-| ("![](" + cover_self + ")")                                                        | file.name                          | "`" + length.minute + " دقیقه`" | rating |
-| ---------------------------------------------------------------------------------- | ---------------------------------- | ------------------------------- | ------ |
-| ![](https://ifard.ir/assets/covers/movies/poison.webp)                             | Poison                             | `17 دقیقه`                      | ★★⯩    |
-| ![](https://ifard.ir/assets/covers/movies/the-rat-catcher.webp)                    | The Rat Catcher                    | `17 دقیقه`                      | ★★★    |
-| ![](https://ifard.ir/assets/covers/movies/the-swan.webp)                           | The Swan                           | `17 دقیقه`                      | ★★⯩    |
-| ![](https://ifard.ir/assets/covers/movies/the-wonderful-story-of-henry-sugar.webp) | The Wonderful Story of Henry Sugar | `40 دقیقه`                      | ★★★★⯩  |
+| ("![](" + cover_self + ")") | file.name                          | "`" + length.minute + " دقیقه`" | rating |
+| --------------------------- | ---------------------------------- | ------------------------------- | ------ |
+| ![](\-)                     | Poison                             | `17 دقیقه`                      | ★★⯩    |
+| ![](\-)                     | The Rat Catcher                    | `17 دقیقه`                      | ★★★    |
+| ![](\-)                     | The Swan                           | `17 دقیقه`                      | ★★⯩    |
+| ![](\-)                     | The Wonderful Story of Henry Sugar | `40 دقیقه`                      | ★★★★⯩  |
 <!-- SerializedQuery END -->
 
 
@@ -237,8 +168,8 @@ image: "[[reports.webp]]"
 
 <br> 
 
-<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "documentaries" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
-<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "documentaries" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
+<!-- QueryToSerialize: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "documentary" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
+<!-- SerializedQuery: table without id ("![](" + cover_self + ")"), file.name, "`" + length.minute + " دقیقه`", choice(rating = 5, "★★★★★", choice(rating = 4.5, "★★★★⯩", choice(rating = 4, "★★★★", choice(rating = 3.5, "★★★⯩", choice(rating = 3, "★★★", choice(rating = 2.5, "★★⯩", choice(rating = 2, "★★", choice(rating = 1.5, "★⯩", choice(rating = 1, "★", ""))))))))) AS rating FROM #Movie WHERE type = "documentary" AND date >= date("2026-03-21") AND date <= date("2027-03-20") SORT date DESC -->
 
 | ("![](" + cover_self + ")") | file.name | "`" + length.minute + " دقیقه`" | rating |
 | --------------------------- | --------- | ------------------------------- | ------ |
@@ -248,7 +179,7 @@ image: "[[reports.webp]]"
 
 
 
-## ۲. ردیابی عادت
+## عادت‌ها
 
 
 ### 🏋🏻 ورزش
@@ -262,7 +193,7 @@ image: "[[reports.webp]]"
 
 | "" | true                 | false                  |
 | -- | -------------------- | ---------------------- |
-|    | 🏋️ 35 روز ورزش کردم | 🛌 41 روز استراحت کردم |
+|    | 🏋️ 41 روز ورزش کردم | 🛌 50 روز استراحت کردم |
 <!-- SerializedQuery END -->
 
 </div>
@@ -280,9 +211,9 @@ image: "[[reports.webp]]"
 <!-- QueryToSerialize: table without id "🚩 مجموعا " + length(filter(rows.📚reading, (e) => e >= 1)) + " روز مطالعه کردم" as true, "🔘 جمع کل: " + round(sum(rows.📚reading)) + " پومودورو" as Total, "📈 میانگین: " + round(sum(rows.📚reading) / length(rows), 1) + " پومودورو" as Average FROM #journal WHERE file.name >= ("2026-03-21") AND file.name <= ("2027-03-20") GROUP BY "" -->
 <!-- SerializedQuery: table without id "🚩 مجموعا " + length(filter(rows.📚reading, (e) => e >= 1)) + " روز مطالعه کردم" as true, "🔘 جمع کل: " + round(sum(rows.📚reading)) + " پومودورو" as Total, "📈 میانگین: " + round(sum(rows.📚reading) / length(rows), 1) + " پومودورو" as Average FROM #journal WHERE file.name >= ("2026-03-21") AND file.name <= ("2027-03-20") GROUP BY "" -->
 
-| true                         | Total                  | Average                  |
-| ---------------------------- | ---------------------- | ------------------------ |
-| 🚩 مجموعا 51 روز مطالعه کردم | 🔘 جمع کل: 92 پومودورو | 📈 میانگین: 1.2 پومودورو |
+| true                         | Total                   | Average                  |
+| ---------------------------- | ----------------------- | ------------------------ |
+| 🚩 مجموعا 60 روز مطالعه کردم | 🔘 جمع کل: 103 پومودورو | 📈 میانگین: 1.1 پومودورو |
 <!-- SerializedQuery END -->
 
 </div>
@@ -343,7 +274,7 @@ image: "[[reports.webp]]"
 
 <br><br>
 
-## ۳. پروژه‌ها
+## پروژه‌ها
 
 
 <br><br> 

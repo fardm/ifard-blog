@@ -16,6 +16,8 @@ views:
     filters:
       and:
         - draft == false
+        - file.name != "index"
+        - file.name != "recent"
     order:
       - file.name
       - status
