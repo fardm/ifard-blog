@@ -8,24 +8,12 @@ comments: true
 status:
 ---
 
+- دکمه ایندکس اینترنال بشه آیکون مخفی بشه
+- نمای کارتی جداول: بهینه بشه، اگر نیازی بهش نیست حذف بشه چون دیگه از بیس استفاده میکنم. البته برای در یک نگاه ها هنوز داره استفاده میشه
 
-## تسک
-- [ ] پرسیدن هدر توی دیسکورد
-- [ ] معرفی کامنت توی دیسکورد
-```
-If anyone is looking for a self-hosted alternative to Giscus for Quartz, I extended Standalone Comments Server for my own site. It doesn't require GitHub accounts and runs on simple PHP shared hosting.
-
-I've been using it successfully and thought it might be useful to others:
-https://github.com/fardm/standalone-comments-server
-```
-- [ ] شمسی کردن تاریخ بیس
-
-
-- [ ] اطلاع رسانی در تگلرام با تصاویر  بعد از اینکه بحث مدیریت دانش خوب سرو سامون گرفت
-
-
----
-
+## کاور
+- بازطراحی کاور مدیریت دانش شخصی با کاراکتر خودم. بکش هم کمی تیره بشه کنتراست نوری داشته باشه
+- 
 ## تکمیل یادداشت
 - [ ] [[second-brain|مغز دوم]]:
 	- [ ] تفکیک بین مغز دوم و روش پارا: در واقع پارا یه روش پیشنهادی برای سازماندهیه
@@ -44,7 +32,19 @@ https://github.com/fardm/standalone-comments-server
 
 
 
+---
 
+## تسک
+- [ ] پرسیدن هدر توی دیسکورد
+- [ ] معرفی کامنت توی دیسکورد
+```
+If anyone is looking for a self-hosted alternative to Giscus for Quartz, I extended Standalone Comments Server for my own site. It doesn't require GitHub accounts and runs on simple PHP shared hosting.
+
+I've been using it successfully and thought it might be useful to others:
+https://github.com/fardm/standalone-comments-server
+```
+- [ ] شمسی کردن تاریخ بیس
+- [ ] اطلاع رسانی در تگلرام با تصاویر  بعد از اینکه بحث مدیریت دانش خوب سرو سامون گرفت
 
 
 ---
