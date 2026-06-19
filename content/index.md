@@ -28,10 +28,8 @@ views:
             - file.name == "pkm"
             - file.name == "obsidian"
             - file.name == "attention-management"
-            - file.name == "linking"
-    sort:
-      - property: file.name
-        direction: DESC
+            - file.name == "ollama"
+    sort: []
     image: note.image
     cardSize: 300
 
