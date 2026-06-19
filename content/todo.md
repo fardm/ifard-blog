@@ -8,23 +8,7 @@ comments: true
 status:
 ---
 
-## کتابخانه
-- [ ] اصلاح گزارش ها
-- تو موبایل تست کنم چه طور میشه
-- اسکرولش رو مدرن کنم.
 
-غیرفعال کردن لینک
-```css
-a.bases-card {
-    pointer-events: none;
-    cursor: default;
-}
-
-.internal-link.bases-card {  
-pointer-events: none;  
-}
-
-```
 ## تسک
 - [ ] پرسیدن هدر توی دیسکورد
 - [ ] معرفی کامنت توی دیسکورد
@@ -35,7 +19,7 @@ I've been using it successfully and thought it might be useful to others:
 https://github.com/fardm/standalone-comments-server
 ```
 - [ ] شمسی کردن تاریخ بیس
-- [ ] تست این پلاگین اگر خوب بود توی انتشار رایگان اضافه بشه: https://github.com/enveloppe/obsidian-enveloppe
+
 
 - [ ] اطلاع رسانی در تگلرام با تصاویر  بعد از اینکه بحث مدیریت دانش خوب سرو سامون گرفت
 
@@ -46,11 +30,20 @@ https://github.com/fardm/standalone-comments-server
 - [ ] [[second-brain|مغز دوم]]:
 	- [ ] تفکیک بین مغز دوم و روش پارا: در واقع پارا یه روش پیشنهادی برای سازماندهیه
 - [ ] [[markdown|مارک داون]]
+- [ ] [[obsidian-publish|انتشار رایگان یادداشت‌های ابسیدین]]:
+	- [ ] بازنویسی مقایسه، اصلاح کوارتز پشتیبانی از چیزای جدید
+	- [ ]  تست این پلاگین اگر خوب بود اضافه بشه: https://github.com/enveloppe/obsidian-enveloppe
+- [ ] [[elements]]: اصلاح پشتبانی نمیشه ها
+- [ ] بازنویس زیرنویس
+- [ ] حذف یا بازنویسی پیش نویس ها
 
 
 ## ضبط ویدئو
 - [ ] [[add-content-obsidian|وارد کردن محتوا در ابسیدین]]
 - [ ] [[create-report|ساخت گزارش عملکرد شخصی در ابسیدین]]
+
+
+
 
 
 
