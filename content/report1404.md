@@ -85,7 +85,8 @@ image: "[[reports.webp]]"
 
 ## ۱. محتواها
 
-(لیست همه‌ی محتوا ها اینجاست: [1404-data](https://library.ifard.ir/1404-data.base))
+لیست همه‌ی محتواها همذاه با جزئیات اینجاست:
+https://archive.ifard.ir/1404.base
 
 <br> 
 
