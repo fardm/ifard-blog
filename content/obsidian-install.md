@@ -79,17 +79,33 @@ image: "[[obsidian-in-display.webp]]"
 <br>
 
 ### ‌کال‌اوت‌
-با عبارت `> [!NOTE]` می توانید از ‌کال‌اوت‌ها استفاده کنید.
+با عبارت `> [!NOviews:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "obsidian-review"
+            - file.name == "obsidian-install"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
+  - type: cards
+    name: view 2
+    filters:
+      and:
+        - or:
+            - file.name == "obsidian-review"
+            - file.name == "obsidian-install"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
 
-برای تغییر عنوان ‌کال‌اوت بعد از براکت متن مورد نظر را تایپ کنید:
-> [!NOTE] عنوان سفارشی
-> `[!NOTE] عنوان سفارشی`
-
-<br>
-
-اگر بعد از براکت `خط تیره -` تایپ کنید ‌کال‌اوت به صورت پیشفرض بسته می‌ماند:
-> [!failure]- بسته
-> `[!NOTE]-`
+OTE]-`
 
 <br>
 

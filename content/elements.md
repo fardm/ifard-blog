@@ -1,26 +1,25 @@
 ---
-title: پیش‌نمایش و تست سازگاری
+title: پیش‌نمایش کوارتز
 aliases:
-  - پیش‌نمایش و تست سازگاری
+  - پیش‌نمایش کوارتز
 created: 2024-09-06
 comments: true
 modified: 2026-06-03
 draft: false
 image: "[[none.webp]]"
 ---
-[فایل اصلی](https://github.com/fardm/quartz/blob/v4/content/elements.md)
-
-<br>
-
 ## مواردی که پشتیبانی می‌کند
 
 
+### هدینگ‌ها
+```
 # تیتر 1
 ## تیتر 2
 ### تیتر 3
 #### تیتر 4
 ##### تیتر 5
 ###### تیتر 6
+```
 
 <br>
 
@@ -42,11 +41,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 
-### لینک و تگ
+### لینک
 
-[[obsidian-publish|لینک داخلی]]
+`[[obsidian-publish|لینک داخلی]]`
 
-[لینک خارجی](https://example.com)
+`[لینک خارجی](https://example.com)`
+
+
+### تگ
 
 `#تست`
 
@@ -72,11 +74,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - [ ] سه
 
 <br>
-
-### ایموجی
-
-📚 ⭐😍⏰🔥🌱🚀🌿🌳🍿💩😎😘🤬
-
 
 <br>
 
@@ -147,7 +144,7 @@ EmbededCover
 
 ### تصویر
 محلی
-![[cover-quartz.webp]]
+![[pkm.webp]]
 
 خارجی
 
@@ -207,25 +204,77 @@ linkStyle default stroke:gray,stroke-width:1px;
 
 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.[^2]
 
-<br><br>
+
 
 
 [^1]: پاورقی شماره یک.
 [^2]: پاورقی شماره دو.
 
 
-## مواردی که پشتیبانی نمی‌کند
+<br>
 
 ### ریاضی
-$$ \begin{vmatrix}a & b\\ c & d \end{vmatrix}=ad-bc $$
+
+$$
+f(x) = \int_{-\infty}^\infty
+    f\hat(\xi),e^{2 \pi i \xi x}
+    \,d\xi
+$$
+
 
 <br>
 
 ### کنواس (canvas)
 
-کنواس
+![[canvas.canvas]]
 
 <br>
+
+### بیس (Bases)
+
+```base
+views:
+  - type: cards
+    name: view
+    filters:
+      and:
+        - or:
+            - file.name == "obsidian-review"
+            - file.name == "obsidian-install"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
+  - type: table
+    name: view 2
+    filters:
+      and:
+        - or:
+            - file.name == "obsidian-review"
+            - file.name == "obsidian-install"
+    sort:
+      - property: file.name
+        direction: DESC
+    image: note.image
+    cardSize: 200
+  - type: list
+    name: view 3
+    filters:
+      and:
+        - or:
+            - file.name == "obsidian-review"
+            - file.name == "obsidian-install"
+    sort: []
+    image: note.image
+    cardSize: 200
+
+```
+
+<br><br>
+
+
+## مواردی که پشتیبانی نمی‌کند
 
 ### پلاگین دیتاویو (dataview)
 
@@ -235,6 +284,7 @@ file.link as "فایل"
 from "content/note"
 ```
 
-(البته میشه از پلاگین [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer) استفاده کرد)
+(البته میشه از پلاگین [Obsidian Dataview Serializer](https://github.com/dsebastien/obsidian-dataview-serializer) یا [quartz-syncer](https://github.com/saberzero1/quartz-syncer) استفاده کرد)
+
 
 <br>

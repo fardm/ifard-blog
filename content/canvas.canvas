@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"46fd063cf6de274a","x":255,"y":-477,"width":400,"height":400,"type":"file","file":"obsidian-review.md"},
+		{"id":"c2c61a3359e517ab","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"obsidian"},
+		{"id":"cff20c04f188d0ec","x":180,"y":40,"width":400,"height":400,"type":"file","file":"obsidian-install.md"}
+	],
+	"edges":[
+		{"id":"586633485ace3e8e","fromNode":"c2c61a3359e517ab","fromSide":"right","toNode":"cff20c04f188d0ec","toSide":"left"},
+		{"id":"8ada88c28080f9c4","fromNode":"c2c61a3359e517ab","fromSide":"right","toNode":"46fd063cf6de274a","toSide":"left"}
+	]
+}
