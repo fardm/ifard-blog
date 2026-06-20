@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"46fd063cf6de274a","x":255,"y":-477,"width":400,"height":400,"type":"file","file":"obsidian-review.md"},
-		{"id":"c2c61a3359e517ab","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"obsidian"},
-		{"id":"cff20c04f188d0ec","x":180,"y":40,"width":400,"height":400,"type":"file","file":"obsidian-install.md"}
+		{"id":"275f7e035b781830","type":"group","x":-680,"y":620,"width":440,"height":380,"label":"یادداشت برداری"},
+		{"id":"4ccc7e5358e20cf1","type":"group","x":-159,"y":620,"width":440,"height":380,"label":"مدیریت دانش شخصی"},
+		{"id":"4ffefd0ecaa34951","type":"file","file":"note-taking.md","x":-660,"y":662,"width":400,"height":317},
+		{"id":"201f792e8622e839","type":"file","file":"pkm.md","x":-139,"y":662,"width":400,"height":317}
 	],
 	"edges":[
-		{"id":"586633485ace3e8e","fromNode":"c2c61a3359e517ab","fromSide":"right","toNode":"cff20c04f188d0ec","toSide":"left"},
-		{"id":"8ada88c28080f9c4","fromNode":"c2c61a3359e517ab","fromSide":"right","toNode":"46fd063cf6de274a","toSide":"left"}
+		{"id":"2de82b992744dc4b","fromNode":"4ccc7e5358e20cf1","fromSide":"left","toNode":"275f7e035b781830","toSide":"right"}
 	]
 }
