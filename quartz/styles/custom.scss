@@ -251,28 +251,22 @@ button.telegram-btn:active {
   align-items: center;
   gap: 0.6rem;
   margin-top: 0.5rem;
-
   padding: 0.85rem 1.25rem;
   border-radius: 8px;
-
   text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
   font-weight: 600;
-
   color: var(--dark);
-
   border: 1px solid var(--lightgray);
-
   transition: all 0.5s ease;
 background:
-  linear-gradient(
+linear-gradient(
     180deg,
     color-mix(in srgb, var(--light) 96%, white),
     var(--light)
-  );
+);
 
-  svg.external-icon {
-    display: none;
-  }
 }
 
 .all-notes-btn svg {
