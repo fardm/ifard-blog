@@ -40,7 +40,7 @@ image: "[[layered-notes.webp]]"
 
 <br> 
 
-## برای مطالعه بیشتر
+## برای مطالعه‌ی بیشتر
 - [خلاصه سازی تدریجی (Progressive Summarization)](https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/).
 
 

@@ -3,7 +3,7 @@ title: " یادداشت برداری"
 aliases:
   - یادداشت برداری
 created: 2025-06-04
-modified: 2026-05-11
+modified: 2026-06-22
 comments: true
 status: 🌿
 draft: false
@@ -85,6 +85,6 @@ https://karfekr.ir/735/how-to-save-content-guide/
 
 <br>
 
-## مطالعه بیشتر
+## برای مطالعه‌ی بیشتر
 - چهارده نکته درباره‌ی یادداشت‌نویسی - رضا بابایی: [telegram](https://t.me/rezababaei43/832)، [shahinkalantari](https://shahinkalantari.com/wp-content/uploads/%D8%AC%D8%B2%D9%88%D9%87%E2%80%8C%DB%8C-%DB%8C%D8%A7%D8%AF%D8%AF%D8%A7%D8%B4%D8%AA%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%B1%D8%B6%D8%A7-%D8%A8%D8%A7%D8%A8%D8%A7%DB%8C%DB%8C.pdf)
 

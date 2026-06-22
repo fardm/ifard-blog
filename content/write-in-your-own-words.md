@@ -3,11 +3,11 @@ title: نوشتن به زبان خود
 aliases:
   - نوشتن به زبان خود
 created: 2025-04-30
+modified: 2026-06-22
 status: 🌱
 tags:
 cssclasses:
 comments: true
-modified: 2025-09-05
 draft: false
 image: "[[write-in-your-own-words.webp]]"
 ---
