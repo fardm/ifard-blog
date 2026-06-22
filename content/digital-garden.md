@@ -3,7 +3,7 @@ title: دیجیتال گاردن
 aliases:
   - دیجیتال گاردن
 created: 2024-05-23
-modified: 2026-06-17
+modified: 2026-06-22
 draft: false
 comments: true
 tags:
@@ -125,7 +125,7 @@ image: "[[digital-garden.webp]]"
 
 <br>
 
-## منابع برای مطالعه‌ی بیشتر
+## برای مطالعه‌ی بیشتر
 
 - [شرایط خدمات دیجیتال گاردن](https://www.swyx.io/digital-garden-tos)
 - [تاریخچه مختصر دیجیتال گاردن](https://maggieappleton.com/garden-history)

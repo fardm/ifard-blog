@@ -3,7 +3,7 @@ title: لایه‌بندی نوشته‌ها
 aliases:
   - لایه‌بندی نوشته‌ها
 created: 2025-04-02
-modified: 2026-06-20
+modified: 2026-06-22
 comments: true
 status: 🌱
 draft: false
@@ -40,7 +40,7 @@ image: "[[layered-notes.webp]]"
 
 <br> 
 
-## منابع برای مطالعه بیشتر
+## برای مطالعه بیشتر
 - [خلاصه سازی تدریجی (Progressive Summarization)](https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/).
 
 
