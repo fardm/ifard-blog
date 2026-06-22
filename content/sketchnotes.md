@@ -15,12 +15,11 @@ image: "[[none.webp]]"
 
 یکی از شیوه‌های یادداشت برداری اسکچ‌نوت است. در این روش با اشکال ساده مثل مربع و مستطیل و دایره، خطوط و فلش‌ها تلاش می‌کنید مفاهیم را به جای نوشتن به تصویر بکشید.
 
-<Carousel>
-<img src="SketchStrategy2.webp" alt=""/>
-<img src="sketchnotes-greta-thunberg-ted-talk.webp" alt=""/>
-<img src="leistungen-nadinerossa-graphicrecording.webp" alt=""/>
-<img src="ben-james-sketchnote-1.webp" alt=""/>
-</Carousel>
+> [!grid]
+> ![[SketchStrategy2.webp]]
+> ![[sketchnotes-greta-thunberg-ted-talk.webp]]
+> ![[ben-james-sketchnote-1.webp]]
+
 
 کلمات و جملات معمولا ماندگاری بالایی در ذهن ما ندارند اما تصاویر و اشکال بصری ماندگاری بیشتری دارند. اسکچ‌‌نوت‌ها کمک می‌کنند مطالب را بیشتر به خاطر بسپاریم و مطمئن باشیم که به این زودی‌ها از ذهن‌مان پاک نمی‌شوند. 
 

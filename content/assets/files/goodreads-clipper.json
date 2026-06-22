@@ -45,11 +45,6 @@
 			"type": "text"
 		},
 		{
-			"name": "cover_self",
-			"value": "",
-			"type": "text"
-		},
-		{
 			"name": "cover_source",
 			"value": "{{schema:@Book:image}}",
 			"type": "text"

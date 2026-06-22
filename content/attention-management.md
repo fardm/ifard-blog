@@ -3,7 +3,7 @@ title: مدیریت توجه
 aliases:
   - مدیریت توجه
 created: 2025-09-11
-modified: 2026-06-09
+modified: 2026-06-22
 comments: true
 status: 🌳
 draft: false
@@ -230,15 +230,11 @@ image: "[[attention-management.webp]]"
 
 متاسفانه این کارها معمولا اتفاقی است و برنامه مشخصی ندارد. کاری که من بعضی اوقات انجام می‌دهم ساخت بنای سنتی با آجر های خشتی یک سانتی است. فعلا [این طاقچه](https://www.youtube.com/watch?v=xw08EPfzR9k) را ساختم(خروجی کمی افتضاح شده ولی من از مسیر لذت بردم😉):
 
-
-<Carousel>
-<img src="digital-detox-1770755593731.webp" alt="Description of image 1"/>
-<img src="digital-detox-1766821365333.webp" alt="Description of image 2"/>
-<img src="digital-detox-1770755624443.webp" alt="Description of image 3"/>
-</Carousel>
-
-
-
+> [!grid]
+> ![[digital-detox-1770755593731.webp]]
+> ![[digital-detox-1766821365333.webp]]
+> ![[digital-detox-1770755624443.webp]]
+> 
 
 
 گاهی اوقات هم اوریگامی درست می‌کنم:
@@ -254,6 +250,7 @@ image: "[[attention-management.webp]]"
 
 - [کتاب سم زدایی دیجیتال](https://www.goodreads.com/book/show/57124007)
 - [کتاب مینیمالیسم دیجیتال](https://www.goodreads.com/book/show/57525873)
-%% - کتاب مدیریت توجه %%
 - [دوره صوتی اقتصاد توجه متمم](https://motamem.org/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%AA%D9%88%D8%AC%D9%87-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AA%D9%88%D8%AC%D9%87-%D8%B4%D8%B9%D8%A8%D8%A7%D9%86%D8%B9%D9%84%DB%8C/)
 - [دیگر اخبار نخوانید!](https://www.goodreads.com/book/show/54622169)
+
+%% کتاب مدیریت توجه %%

@@ -25,11 +25,6 @@
 			"type": "text"
 		},
 		{
-			"name": "cover_self",
-			"value": "",
-			"type": "text"
-		},
-		{
 			"name": "cover_source",
 			"value": "{{selector:img.cover?src}}",
 			"type": "text"

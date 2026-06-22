@@ -40,11 +40,6 @@
 			"type": "text"
 		},
 		{
-			"name": "cover_self",
-			"value": "",
-			"type": "text"
-		},
-		{
 			"name": "cover_source",
 			"value": "{{meta:property:og:image}}",
 			"type": "text"
