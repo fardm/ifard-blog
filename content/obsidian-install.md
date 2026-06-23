@@ -3,7 +3,7 @@ title: آموزش نرم افزار ابسیدین (Obsidian)
 aliases:
   - آموزش نرم افزار ابسیدین (Obsidian)
 created: 2024-04-07
-modified: 2026-05-18
+modified: 2026-06-23
 draft: false
 comments: true
 tags:
@@ -79,33 +79,17 @@ image: "[[obsidian-in-display.webp]]"
 <br>
 
 ### ‌کال‌اوت‌
-با عبارت `> [!NOviews:
-  - type: cards
-    name: view
-    filters:
-      and:
-        - or:
-            - file.name == "obsidian-review"
-            - file.name == "obsidian-install"
-    sort:
-      - property: file.name
-        direction: DESC
-    image: note.image
-    cardSize: 200
-  - type: cards
-    name: view 2
-    filters:
-      and:
-        - or:
-            - file.name == "obsidian-review"
-            - file.name == "obsidian-install"
-    sort:
-      - property: file.name
-        direction: DESC
-    image: note.image
-    cardSize: 200
+با عبارت `> [!NOTE]` می توانید از ‌کال‌اوت‌ها استفاده کنید.
 
-OTE]-`
+برای تغییر عنوان ‌کال‌اوت بعد از براکت متن مورد نظر را تایپ کنید:
+> [!NOTE] عنوان سفارشی
+> `[!NOTE] عنوان سفارشی`
+
+<br>
+
+اگر بعد از براکت `خط تیره -` تایپ کنید ‌کال‌اوت به صورت پیشفرض بسته می‌ماند:
+> [!failure]- بسته
+> `[!NOTE]-`
 
 <br>
 
