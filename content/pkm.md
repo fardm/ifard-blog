@@ -3,7 +3,7 @@ title: مدیریت دانش شخصی (PKM)
 aliases:
   - مدیریت دانش شخصی (PKM)
 created: 2025-04-24
-modified: 2026-06-23
+modified: 2026-06-24
 status: 🌳
 comments: true
 draft: false
@@ -346,10 +346,6 @@ views:
 ```
 
 <br> 
-
-### روش GTD (Getting Things Done)
-این روش اساسا برای مدیریت کارهاست. در واقع روشی برای مدیریت اطلاعات شخصی(PIM) است اما در مدیریت دانش هم استفاده می‌شود. روش ساختن مغز دوم هم با الهام از همین روش بوده است.([+](https://gettingthingsdone.com/what-is-gtd/))
-
 <br><br>
 
 ## برای مطالعه‌ی بیشتر

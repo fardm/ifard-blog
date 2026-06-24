@@ -88,6 +88,13 @@ image: "[[organizing-note.webp]]"
 
 ---
 
+## ساختارهای پیشنهادی
+پارا متد
+زتلکاستن
+ACE Folder
+https://blog.linkingyourthinking.com/notes/the-ace-folder-framework-flexes-for-you
+
+
 
 **درمورد دسته بندی**
 - [Why Categories for Your Note Archive are a Bad Idea](https://zettelkasten.de/posts/no-categories/)
