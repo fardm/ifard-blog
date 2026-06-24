@@ -64,5 +64,7 @@ image: "[[sketchnotes.webp]]"
  %%
 
 
+<br>
+
 ## برای مطالعه‌ی بیشتر
 - [Sketchnotes: Ein geniales Werkzeug](https://sketchnotes.com/)
