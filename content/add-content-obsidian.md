@@ -18,6 +18,8 @@ image: "[[add-content-obsidian.webp]]"
 
 توی این یادداشت بهتون یاد میدم چه طور این کار رو انجام بدید.
 
+<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/lljv953/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+
 <br>
 
 ## چرا ذخیره کنیم؟
@@ -45,15 +47,12 @@ image: "[[add-content-obsidian.webp]]"
 > ---
 > aliases:
 > date: 
-> lastmod:
 > status: 
-> progress:
-> levels:
 > cover:
 > cover-source:
-> category: 
 > tags:
-> rating: 
+> rating:
+> badge:
 > source:
 > ---
 > 
@@ -69,13 +68,8 @@ image: "[[add-content-obsidian.webp]]"
 > 
 > **توضیح پراپرتی‌ها** <br> 
 > - **عنوان مستعار(aliases):** برای انتخاب عنوان های دیگه تا اگر عنوان اصلی رو فراموش کردم بتونم فایلش رو پیدا کنم.
-> - **تاریخ ایجاد(date):** تاریخ ایجاد یادداشت.
-> - **تاریخ آخرین بروزرسانی(lastmod):** آخرین باری که نوشته رو اصلاح یا ویرایش کردم.
-> - **وضعیت رشد(status):** میزان پیشرفت یادداشت از نظر محتوایی مثلا:
->   - `🌱نهال` برای ایده‌‌های اولیه و گذرا
->   - `🌿درختچه` برای نوشته‌هایی که کمی سر و سامان گرفتند
->   - `🌳همیشه سبز` برای مطالبی که تقریبا کامل هستند.
-> - **مرحله انجام(stage):** وضعیت انجام و تکمیل یادداشت مثلا:
+> - **تاریخ ایجاد(date):** تاریخ ایجاد.
+> - **وضعیت (status):** وضعیت انجام مثلا:
 > 	- `⬜پیش نویس`
 > 	- `🟨درحال انجام`
 > 	- `🟩تکمیل شده`
@@ -90,10 +84,9 @@ image: "[[add-content-obsidian.webp]]"
 > 	- `🌳پربار` 
 > 	- `🐢سخت‌خوان` 
 > 	- `🪶خوش‌خوان`
-> - **کاور(cover):** برای اضافه کردن تصویر مثلا جلد کتاب، پوستر فیلم، کاور پادکست.
-> - **موضوع(category):** دسته بندی مطالب بر اساس موضوع مثلا `اجتماعی` - `سیاسی` - `تاریخی` - `هنری`.
-> - **برچسب(tags):** برای دسته بندی و تفکیک فایل ها می توانید از تگ استفاده کنید. مثلا `#books` `#movies` `#podcasts` `#courses`
-> - **امتیاز(rating):** امتیاز شخصی من به این فایل. میشه از یک تا ده نمره داد یا از ایموجی ستاره (⭐) استفاده کرد.
+> - **کاور(cover):** برای اضافه کردن تصویر.
+> - **برچسب(tags):** برای دسته بندی و تفکیک فایل ها مثلا `#books` `#movies` `#podcasts` `#courses`
+> - **امتیاز(rating):** امتیاز شخصی من به این فایل. میشه از یک تا ده نمره داد.
 > **منبع(source):** لینک اصلی فایل. جایی که فایل از اونجا دانلود، وارد یا استخراج شده.
 > <br> 
 > 
