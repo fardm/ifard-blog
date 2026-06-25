@@ -10,6 +10,8 @@ wordcount: false
 status: 🌱
 cssclasses:
   - card-s
+  - nowarp2
+  - c3-4
 draft: false
 image: "[[reports.webp]]"
 ---
@@ -91,6 +93,55 @@ https://archive.ifard.ir/1404.base
 <br> 
 
 ### 📚 کتاب‌
+
+%% 
+<!-- QueryToSerialize: table without id ("![](" + cover_source + ")"), file.name FROM #Book WHERE date >= date("2025-03-21") AND date <= date("2026-03-20") SORT date DESC -->
+%%
+
+
+| ("![](" + cover_source + ")")                                                                                                | file.name                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ![](https://cdn.fidibo.com/phoenixpub/content/9ad58323-4269-4ad6-aad6-54b26e523649/e9d7c16c-f76e-4fca-a8c7-b506481848fe.jpg) | چرا ادبیات                                                       |
+| ![](\-)                                                                                                                      | فرهنگ گفتاری                                                     |
+| ![](https://img.taaghche.com/frontCover/63509.jpg)                                                                           | شراب خام                                                         |
+| ![](https://ketabnak.com/images/covers/Teoriye-actjpg-page1.webp)                                                            | تئوری اکت                                                        |
+| ![](https://img.taaghche.com/frontCover/105226.jpg)                                                                          | ارتباط بدون خشونت، زبان زندگی                                    |
+| ![](https://img.taaghche.com/frontCover/83087.jpg)                                                                           | زمستان ۶۲                                                        |
+| ![](https://img.taaghche.com/frontCover/233912.jpg)                                                                          | فلاکت روزمره                                                     |
+| ![](https://s34.picofile.com/file/8489962434/esm_nemikhahad.jpg)                                                             | اسم نمی خواهد                                                    |
+| ![](https://img.taaghche.com/frontCover/54965.jpg)                                                                           | شب های روشن                                                      |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1694938610i/162656853.jpg)         | چرا ملت ها شکست میخورند؟                                         |
+| ![](https://img.taaghche.com/frontCover/5151.jpg)                                                                            | جنایت و مکافات                                                   |
+| ![](https://img.taaghche.com/frontCover/44631.jpg)                                                                           | چند روایت معتبر (مجموعه داستان)                                  |
+| ![](https://img.taaghche.com/frontCover/12618.jpg)                                                                           | مردی به نام اوه                                                  |
+| ![](https://img.taaghche.com/frontCover/137100.jpg)                                                                          | خطر سقوط بهمن                                                    |
+| ![](https://img.taaghche.com/frontCover/59184.jpg)                                                                           | مسخ و داستان های دیگر                                            |
+| ![](https://img.taaghche.com/frontCover/52270.jpg)                                                                           | من دانای کل هستم؛ مجموعه داستان                                  |
+| ![](https://img.taaghche.com/frontCover/106426.jpg)                                                                          | تاریخ مختصر به گند کشیدن جهان                                    |
+| ![](https://img.taaghche.com/frontCover/193602.jpg)                                                                          | سه تار                                                           |
+| ![](https://img.taaghche.com/frontCover/149516.jpg)                                                                          | قلعه حیوانات                                                     |
+| ![](https://img.ketabrah.com/img/l/9544170154745132.jpg)                                                                     | فقط برای تفریح                                                   |
+| ![](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1636089046i/59543422.jpg)                       | نشخوار ذهنی                                                      |
+| ![](\-)                                                                                                                      | بامداد خمار                                                      |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590506688i/53490133.jpg)          | دایی جان ناپلئون                                                 |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1538298244i/42101493.jpg)          | کتاب‌خوان                                                        |
+| ![](\-)                                                                                                                      | The PARA Method Simplify, Organize, and Master Your Digital Life |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680942952i/59018917.jpg)          | بیش‌یادگیری                                                      |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1613708941i/57124007.jpg)          | سم زدایی دیجیتال                                                 |
+| ![](https://dkstatics-public.digikala.com/digikala-products/109188.jpg)                                                      | مایزلیس، تئوری بنیادی شطرنج                                      |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1616692949i/57525873.jpg)          | مینیمالیسم دیجیتال                                               |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617774889i/53496062.jpg)          | داستان پردازی با داده‌ها                                         |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1733936644i/222473148.jpg)         | دستورالعمل‌های «رنه ماگریت» به فیل آبی برای ایده‌یابی            |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1372230262i/18131269.jpg)          | دستورالعمل‌های فیل آبی برای ایده یابی                            |
+| ![](https://www.iranketab.ir/Images/ProductImages/ddbb022862d746f693ec326801975f38.jpg)                                      | یادگیری زایا                                                     |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711024105i/210226829.jpg)         | تاکسی سواری                                                      |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678958674i/123254244.jpg)         | یادگیری یادگیری                                                  |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1732359122i/37542567.jpg)          | مزخرفات فارسی                                                    |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630003593i/58863007.jpg)          | از قیطریه تا اورنج کانتی                                         |
+| ![](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681403696i/55973999.jpg)          | قدرت سکوت                                                        |
+| ![](https://img.taaghche.com/frontCover/211482.jpg)                                                                          | کتاب 80000 ساعت                                                  |
+
+
 خیلی وقت بود داستان نخونده بودم. اکثر کتاب‌هایی که خونده بودم غیرداستانی بودند. امسال شروع کردم به خوندن داستان و رمان. تازه مزه کتاب خوندن رو چشیدم. **کتابخوان**، **قلعه حیوانات**، **دایی جان ناپلئون**، **مردی به نام اوه**، **جنایات و مکافات** رو بیشتر از بقیه دوست داشتم.
 
 نمیدونم چرا تا الان سراغ داستان نرفته بودم. انگار یک گاردی داشتم. فکر می‌کردم داستان خوندن وقت تلف کردنه. نمیدونم چرا این باور توی ذهنم شکل گرفته بوده. انگار توقع داشتم کتاب همیشه پند و موعظه‌ی مستقیم داشته باشه. کتاب هم مثل فیلم میتونه روایتگر یه داستان باشه. داستانی که به مراتب از فیلم غنی‌تر و جذاب‌تره. تازه توی فیلم کاری از دست من برنمیاد فقط تماشاگرم اما توی کتاب منم عاملیت دارم. صحنه‌ها توی ذهن من ساخته میشن. چهره‌ها رو من تصویرسازی می‌کنم. اینجا فیلم بردار و کارگردان و تدوینگر منم. 

@@ -254,3 +254,14 @@ image: "[[attention-management.webp]]"
 - [دیگر اخبار نخوانید!](https://www.goodreads.com/book/show/54622169)
 
 %% کتاب مدیریت توجه %%
+
+
+%% 
+
+آزمون اعتیاد به اینترنت
+https://motamem.org/%D8%A7%D8%B9%D8%AA%DB%8C%D8%A7%D8%AF-%D8%A8%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA/
+
+
+
+
+%%
