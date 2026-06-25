@@ -85,7 +85,7 @@
         border: 1px solid #b5b5b526;;
         background-color: #b5b5b518;
         border-radius: 8px;
-        padding: 10px;
+        padding: 0px;
         font-size: 0.9em;
         line-height: 1.5em;
         overflow: hidden;
@@ -128,6 +128,7 @@
 
     .table-container>table td img {
         margin: 0;
+        border-radius: 0 !important;
     }
 
     .table-container>table>thead {
