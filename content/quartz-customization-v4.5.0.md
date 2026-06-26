@@ -467,7 +467,7 @@ right: [
 این هم یکی دیگه از قابلیت هایی بود که کوارتز کم داشت. کاروسل تصاویر به این شکل میشه:
 
 <Carousel>
-<img src="pic-obsi001.jpg" alt="Description of image 1"/>
+<img src="pic.jpg" alt="Description of image 1"/>
 <img src="pic-obsi002.jpg" alt="Description of image 2"/>
 <img src="obsidian-review.webp" alt="Description of image 3"/>
 </Carousel>
@@ -499,7 +499,7 @@ right: [
 وقتی از چندتا تصویر استفاده میکنم یک گرید اضافه کردم که کنار هم قرار بگیرند. اینطوری:
 
 <div class="img-grid">
-  <img src="pic-obsi001.jpg" alt="Description of image 1"/>
+  <img src="pic.jpg" alt="Description of image 1"/>
   <img src="pic-obsi002.jpg" alt="Description of image 2"/>
   <img src="obsidian-review.webp" alt="Description of image 3"/>
 </div>
