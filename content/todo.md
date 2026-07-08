@@ -50,3 +50,18 @@ https://www.youtube.com/watch?v=TPYBYSyDRH4
 RAG
 https://www.youtube.com/watch?v=MlhZPTfOJBo
 
+
+
+```
+I've been using my own self-hosted comments system on my Quartz site instead of Giscus, and it's been working pretty well for me.
+
+If anyone wants to check it out:
+https://github.com/fardm/standalone-comments-server
+
+I'm thinking about refactoring it though.
+
+Right now it's PHP, so it needs shared hosting. I'd like to move it to something that's easier to deploy and ideally has a generous free tier—maybe Cloudflare Workers, Vercel, or something else.
+
+Has anyone gone down this path before? I'd love to hear what you'd recommend and why.
+
+```
