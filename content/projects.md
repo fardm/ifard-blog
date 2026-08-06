@@ -3,7 +3,7 @@ title: پروژه ها
 aliases:
   - پروژه ها
 created: 2025-08-01
-modified: 2026-07-07
+modified: 2026-08-06
 comments: true
 status: 🌱
 draft: false
@@ -31,20 +31,17 @@ image: "[[none.webp]]"
 
 👈 پلاگین[ Book Clipper](https://github.com/fardm/obsidian-book-clipper)
 
-البته قبل از این پلاگین من یک اکستنشن برای گوگل کروم ساخته بودم به اسم [ObsiBook](https://github.com/fardm/ObsiBook) که همین کار رو انجام میداد. بعدا تبدیلش کردم به یک اسکریپت ([ObsiBook-Script](https://github.com/fardm/ObsiBook/tree/script)) که داخل خود ابسیدین اجرا بشه. و حالا تبدیل شده به پلاگین ابسیدین.
-
-
-
+قبل از این پلاگین من یک اکستنشن برای گوگل کروم ساخته بودم به اسم [ObsiBook](https://github.com/fardm/ObsiBook) که همین کار رو انجام میداد. بعدا تبدیلش کردم به یک اسکریپت ([ObsiBook-Script](https://github.com/fardm/ObsiBook/tree/script)) که داخل خود ابسیدین اجرا بشه. و حالا تبدیل شده به پلاگین ابسیدین.
 
 <br> 
 
 ## 3. هبیت ترکر ابسیدین
 
-![[1755378027311.webp|600]]
+![[htd-dashboard.webp]]
 
-توی ابسیدین ساختن هبیت ترکر به راحتی Notion و بقیه نرم افزارها نیست. من یه هیبیت ترکر برای خودم ساختم که ورزش، مطالعه و بقیه عادت هامو ردیابی میکنم. گرافیک خوبی داره و توی نمودارهای مختلف گزارش های ماهانه و سالانه میده. یک تمپلیت خام آماده کردم که بقیه هم بتونن از این هبیت ترکر استفاده کنند.
+توی ابسیدین ساختن هبیت ترکر خیلی راحت نیست. من یه هیبیت ترکر برای خودم ساختم که ورزش، مطالعه و بقیه عادت هامو ردیابی کنم. اولش یه [تمپلیت](https://github.com/fardm/Obsidian-Habit-Tracker-Template) بود که با پلاگین های مختلف کار میکرد. یه کم کار کردن باهاش سخت بود و تنظیمات پیچیده ای داشت. همونو تبدیل کردم به پلاگین که سریع تر و راحت تر بشه ازش استفاده کرد.
+👈 [Habit Tracker Dashboard](https://github.com/fardm/Habit-Tracker-Dashboard)
 
-👈 [[habit-tracker-in-obsidian|ساخت هبیت ترکر در ابسیدین]]
 
 <br> 
 
