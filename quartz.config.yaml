@@ -276,7 +276,7 @@ plugins:
   - source: github:fardm/quartz-standalone-comments
     enabled: true
     options:
-      backendUrl: https://comments.hoseinfm.ir
+      backendUrl: https://standalone-comments-server.nova-3bc190.workers.dev
       type: full
     order: 100
     layout:
@@ -285,7 +285,7 @@ plugins:
   - source: github:fardm/quartz-standalone-comments
     enabled: true
     options:
-      backendUrl: https://comments.hoseinfm.ir
+      backendUrl: https://standalone-comments-server.nova-3bc190.workers.dev
       type: recent
       limit: 8
     order: 100
