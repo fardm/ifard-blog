@@ -273,7 +273,7 @@ plugins:
       priority: 20
   - source: github:fardm/quartz-clickable-images
     enabled: true
-  - source: github:fardm/quartz-standalone-comments
+  - source: github:fardm/comment-worker-quartz-plugin
     enabled: true
     options:
       backendUrl: https://standalone-comments-server.nova-3bc190.workers.dev
@@ -282,7 +282,7 @@ plugins:
     layout:
       position: afterBody
       priority: 100
-  - source: github:fardm/quartz-standalone-comments
+  - source: github:fardm/comment-worker-quartz-plugin
     enabled: true
     options:
       backendUrl: https://standalone-comments-server.nova-3bc190.workers.dev

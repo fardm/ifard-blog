@@ -49,6 +49,12 @@
       "commit": "2aa3904ff16f1fdbd7446a065e3a5edbca318093",
       "installedAt": "2026-08-06T19:31:20.896Z"
     },
+    "comment-worker-quartz-plugin": {
+      "source": "github:fardm/comment-worker-quartz-plugin",
+      "resolved": "https://github.com/fardm/comment-worker-quartz-plugin.git",
+      "commit": "eefbf48e608de8f2e5ee4c6d29100a58ff82e372",
+      "installedAt": "2026-08-18T19:28:37.956Z"
+    },
     "comments": {
       "source": "github:quartz-community/comments",
       "resolved": "https://github.com/quartz-community/comments.git",
@@ -210,12 +216,6 @@
       "resolved": "https://github.com/fardm/quartz-content-meta-plus.git",
       "commit": "a030f69385637dc3e7db1d67a166784213d3143d",
       "installedAt": "2026-06-20T08:00:35.645Z"
-    },
-    "quartz-standalone-comments": {
-      "source": "github:fardm/quartz-standalone-comments",
-      "resolved": "https://github.com/fardm/quartz-standalone-comments.git",
-      "commit": "e35a4d8b59980838bf1d7958b6972ec7a83d5fba",
-      "installedAt": "2026-06-20T08:00:35.599Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
