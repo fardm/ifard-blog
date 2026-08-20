@@ -53,13 +53,19 @@
       "source": "github:fardm/comment-worker-quartz-plugin",
       "resolved": "https://github.com/fardm/comment-worker-quartz-plugin.git",
       "commit": "eefbf48e608de8f2e5ee4c6d29100a58ff82e372",
-      "installedAt": "2026-08-18T19:28:37.956Z"
+      "installedAt": "2026-08-19T08:11:39.409Z"
     },
     "comments": {
       "source": "github:quartz-community/comments",
       "resolved": "https://github.com/quartz-community/comments.git",
       "commit": "47bd29211301d08daa481727b2395d55c1207155",
       "installedAt": "2026-08-06T19:31:20.887Z"
+    },
+    "comments-garden-quartz": {
+      "source": "github:fardm/comments-garden-quartz",
+      "resolved": "https://github.com/fardm/comments-garden-quartz.git",
+      "commit": "204441e2c14dc1d5cd4696df922f927f83e39e20",
+      "installedAt": "2026-08-20T11:07:08.017Z"
     },
     "content-index": {
       "source": "github:quartz-community/content-index",
