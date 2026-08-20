@@ -282,6 +282,16 @@ plugins:
     layout:
       position: afterBody
       priority: 100
+  - source: github:fardm/comments-garden-quartz
+    enabled: true
+    options:
+      backendUrl: https://comments-garden.fardm.workers.dev
+      type: recent
+      limit: 8
+    order: 100
+    layout:
+      position: right
+      priority: 100
 layout:
   groups:
     toolbar:
