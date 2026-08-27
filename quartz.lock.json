@@ -49,12 +49,6 @@
       "commit": "2aa3904ff16f1fdbd7446a065e3a5edbca318093",
       "installedAt": "2026-08-06T19:31:20.896Z"
     },
-    "comment-worker-quartz-plugin": {
-      "source": "github:fardm/comment-worker-quartz-plugin",
-      "resolved": "https://github.com/fardm/comment-worker-quartz-plugin.git",
-      "commit": "eefbf48e608de8f2e5ee4c6d29100a58ff82e372",
-      "installedAt": "2026-08-19T08:11:39.409Z"
-    },
     "comments": {
       "source": "github:quartz-community/comments",
       "resolved": "https://github.com/quartz-community/comments.git",
