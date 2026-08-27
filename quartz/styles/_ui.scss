@@ -225,15 +225,7 @@ div.page-footer ul.tags::before {
     font-weight: 700;
 }
 
-// ---------- 4.3 Standalone Comments ----------
-.post-comment {
-    border: solid 1px var(--lightgray);
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    box-sizing: border-box;
-    background: var(--on-background);
-    margin-top: 3rem;
-}
+// ---------- 4.3 Comments Garden ----------
 
 // ================ 05. SIDEBAR ================
 
@@ -366,22 +358,22 @@ li.recent-li > div {
 // ---------- 5.5 RECENT COMMENTS ----------
 
 .recent-comments-widget {
-    border: solid 1px var(--lightgray);
-    box-sizing: border-box;
-    background: var(--on-background);
-    border-radius: .5rem;
-    padding: 1rem;
-    overflow: hidden;
-    min-height: 32rem;
+    // border: solid 1px var(--lightgray);
+    // box-sizing: border-box;
+    // background: var(--on-background);
+    // border-radius: .5rem;
+    // padding: 1rem;
+    // overflow: hidden;
+    // min-height: 32rem;
 }
 
 #recent-comments-title {
-    margin-top: 0.5 !important;
-    font-size: 1.2rem !important;
+    // margin-top: 0.5 !important;
+    // font-size: 1.2rem !important;
 }
 
 .rc-widget-item {
-    background: #8787871a !important;
+    // background: #8787871a !important;
 }
 
 // ================ 06. FOOTER ================
