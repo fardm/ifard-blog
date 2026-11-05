@@ -15,3 +15,27 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+
+## command
+### plugins
+```
+npx quartz plugin install
+```
+
+```
+npx quartz plugin install --from-config
+```
+
+```
+npx quartz plugin install --latest
+```
+
+### build
+```
+npx quartz build --serve
+```
+
+```
+npx quartz build --serve
+```
