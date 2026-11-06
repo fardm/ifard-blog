@@ -6,7 +6,7 @@ created: 2026-04-18
 modified: 2026-11-05
 comments: true
 wordcount: false
-status: 🌱
+status: ❌
 cssclasses:
   - card-s
   - nowarp2
