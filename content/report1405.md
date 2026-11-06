@@ -14,8 +14,8 @@ cssclasses:
 draft: false
 image: "[[1405.webp]]"
 ---
-
 ![[1405.webp]]
+
 <br> 
 
 > [!orange0]
