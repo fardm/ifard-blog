@@ -6,4 +6,5 @@ modified:
 draft: true
 comments: true
 status:
+image:
 ---

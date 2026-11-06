@@ -10,8 +10,9 @@ status: 🌿
 cssclasses:
   - card-s
 draft: false
-image: "[[reports.webp]]"
+image: "[[1403.webp]]"
 ---
+![[1403.webp]]
 ## در یک نگاه
 
 > [!grid3]
