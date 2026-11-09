@@ -18,6 +18,7 @@ views:
         - draft == false
         - file.name != "index"
         - file.name != "recent"
+        - file.name != "elements"
     order:
       - file.name
       - status
