@@ -1,0 +1,98 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Goodreads",
+	"behavior": "create",
+	"noteContentFormat": "\n# چکیده\n\n# خلاصه\n\n# نشانه\n\n# حاشیه\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{schema:@Book:name}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "translator",
+			"value": "{{schema:@Book:workExample.translator[*].name}}",
+			"type": "multitext"
+		},
+		{
+			"name": "pages",
+			"value": "{{schema:@Book:numberOfPages}}",
+			"type": "number"
+		},
+		{
+			"name": "datepublished",
+			"value": "{{published}}",
+			"type": "text"
+		},
+		{
+			"name": "publisher",
+			"value": "{{schema:@Book:workExample.publisher.name}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "cover",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "cover_source",
+			"value": "{{schema:@Book:image}}",
+			"type": "text"
+		},
+		{
+			"name": "ISBN",
+			"value": "{{schema:@Book:workExample.isbn}}",
+			"type": "text"
+		},
+		{
+			"name": "language",
+			"value": "{{language}}",
+			"type": "text"
+		},
+		{
+			"name": "date",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "Book",
+			"type": "multitext"
+		},
+		{
+			"name": "badge",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "genre",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "status",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.goodreads.com/"
+	],
+	"noteNameFormat": "{{schema:@Book:name}}",
+	"path": "Resources/Books"
+}

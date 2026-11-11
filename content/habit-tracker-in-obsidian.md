@@ -1,0 +1,65 @@
+---
+title: ساخت هبیت ترکر در ابسیدین
+aliases:
+  - ساخت هبیت ترکر در ابسیدین
+created: 2024-05-25
+modified: 2026-11-05
+comments: true
+status: 🌿
+draft: false
+image: "[[habit-tracker.webp]]"
+---
+![[habit-tracker.webp]]
+
+
+برای ساخت هبیت ترکر در ابسیدین می تونید از پلاگین [Habit Tracker Dashboard](https://github.com/fardm/Habit-Tracker-Dashboard) استفاده کنید. 
+
+اگر یادتون باشه قبلا یه تمپلیت طراحی کرده بودم که با پلاگین‌های مختلف کار می‌کرد. تنظیمات پیچیده‌ای داشت و برای هر گزارش باید یه فایل جدید می‌ساختید. 
+
+حالا اون  تمپلیت رو تبدیل کردم به یه پلاگین که روی ابسیدین نصب میشه و خیلی راحت می‌تونید عادت‌های خودتون رو ردیابی کنید.
+> [!grid-4-3]
+> ![[htd-dashboard.webp]]
+> ![[hbt-details-boolean.webp]]
+> ![[htd-details-numeric.webp]]
+
+<br>
+
+## امکانات
+- 📅 **داشبورد روزانه**: نمایش وضعیت روزانه عادت ها و امکان پیمایش به روز های گذشته
+- 🔥 **تقویم Heatmap**: نمایش عادت‌ها در طول سال به سبک تقویم گیت‌هاب
+- 📈 **نمودارهای خطی و میله‌ای**: نمایش بررسی روند تغییرات با نمودار خطی و میله‌ای
+- 📊 **آمارهای جزئی**: نمایش مجموع، میانگین، بیشترین مقدار، کمترین مقدار و درصد تکمیل
+- 🔗 **محاسبه زنجیره عادت‌ها**: پیگیری زنجیره فعلی، طولانی‌ترین زنجیره و تاریخچه
+
+<br>
+
+## نصب
+به این لینک برید:
+
+https://community.obsidian.md/plugins/habit-tracker-dashboard
+
+روی دکمه Add to Obsidian بزنید تا پلاگین به والت تون اضافه بشه.
+
+پلاگین رو نصب و فعال کنید.
+
+<br>
+
+## راهنمای استفاده
+
+راهنمای استفاده از پلاگین رو میتونید توی این ویدئو ببینید:
+
+<style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/edml4g5/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+
+
+اگر آموزش متنی رو ترجیح میدید میتونید این لینک رو بخونید:
+
+
+https://github.com/fardm/Habit-Tracker-Dashboard/blob/main/README-FA.md
+
+
+##  تمپلیت قبلی
+ریپوی تمپلیت قبلی رو هنوز نگه داشتم ولی احتمالا دیگه آپدیت نمیشه. 
+
+اگر خواستید ازش استفاده کنید اینجاست:
+
+https://github.com/fardm/Obsidian-Habit-Tracker-Template
