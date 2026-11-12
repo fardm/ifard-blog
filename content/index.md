@@ -19,8 +19,7 @@ permalink: index
 
 این سایت بیشتر شبیه به یک ویکی‌پدیای شخصی است که لینک‌های داخلی مسیر خواندن مطالب را مشخص می‌کنند.([[مانیفست|+]])
 
----
-
+<br>
 
 ```base
 views:
@@ -32,18 +31,16 @@ views:
             - permalink == "pkm"
             - permalink == "obsidian"
             - permalink == "attention-management"
-            - permalink == "ollama"
     order:
       - file.name
     sort: []
     image: note.image
-    cardSize: 300
+    cardSize: 180
     imageAspectRatio: 0.5
 
 ```
 
-
-
+<br>
 
 <center>
 <button class="all-notes-btn" onclick="window.location.href='/recent'">

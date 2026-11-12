@@ -322,3 +322,18 @@ body:is(
     }
 }
 
+
+// lable status floting
+
+.floating-status [data-property="status"]  {
+    position: absolute;
+    overflow: hidden;
+    top: 12px;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 99px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    > span.bases-card-label {
+        display: none;
+    }
+}
