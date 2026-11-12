@@ -1,8 +1,4 @@
 ---
-title: اسکچ‌نوت (sketchnotes)
-aliases:
-  - اسکچ‌نوت
-  - اسکچ‌نوت (sketchnotes)
 created: 2025-04-02
 modified: 2026-05-05
 status: 🌱

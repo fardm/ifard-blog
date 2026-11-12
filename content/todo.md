@@ -1,6 +1,4 @@
 ---
-title:
-aliases:
 created:
 modified:
 draft: true

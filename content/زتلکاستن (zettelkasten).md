@@ -1,7 +1,4 @@
 ---
-title: زتلکاستن (zettelkasten)
-aliases:
-  - زتلکاستن (zettelkasten)
 created: 2026-06-22
 modified: 2026-07-08
 draft: false

@@ -1,7 +1,4 @@
 ---
-title: معرفی نرم افزار ابسیدین (Obsidian)
-aliases:
-  - معرفی نرم افزار ابسیدین (Obsidian)
 created: 2023-09-02
 modified: 2026-06-03
 tags:

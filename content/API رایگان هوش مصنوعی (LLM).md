@@ -1,7 +1,4 @@
 ---
-title: API رایگان هوش مصنوعی (LLM)
-aliases:
-  - API رایگان هوش مصنوعی (LLM)
 created: 2025-08-08
 modified: 2026-06-24
 comments: true

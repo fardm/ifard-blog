@@ -1,8 +1,4 @@
 ---
-title: یافتن تصادفی (serendipity)
-aliases:
-  - یافتن تصادفی
-  - سرندیپیتی
 created: 2026-02-06
 modified: 2026-05-17
 comments: true

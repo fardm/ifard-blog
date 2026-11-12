@@ -1,7 +1,4 @@
 ---
-title: تقویم Memento Mori در ابسیدین
-aliases:
-  - تقویم Memento Mori در ابسیدین
 created: 2025-08-13
 modified: 2026-01-09
 comments: true

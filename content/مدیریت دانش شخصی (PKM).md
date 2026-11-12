@@ -1,7 +1,4 @@
 ---
-title: مدیریت دانش شخصی (PKM)
-aliases:
-  - مدیریت دانش شخصی (PKM)
 created: 2025-04-24
 modified: 2026-11-05
 status: 🌳

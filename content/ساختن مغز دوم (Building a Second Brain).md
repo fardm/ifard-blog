@@ -1,8 +1,4 @@
 ---
-title: ساختن مغز دوم (Building a Second Brain)
-aliases:
-  - ساختن مغز دوم (Building a Second Brain)
-  - مغز دوم
 created: 2026-05-16
 modified: 2026-06-22
 draft: false

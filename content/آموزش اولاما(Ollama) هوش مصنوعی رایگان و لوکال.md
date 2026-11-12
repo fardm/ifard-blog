@@ -1,9 +1,4 @@
 ---
-title: آموزش اولاما(Ollama) هوش مصنوعی رایگان و لوکال
-aliases:
-  - اولاما(Ollama)
-  - آموزش اولاما(Ollama) هوش مصنوعی رایگان و لوکال
-  - آموزش اولاما(Ollama)
 created: 2024-09-12
 modified: 2026-06-19
 comments: true

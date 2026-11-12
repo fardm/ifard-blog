@@ -1,7 +1,4 @@
 ---
-title: دیجیتال گاردن (Digital Garden)
-aliases:
-  - دیجیتال گاردن
 created: 2024-05-23
 modified: 2026-06-22
 draft: false

@@ -1,7 +1,4 @@
 ---
-title: آموزش نرم افزار ابسیدین (Obsidian)
-aliases:
-  - آموزش نرم افزار ابسیدین (Obsidian)
 created: 2024-04-07
 modified: 2026-07-06
 draft: false

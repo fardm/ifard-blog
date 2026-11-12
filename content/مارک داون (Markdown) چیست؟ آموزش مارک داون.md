@@ -1,8 +1,4 @@
 ---
-title: مارک داون (Markdown) چیست؟ آموزش مارک داون
-aliases:
-  - مارک داون (Markdown) چیست؟
-  - Markdown
 created: 2025-05-16
 modified: 2026-05-18
 draft: false
