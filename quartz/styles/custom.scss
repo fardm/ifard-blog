@@ -304,8 +304,10 @@ body:is(
 // ---------------- bases ----------------
 
 // hide meta
-.bases-hide-meta .bases-view-meta  {
+.bases-hide-meta {
+ .bases-card-label, .bases-view-meta  {
     display: none;
+}
 }
 
 // 2col

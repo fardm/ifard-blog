@@ -4,20 +4,21 @@ description: یادداشت‌های حسین فردمحمدی
 cssclasses:
   - bases-hide-meta
 comments: false
-created: 2025-01-01
 draft: false
+created: 2025-01-01
+permalink: index
 ---
 
 
 سلام👋
 
-من [[about-me|حسین فردمحمدی]]‌ام.
+من [[درباره من|حسین فردمحمدی]]‌ام.
 
 اینجا در مورد خودم، تکنولوژی و یادگیری می‌نویسم.
 
 %%اینجا محلی برای اشتراک و انتشار یادداشت‌های من است. %%
 
-این سایت بیشتر شبیه به یک ویکی‌پدیای شخصی است که لینک‌های داخلی مسیر خواندن مطالب را مشخص می‌کنند.([[manifest|+]])
+این سایت بیشتر شبیه به یک ویکی‌پدیای شخصی است که لینک‌های داخلی مسیر خواندن مطالب را مشخص می‌کنند.([[مانیفست|+]])
 
 ---
 
@@ -29,10 +30,12 @@ views:
     filters:
       and:
         - or:
-            - file.name == "pkm"
-            - file.name == "obsidian"
-            - file.name == "attention-management"
-            - file.name == "ollama"
+            - permalink == "pkm"
+            - permalink == "obsidian"
+            - permalink == "attention-management"
+            - permalink == "ollama"
+    order:
+      - file.name
     sort: []
     image: note.image
     cardSize: 300
