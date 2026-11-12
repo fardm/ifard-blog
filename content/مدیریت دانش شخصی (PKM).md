@@ -10,7 +10,6 @@ draft: false
 image: "[[pkm.webp]]"
 cssclasses:
   - bases-hide-meta
-  - bases-2col
 permalink: pkm
 ---
 ![[pkm.webp]]
@@ -113,12 +112,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "note-taking"
+            - permalink == "note-taking"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 <br>
@@ -137,13 +137,14 @@ views:
     filters:
       and:
         - or:
-            - file.name == "organizing-notes"
-            - file.name == "linking"
+            - permalink == "organizing-notes"
+            - permalink == "linking"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 
@@ -169,12 +170,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "note-making"
+            - permalink == "note-making"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 %%
@@ -202,12 +204,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "learn-in-public"
+            - permalink == "learn-in-public"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 <br><br> 
@@ -236,12 +239,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "attention-management"
+            - permalink == "attention-management"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 
@@ -296,12 +300,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "zettelkasten"
+            - permalink == "zettelkasten"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 <br> 
 
@@ -318,12 +323,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "digital-garden"
+            - permalink == "digital-garden"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 <br> 
@@ -339,12 +345,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "basb"
+            - permalink == "basb"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 <br> 

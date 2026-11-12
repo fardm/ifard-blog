@@ -96,7 +96,6 @@ permalink: free-llm-api
 
 اگر هم سیستم‌تون سخت افزار خوبی داره می‌تونید از مدل‌های لوکال استفاده کنید. اولاما یکی از سرویس‌هایی هست که بهتون اجازه میده این کار رو انجام بدید. توی این یادداشت روش استفاده ازش رو آموزش دادم:
 
-
 ```base
 views:
   - type: cards
@@ -104,10 +103,11 @@ views:
     filters:
       and:
         - or:
-            - file.name == "ollama"
+            - permalink == "ollama"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```

@@ -11,7 +11,6 @@ draft: false
 image: "[[obsidian-in-hand.webp]]"
 cssclasses:
   - bases-hide-meta
-  - bases-2col
 permalink: obsidian-review
 ---
 
@@ -212,12 +211,13 @@ views:
     filters:
       and:
         - or:
-            - file.name == "obsidian-install"
+            - permalink == "obsidian-install"
     sort:
       - property: file.name
         direction: DESC
     image: note.image
-    cardSize: 200
+    cardSize: 300
+    imageAspectRatio: 0.5
 ```
 
 
