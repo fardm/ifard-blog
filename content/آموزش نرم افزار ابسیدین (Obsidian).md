@@ -15,7 +15,7 @@ permalink: obsidian-install
 <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/b36w7z1/vt/frame?recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
 
 
-<br>
+
 
 
 اگر آموزش نوشتاری را ترجیح می‌دهید میتوانید به جای ویدئو متن زیر را بخوانید:
@@ -30,7 +30,7 @@ permalink: obsidian-install
 > - لینوکس: [Obsidian-1.12.7.AppImage](https://abrehamrahi.ir/o/public/kpWhRz6f/) | [obsidian_1.12.7_amd64.deb](https://abrehamrahi.ir/o/public/zHRnWQQd/)
 > - اندروید: [Obsidian-1.12.7.apk](https://abrehamrahi.ir/o/public/Axrhysf8/)
 
-<br>
+
 
 ## تنظیمات اولیه
 برای اعمال تنظیمات روی آیکون setting (⚙) کلیک کنید. تمامی تنظیمات نرم افزار را از طریق این صفحه می توانید سفارشی سازی کنید.
@@ -49,7 +49,7 @@ permalink: obsidian-install
 
 2. برای تنظیم فونت از بخش `Apperance` می‌توانید فونت دلخواه خود را تنظیم کنید.
 
-<br>
+
 
 ## نوشتن با فرمت مارک دوان
 ابسیدین از سینتکس [[مارک داون (Markdown) چیست؟ آموزش مارک داون|Markdown]] استفاده می‌کند. برای نوشتن مطالب لازم است با شیوه‌ی کار این فرمت آشنا باشید.
@@ -58,12 +58,12 @@ permalink: obsidian-install
 
 ![[مارک داون (Markdown) چیست؟ آموزش مارک داون#سینتکس‌های Markdown]]
 
-<br><br>
+
 
 ## سینتکس‌های اختصاصی ابسیدین
 موارد قبلی سیتنکس‌های عمومی بودند که در همه ویرایشگرهای مارک‌دوان پشتیبانی می‌شوند. ابسیدین علاوه بر آنها یکسری سینتکس اختصاصی هم دارد که فقط در ابسیدین پشتیبانی می‌شوند.
 
-<br>
+
 
 ### ویکی لینک
 ابسیدین برای لینک‌دهی داخلی از [ویکی لینک](https://en.wikipedia.org/wiki/Help:Link) پشتیبانی می‌کند. روشی که در ویکی پدیا استفاده می شود و لینک‌دهی داخلی را بسیار راحت می کند.
@@ -74,7 +74,7 @@ permalink: obsidian-install
 - لینک به محتوای نوشته دیگر: `[[اسم فایل ^متن یادداشت]]`
 
 
-<br>
+
 
 ### ‌کال‌اوت‌
 با عبارت `> [!NOTE]` می توانید از ‌کال‌اوت‌ها استفاده کنید.
@@ -83,13 +83,13 @@ permalink: obsidian-install
 > [!NOTE] عنوان سفارشی
 > `[!NOTE] عنوان سفارشی`
 
-<br>
+
 
 اگر بعد از براکت `خط تیره -` تایپ کنید ‌کال‌اوت به صورت پیشفرض بسته می‌ماند:
 > [!failure]- بسته
 > `[!NOTE]-`
 
-<br>
+
 
 اگر هم بعد از براکت `مثبت +` تایپ کنید قابلیت بستن بلوک به آن افزوده می‌شود:
 > [!warning]+ باز

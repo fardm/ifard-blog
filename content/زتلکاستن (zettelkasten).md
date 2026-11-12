@@ -16,7 +16,7 @@ permalink: zettelkasten
 > Niklas Luhmann(نیکلاس لومان)
 
 
-<br>
+
 در حال تکمیل...
 
 %% 
