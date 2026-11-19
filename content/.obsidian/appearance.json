@@ -1,0 +1,7 @@
+{
+  "textFontFamily": "DanaVF",
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "callout"
+  ]
+}

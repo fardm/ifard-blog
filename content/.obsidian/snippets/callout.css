@@ -1,0 +1,167 @@
+
+/* Callout */
+/* معکوس کردن آیکون برای عنوان‌های فارسی */
+.callout:has(> .callout-title .callout-title-inner:dir(rtl)) > .callout-title .callout-icon svg.svg-icon {
+    transform: scale(1, 1);
+}
+
+/* مارجین بالا و پایین کالوت */
+.markdown-rendered p {
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+}
+
+
+/* مخفی کردن آیکون Calloutها */
+.callout:where(
+    [data-callout="empty"],
+    [data-callout="gray"],
+    [data-callout="yellow"],
+    [data-callout="orange"],
+    [data-callout="blue"],
+    [data-callout="green"],
+    [data-callout="purple"],
+    [data-callout="brown"],
+    [data-callout="red"],
+    [data-callout="poem"],
+    [data-callout="en"]
+) {
+    .callout-icon {
+        display: none;
+    }
+    .callout-title {
+        padding: 15px 15px 0px 15px;
+    }
+}
+
+/* مخفی کردن عنوان Calloutها */
+.callout:where(
+    [data-callout="empty0"],
+    [data-callout="gray0"],
+    [data-callout="yellow0"],
+    [data-callout="orange0"],
+    [data-callout="blue0"],
+    [data-callout="green0"],
+    [data-callout="purple0"],
+    [data-callout="brown0"],
+    [data-callout="red0"],
+    [data-callout="poem"],
+    [data-callout="en0"]
+) {
+    .callout-title {
+        display: none;
+    }
+
+    > .callout-content {
+        padding-top: 1rem;
+    }
+}
+
+/* empty */
+div[data-callout^="empty"] {
+    background-color: transparent;
+    border: solid 1px #8080805c;
+
+    .callout-title {
+        color: var(--callout-title-color);
+    }
+}
+/* gray */
+div[data-callout^="gray"] {
+    background-color: #8d8d8d1e;
+
+    .callout-title {
+        color: var(--callout-title-color);
+    }
+}
+
+/* yellow */
+div[data-callout^="yellow"] {
+    background-color: rgb(255 200 0 / 8%);
+
+    .callout-title {
+        color: var(--color-yellow);
+    }
+}
+
+/* orange */
+div[data-callout^="orange"] {
+    background-color: #f3a5451f;
+
+    .callout-title {
+        color: var(--color-orange);
+    }
+}
+
+/* red */
+div[data-callout^="red"] {
+    background-color: #dd404717;
+
+    .callout-title {
+        color: var(--color-red);
+    }
+}
+
+/* green */
+div[data-callout^="green"] {
+    background-color: #b4df861c;
+
+    .callout-title {
+        color: var(--color-green);
+    }
+}
+
+/* blue */
+div[data-callout^="blue"] {
+    background-color: #4a97e717;
+
+    .callout-title {
+        color: var(--color-blue);
+    }
+}
+
+/* brown */
+div[data-callout^="brown"] {
+    background-color: #93591d14;
+
+    .callout-title {
+        color: var(--color-orange);
+    }
+}
+
+
+
+
+/* Callout Grid Layouts ----------------------------------- */
+.callout[data-callout^="grid"] {
+    background-color: transparent;
+    padding: 0;
+
+    & .callout-content {
+        display: grid;
+        column-gap: 20px;
+        justify-items: center;
+    }
+
+    & .callout-title {
+        display: none;
+    }
+}
+
+.callout[data-callout="grid"] .callout-content {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.callout[data-callout="grid4"] .callout-content {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.callout[data-callout="grid3"] .callout-content {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 480px) {
+    .overview .callout[data-callout^="grid"] .callout-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
